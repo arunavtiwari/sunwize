@@ -3,45 +3,79 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "How to Choose Between On-Grid and Off-Grid Solar Systems in India",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Confused between on-grid and off-grid solar? We break down the pros, cons, and ideal use cases for Indian homes and businesses.",
+    image: "/images/blog/offgrid_ongrid.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Anjali Rao",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Solar Consultant",
     },
-    tags: ["creative"],
+    tags: ["solar", "grid", "india"],
     publishDate: "2025",
+    slug: "on-grid-vs-off-grid-solar-india",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Top Government Solar Subsidy Schemes in India (2025 Guide)",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "Maximize your solar investment by taking advantage of India's latest rooftop solar subsidies and state-wise incentives.",
+    image: "/images/blog/solar_subsidy.png",
     author: {
-      name: "Musharof Chy",
+      name: "Ravi Sharma",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Policy Analyst",
     },
-    tags: ["computer"],
+    tags: ["policy", "subsidy", "savings"],
     publishDate: "2025",
+    slug: "solar-subsidy-schemes-india-2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "How Much Can You Save with a Solar Power Plant?",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "A practical breakdown of savings for homeowners, businesses, and factories using real solar ROI examples from India.",
+    image: "/images/blog/solar_savings.png",
     author: {
-      name: "Lethium Deo",
+      name: "Sneha Kapoor",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Energy Analyst",
     },
-    tags: ["design"],
+    tags: ["savings", "finance", "roi"],
     publishDate: "2025",
+    slug: "solar-power-plant-savings-india",
+  },
+  {
+    id: 4,
+    title: "Solar Water Heaters vs Electric Geysers: What’s Better in 2025?",
+    paragraph:
+      "Compare solar thermal systems with electric geysers in terms of cost, performance, and long-term impact for Indian homes.",
+    image: "/images/blog/solar-water-heater.webp",
+    author: {
+      name: "Dr. Nikhil Verma",
+      image: "/images/blog/author-02.png",
+      designation: "Sustainability Expert",
+    },
+    tags: ["solar water", "heating", "comparison"],
+    publishDate: "2025",
+    slug: "solar-water-heaters-vs-electric-geysers-2025",
+  },
+  {
+    id: 5,
+    title: "Solar for Agriculture: Is It Worth It for Indian Farmers?",
+    paragraph:
+      "Explore how solar water pumps and irrigation systems are revolutionizing farming in rural India, with government support.",
+    image: "/images/blog/solar-agriculture.jpg",
+    author: {
+      name: "Meera Iyer",
+      image: "/images/blog/author-03.png",
+      designation: "Agri-Tech Writer",
+    },
+    tags: ["agriculture", "solar pump", "rural"],
+    publishDate: "2025",
+    slug: "solar-for-agriculture-indian-farmers",
   },
 ];
+
 export default blogData;

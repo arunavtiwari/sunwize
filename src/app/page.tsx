@@ -1,5 +1,4 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import PopularProductsSection from "@/components/About/PopularProductsSection";
 import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
@@ -10,11 +9,12 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import EndToEndService from "@/components/About/EndtoEndService";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  title: "SunWize Energy Systems",
+  description: "Pioneer and Leader in the renewable energy industry",
+
 };
 
 export default function Home() {
@@ -23,12 +23,11 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
-      <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
+      <Brands />
+
+      <PopularProductsSection />
+      <EndToEndService />
       <Blog />
       <Contact />
     </>

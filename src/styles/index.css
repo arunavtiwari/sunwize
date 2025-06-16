@@ -19,9 +19,10 @@ layer(base);
   --color-white: #ffffff;
   --color-black: #121723;
   --color-dark: #1d2430;
-  --color-primary: #4a6cf7;
+  --color-primary: #bccc0d;
   --color-yellow: #fbb040;
-  --color-bg-color-dark: #171c28;
+  --color-bg-color-dark: #4c4c4c;
+  --color-white-subtle: rgba(255, 255, 255, 0.7);
 
   --color-body-color: #788293;
   --color-body-color-dark: #959cb1;
@@ -133,3 +134,44 @@ layer(base);
     @apply inline-flex;
   }
 }
+
+/* For flip card container perspective */
+.perspective {
+  perspective: 1000px;
+}
+
+/* Ensure the 3D transform is preserved */
+.transform-style {
+  transform-style: preserve-3d;
+}
+
+/* Rotate the card */
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Hide the back side when not visible */
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+
+/* Custom Swiper navigation arrows */
+.testimonial-swiper .swiper-button-next,
+.testimonial-swiper .swiper-button-prev {
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 9999px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.testimonial-swiper .swiper-button-next::after,
+.testimonial-swiper .swiper-button-prev::after {
+  font-size: 12px;
+  font-weight: bold;
+}
+

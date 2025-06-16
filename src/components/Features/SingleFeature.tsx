@@ -1,21 +1,52 @@
+import React from "react";
 import { Feature } from "@/types/feature";
+import { motion } from "framer-motion";
+import Link from "next/link";
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
-  const { icon, title, paragraph } = feature;
+  const { picture, title, description, button_text } = feature;
+
   return (
-    <div className="w-full">
-      <div className="wow fadeInUp" data-wow-delay=".15s">
-        <div className="bg-primary/10 text-primary mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md">
-          {icon}
+    <>
+      <motion.div
+        className="group relative overflow-hidden rounded-2xl border border-white bg-cover bg-center bg-no-repeat shadow-solid-3 transition-all hover:shadow-solid-4"
+        style={{
+          backgroundImage: `url(${picture})`,
+          height: "350px",
+        }}
+        variants={{
+          hidden: {
+            opacity: 0,
+            y: -10,
+          },
+          visible: {
+            opacity: 1,
+            y: 0,
+          },
+        }}
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+      >
+        {/* Overlay for Hover Effect */}
+        <div className="absolute inset-0 bg-black/50 transition-all duration-1000 group-hover:backdrop-blur-sm"></div>
+
+        {/* Title & Static Content */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-8 transition-transform duration-1000 transform group-hover:-translate-y-full">
+          <h2 className="text-2xl font-semibold">{title}</h2>
         </div>
-        <h3 className="mb-5 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
-          {title}
-        </h3>
-        <p className="text-body-color pr-[10px] text-base leading-relaxed font-medium">
-          {paragraph}
-        </p>
-      </div>
-    </div>
+
+        {/* Hover Content (Description and Button) */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-8 transition-transform duration-1000 transform translate-y-full group-hover:translate-y-0">
+          <p className="mb-6">{description}</p>
+          <Link href="/home" passHref>
+            <button className="px-4 py-2 bg-white/20 rounded-full hover:opacity-85 backdrop-blur-sm">
+              {button_text}
+            </button></Link>
+        </div>
+      </motion.div>
+    </>
   );
 };
 
