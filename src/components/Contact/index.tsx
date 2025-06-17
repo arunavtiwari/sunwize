@@ -187,7 +187,7 @@ const Contact = () => {
                 className="mt-1"
               />
               <label className="text-sm text-dark dark:text-white">
-                I agree to Sunwize's{" "}
+                I agree to Sunwize&apos;s{" "}
                 <a href="/terms" className="text-primary underline">
                   terms of service
                 </a>{" "}

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 const phoneIcon = (
   <svg
     className="h-4 w-4 fill-current text-primary"
@@ -40,10 +41,11 @@ const Footer = () => {
           <div className="w-full md:w-1/2 lg:w-4/12 px-4 mb-10">
             <div className="mb-6">
               <Link href="/" aria-label="Sunwize Energy Home">
-                <img
+              <Image
                   src="/images/logo/sunwize-logo.png"
                   alt="Sunwize Energy System Pvt. Ltd. Logo"
-                  className="w-48"
+                  width={192} 
+                  height={48} 
                 />
               </Link>
             </div>
@@ -162,6 +164,15 @@ const Footer = () => {
               <path d="M20.45 20.45h-3.555v-5.568c0-1.328-.027-3.038-1.85-3.038-1.85 0-2.132 1.445-2.132 2.938v5.668H9.355V9h3.414v1.56h.048c.475-.9 1.635-1.848 3.362-1.848 3.595 0 4.256 2.366 4.256 5.445v6.293zM5.337 7.433a2.06 2.06 0 1 1 0-4.119 2.06 2.06 0 0 1 0 4.119zM3.555 20.45h3.555V9H3.555v11.45z" />
             </svg>
           </a>
+          
+          <Link href="https://jsdl.in/DT-39NQAVPRSFA" aria-label="Justdial Profile" target="_blank" rel="noopener noreferrer">
+            <Image
+              src="/images/logo/justdiallogo.svg"
+              alt="Justdial Icon"
+              width={24}
+              height={24}
+            />
+          </Link>
         </div>
 
         {/* Copyright */}

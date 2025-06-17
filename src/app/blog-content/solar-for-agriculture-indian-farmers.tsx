@@ -2,7 +2,7 @@ const SolarForAgriculture = () => {
   return (
     <>
       <p>
-        Solar energy is transforming Indian agriculture by powering irrigation pumps and reducing farmers' reliance on diesel or grid electricity.
+        Solar energy is transforming Indian agriculture by powering irrigation pumps and reducing farmers&apos; reliance on diesel or grid electricity.
       </p>
 
       <h2>Benefits of Solar Pumps for Farmers</h2>
@@ -24,7 +24,7 @@ const SolarForAgriculture = () => {
 
       <h2>Future Outlook</h2>
       <p>
-        Increasing solar adoption in agriculture will boost productivity, reduce carbon emissions, and improve farmers' livelihoods across India.
+        Increasing solar adoption in agriculture will boost productivity, reduce carbon emissions, and improve farmers&apos; livelihoods across India.
       </p>
     </>
   );
