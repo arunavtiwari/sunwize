@@ -7,7 +7,7 @@ const testimonialData: Testimonial[] = [
     designation: "",
     content:
       "Fantastic product, fantastic service, revolutionary product. Something unique. Saves so much energy costs expenses. Prompt answers to your requests. Nothing can beat it.",
-    image: "/images/testimonials/auth-01.png", // replace with real image or leave blank
+    image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
