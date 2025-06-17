@@ -26,16 +26,11 @@ const Hero = () => {
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/contact"
-                    className="rounded-md bg-primary px-8 py-4 text-base font-semibold text-white duration-300 hover:bg-primary/80"
+                    className="rounded-full bg-primary px-8 py-4 text-base font-semibold text-white duration-300 hover:bg-primary/80"
                   >
-                    Sign Up for Free Electricity
+                    Sign Up for Free Electricity {'->'}
                   </Link>
-                  <Link
-                    href="/about"
-                    className="rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 hover:bg-black/90 dark:bg-white/10 dark:hover:bg-white/5"
-                  >
-                    Learn More
-                  </Link>
+                
                 </div>
               </div>
             </div>
