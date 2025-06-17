@@ -3,23 +3,23 @@ import { Feature } from "@/types/feature";
 const featuresData: Feature[] = [
   {
     id: 1,
-    picture: "/images/services/solar_financing.png", 
-    title: "Solar Power Plant Consultancy & Financing",
-    description: "We provide expert consultancy and feasibility studies for solar power plant setups.",
+    picture: "/images/services/solar1_new.jpeg", 
+    title: "Solar Consultancy & Designing",
+    description: "From site assessment to system design, our solar experts craft tailored solutions that maximize energy efficiency and ROI.",
     button_text: "Consult Now",
   },
   {
     id: 2,
     picture: "/images/services/solar_installation.png", 
-    title: "Solar Power Plant (EPC)",
-    description: "Turnkey EPC services including engineering, procurement, and construction.",
-    button_text: "Get EPC Quote",
+    title: "Solar Installation & Maintenance",
+    description: "Comprehensive turnkey EPC services—from procurement to professional installation and ongoing performance maintenance.",
+    button_text: "Get in Touch",
   },
   {
     id: 3,
-    picture: "/images/services/solar_turnkey.png", 
-    title: "Solar Roof Top Turnkey Solutions",
-    description: "Complete rooftop solar solutions from design to execution for homes and businesses.",
+    picture: "/images/services/solar_financing.png", 
+    title: "Solar Financing",
+    description: "Flexible financing options and subsidy guidance to make your solar investment accessible, affordable, and stress-free.",
     button_text: "Explore Solutions",
   },
 ];

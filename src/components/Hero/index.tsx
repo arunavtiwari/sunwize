@@ -28,7 +28,7 @@ const Hero = () => {
                     href="/contact"
                     className="rounded-md bg-primary px-8 py-4 text-base font-semibold text-white duration-300 hover:bg-primary/80"
                   >
-                    Get a Quote
+                    Sign Up for Free Electricity
                   </Link>
                   <Link
                     href="/about"

@@ -95,8 +95,8 @@ const Contact = () => {
   const images = [
     "/images/contact/form.png",
     "/images/contact/p1.jpg",
-    "/images/contact/p12.jpg",
-    "/images/contact/p3.jpg",
+    "/images/services/solar3_new.jpeg",
+    "/images/services/solar5_new.jpeg",
   ];
 
   return (
