@@ -91,8 +91,8 @@ const Contact = () => {
         <div className="flex flex-col lg:flex-row bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
 
           {/* Left Carousel + Text */}
-          <div className="lg:w-1/2 p-8 bg-gray-50 dark:bg-gray-900">
-          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800 dark:text-white mb-2 whitespace-nowrap">
+          <div className="lg:w-3/5 p-8 bg-gray-50 dark:bg-gray-900">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800 dark:text-white mb-2 leading-snug">
             Schedule a <span className="text-primary">FREE consultation</span> with us today!
           </h2>
 
@@ -118,9 +118,9 @@ const Contact = () => {
           </div>
 
           {/* Right Form */}
-          <div className="lg:w-1/2 p-8">
-            <div className="rounded-xl shadow-lg bg-white dark:bg-gray-800 p-6 sm:p-8">
-              <form onSubmit={handleSubmit} className="space-y-4 ">
+          <div className="lg:w-2/5 p-3">
+            <div className="rounded-xl shadow-lg bg-white dark:bg-gray-800 p-6 sm:p-8 ">
+              <form onSubmit={handleSubmit} className="space-y-4">
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <Input label="Full Name" name="name" value={formData.name} onChange={handleChange} type="text" required />
