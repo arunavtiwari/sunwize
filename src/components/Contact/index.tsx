@@ -168,7 +168,7 @@ const Select = ({ label, name, value, onChange, options, required = false }) => 
   <div>
     <label className="block text-xs font-medium text-gray-700 dark:text-gray-400 mb-1">{label}</label>
     <select name={name} value={value} onChange={onChange}
-      className="w-full px-3 py-2 text-sm bg-gray-50 dark:bg-gray-700 rounded-md border focus:outline-none" required={required}>
+      className="w-full rounded border border-stroke bg-[#f8f8f8] px-3 py-2 text-base dark:bg-[#2C303B] dark:text-body-color-dark" required={required}>
       <option value="">Select</option>
       {options.map(o => <option key={o} value={o}>{o}</option>)}
     </select>
