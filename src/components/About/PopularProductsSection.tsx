@@ -4,18 +4,18 @@ import Image from "next/image";
 
 const products = [
   {
-    title: "On-Grid Solar System",
+    title: "On-Grid/Off-Grid Solar System",
     description:
       "Connected to the electricity grid, great for reducing bills and net metering.",
     isSolution: true,
-    image: "/images/about/ingrid.png"
+    image: "/images/about/ongrid.png"
   },
   {
-    title: "Off-Grid Solar System",
+    title: "Solar Home System",
     description:
-      "Independent solar system with batteries, ideal for remote locations.",
+      "Perfect compact solution for an independent power supply in remote locations where electricity is unavailable, unreliable or expensive.",
     isSolution: true,
-    image: "/images/about/offgrid.png"
+    image: "/images/about/solarhome.png"
   },
   {
     title: "Solar Power Plant",
@@ -27,7 +27,7 @@ const products = [
     title: "Solar Water Heater",
     description:
       "Sunwize solar thermal water heating systems are complete and efficient.",
-      image: "/images/about/waterheater.png"
+      image: "/images/about/sunwizewaterheater.png"
   },
   {
     title: "Solar Water Pump",

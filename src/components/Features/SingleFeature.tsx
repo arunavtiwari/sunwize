@@ -40,7 +40,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         {/* Hover Content (Description and Button) */}
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-8 transition-transform duration-1000 transform translate-y-full group-hover:translate-y-0">
           <p className="mb-6">{description}</p>
-          <Link href="/home" passHref>
+          <Link href="/contact" passHref>
             <button className="px-4 py-2 bg-white/20 rounded-full hover:opacity-85 backdrop-blur-sm">
               {button_text}
             </button></Link>

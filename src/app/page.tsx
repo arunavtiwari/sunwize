@@ -7,7 +7,6 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import { Metadata } from "next";
 import EndToEndService from "@/components/About/EndtoEndService";
 
@@ -25,12 +24,10 @@ export default function Home() {
       <Contact />
       <Features />
       <Testimonials />
-      <Brands />
-
       <PopularProductsSection />
       <EndToEndService />
       <Blog />
-      
+      <Brands />
     </>
   );
 }

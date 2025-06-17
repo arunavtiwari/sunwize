@@ -10,19 +10,14 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Our Services",
-    path: "/about",
+    path: "#services",
     newTab: false,
   },
-  {
-    id: 33,
-    title: "Solar Solutions",
-    path: "/blog",
-    newTab: false,
-  },
+  
   {
     id: 3,
     title: "Projects",
-    path: "/contact",
+    path: "/project",
     newTab: false,
   },
   {
@@ -32,32 +27,20 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 41,
-        title: "About Page",
+        title: "Brochures",
         path: "/about",
         newTab: false,
       },
       {
         id: 42,
-        title: "Contact Page",
+        title: "Certifications",
         path: "/contact",
         newTab: false,
       },
       {
         id: 43,
-        title: "Blog Grid Page",
+        title: "Jobs",
         path: "/blog",
-        newTab: false,
-      },
-      {
-        id: 44,
-        title: "Blog Sidebar Page",
-        path: "/blog-sidebar",
-        newTab: false,
-      },
-      {
-        id: 45,
-        title: "Blog Details Page",
-        path: "/blog-details",
         newTab: false,
       },
     ],

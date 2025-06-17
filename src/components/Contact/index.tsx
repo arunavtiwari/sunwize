@@ -42,18 +42,32 @@ const Contact = () => {
     };
 
     try {
-      const res = await fetch(process.env.SHEETDB_URL!, {
+      const res = await fetch(process.env.NEXT_PUBLIC_SHEETDB_URL!, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(sheetData),
       });
+    
+      const responseText = await res.text();
+      if (!res.ok) {
+        console.error("SheetDB response:", responseText);
+        throw new Error("SheetDB error");
+      }
 
-      if (!res.ok) throw new Error("SheetDB error");
-
-      const message = `👋 Hello, I would like to schedule a *FREE consultation* with Sunwize.\n\n*Name:* ${formData.name}\n*WhatsApp Number:* ${formData.phone}\n*Pin Code:* ${formData.pincode}\n*Property Type:* ${formData.propertyType}\n*Monthly Bill:* ${formData.bill}\n\nPlease get in touch with me!`;
-
-      window.open(`https://wa.me/${process.env.whatsappNumber}?text=${encodeURIComponent(message)}`, "_blank");
-
+      const message = `👋 Hello, I would like to schedule a *FREE consultation* with Sunwize.Add commentMore actions
+  
+      *Name:* ${formData.name}
+      *WhatsApp Number:* ${formData.phone}
+      *Pin Code:* ${formData.pincode}
+      *Property Type:* ${formData.propertyType}
+      *Monthly Bill:* ${formData.bill}
+      
+      Please get in touch with me!`;
+  
+      const whatsappURL = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}?text=${encodeURIComponent(
+        message
+      )}`;
+      window.open(whatsappURL, "_blank");
       setFormData({
         name: "",
         phone: "",
