@@ -16,19 +16,16 @@ const blogContentComponents = {
   "solar-for-agriculture-indian-farmers": SolarForAgriculture,
 };
 
-interface Params {
-  params: { slug: string };
-}
-
-const BlogDetailsPage = ({ params }: Params) => {
-  const slug = params.slug;
+export default async function BlogDetailsPage(
+  props: { params: Promise<{ slug: string }> }
+) {
+  const { slug } = await props.params;
   const blog = blogData.find((b) => b.slug === slug);
 
-  if (!blog) {
-    return <p>Blog not found.</p>;
-  }
+  if (!blog) return <p>Blog not found.</p>;
 
   const BlogContent = blogContentComponents[slug];
+
 
   return (
     <section className="pt-[150px] pb-[120px]">
@@ -128,4 +125,3 @@ const BlogDetailsPage = ({ params }: Params) => {
   );
 };
 
-export default BlogDetailsPage;

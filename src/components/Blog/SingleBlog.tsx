@@ -3,55 +3,42 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
-  const { title, image, paragraph, author, tags, publishDate, slug} = blog;
+  const { title, image, paragraph, author, tags, publishDate, slug } = blog;
+
   return (
-    <>
-      <div className="group shadow-one hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark relative overflow-hidden rounded-xs bg-white duration-300 h-full flex flex-col min-h-[400px]">
-        <Link
-          href={`/blog-details/${slug}`}
-          className="relative block aspect-37/22 w-full"
-        >
-          <span className="bg-primary absolute top-6 right-6 z-20 inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold text-white capitalize">
-            {tags[0]}
-          </span>
-          <Image src={image} alt="image" fill />
+    <article className="group rounded-2xl overflow-hidden shadow transition-shadow duration-300 hover:shadow-lg bg-white dark:bg-gray-900 flex flex-col h-full">
+      <div className="relative aspect-[16/9] w-full overflow-hidden">
+        <Link href={`/blog-details/${slug}`}>
+          <Image
+            src={image}
+            alt={title}
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+          {tags?.[0] && (
+            <span className="absolute top-4 left-4 z-10 bg-primary text-white text-xs font-semibold px-3 py-1 rounded-full capitalize shadow-md">
+              {tags[0]}
+            </span>
+          )}
         </Link>
-        <div className="p-6 sm:p-8 md:px-6 md:py-8 lg:p-8 xl:px-5 xl:py-8 2xl:p-8 flex-grow">
-          <h3>
-            <Link
-              href={`/blog-details/${slug}`}
-              className="hover:text-primary dark:hover:text-primary mb-4 block text-xl font-bold text-black sm:text-2xl dark:text-white"
-            >
-              {title}
-            </Link>
-          </h3>
-          <p className="border-body-color/10 text-body-color mb-6 border-b pb-6 text-base font-medium dark:border-white/10">
-            {paragraph}
-          </p>
-          <div className="flex items-center">
-            <div className="border-body-color/10 mr-5 flex items-center border-r pr-5 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5 dark:border-white/10">
-              <div className="mr-4">
-                <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                  <Image src={author.image} alt="author" fill />
-                </div>
-              </div>
-              <div className="w-full">
-                <h4 className="text-dark mb-1 text-sm font-medium dark:text-white">
-                  By {author.name}
-                </h4>
-                <p className="text-body-color text-xs">{author.designation}</p>
-              </div>
-            </div>
-            <div className="inline-block">
-              <h4 className="text-dark mb-1 text-sm font-medium dark:text-white">
-                Date
-              </h4>
-              <p className="text-body-color text-xs">{publishDate}</p>
-            </div>
-          </div>
-        </div>
       </div>
-    </>
+
+      <div className="flex-grow flex flex-col p-5 sm:p-6 lg:p-5 xl:p-6">
+        <h3 className="text-lg sm:text-xl font-semibold text-black dark:text-white mb-3 leading-snug line-clamp-2">
+          <Link
+            href={`/blog-details/${slug}`}
+            className="hover:text-primary dark:hover:text-primary"
+          >
+            {title}
+          </Link>
+        </h3>
+
+        <p className="text-sm text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">
+          {paragraph}
+        </p>
+
+      </div>
+    </article>
   );
 };
 
