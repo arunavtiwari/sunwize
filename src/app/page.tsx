@@ -22,6 +22,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <Contact />
       <Features />
       <Testimonials />
       <Brands />
@@ -29,7 +30,7 @@ export default function Home() {
       <PopularProductsSection />
       <EndToEndService />
       <Blog />
-      <Contact />
+      
     </>
   );
 }
