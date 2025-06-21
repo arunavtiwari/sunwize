@@ -121,9 +121,10 @@ const Contact = () => {
                     src={src}
                     alt={`Slide ${idx + 1}`}
                     fill
-                    objectFit="cover"
+                    
                     className="rounded-lg"
                     priority={idx === 0}
+                    style={{objectFit: "cover"}}
                   />
 
                 </div>
