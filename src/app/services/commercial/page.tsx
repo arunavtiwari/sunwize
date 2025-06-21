@@ -12,7 +12,7 @@ export default function CommercialServicePage() {
               Commercial Solar Solutions
             </h1>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Cut operational costs and improve your carbon footprint with tailored solar systems for commercial properties. Whether it's a factory, office, or retail outlet — we deliver scalable, high-performance installations.
+              Cut operational costs and improve your carbon footprint with tailored solar systems for commercial properties. Whether it&apos;s a factory, office, or retail outlet — we deliver scalable, high-performance installations.
             </p>
 
             <ul className="space-y-4 mb-8">
