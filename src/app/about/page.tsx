@@ -219,7 +219,7 @@ const AboutPage = () => (
         <h3 className="text-3xl font-bold text-primary mb-4">The People Powering Sunwize</h3>
         <p className="mb-10 text-gray-700 dark:text-gray-300">
           Behind every successful solar project is a dedicated, skilled, and passionate team.
-          Here's a glimpse of the incredible people who make it all happen.
+          Here&apos;s a glimpse of the incredible people who make it all happen.
         </p>
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           {teamImages.map((team, i) => (

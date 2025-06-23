@@ -133,7 +133,7 @@ const Contact = () => {
           </div>
 
           {/* Right Form */}
-          <div className="lg:w-2/5 p-3">
+          <div className="lg:w-2/5 p-3 mt-20">
             <div className="rounded-xl shadow-lg bg-white dark:bg-gray-800 p-6 sm:p-8 ">
               <form onSubmit={handleSubmit} className="space-y-4">
                 
@@ -154,7 +154,7 @@ const Contact = () => {
                   <input type="checkbox" name="policyAccepted" checked={formData.policyAccepted} onChange={handleChange}
                     className="mt-1 h-4 w-4 text-primary border-gray-300 rounded dark:bg-gray-700" />
                   <label className="ml-2 text-gray-700 dark:text-gray-300">
-                    I agree to Sunwize’s <a href="/terms" className="text-primary underline">terms</a> &amp; <a href="/privacy" className="text-primary underline">privacy policy</a>.
+                    I agree to Sunwize&apos;s <a href="/terms" className="text-primary underline">terms</a> &amp; <a href="/privacy" className="text-primary underline">privacy policy</a>.
                   </label>
                 </div>
 
