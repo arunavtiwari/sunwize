@@ -6,6 +6,22 @@ export const metadata: Metadata = {
   description: "Learn more about Sunwize's mission, technology, and impact in solar energy.",
 };
 
+const teamImages = [
+  {
+    img: "/images/about/team1.jpeg",
+    caption: "The faces of Sunwize energy",
+  },
+  {
+    img: "/images/about/team3.jpeg",
+    caption: "From vision to execution — together",
+  },
+  {
+    img: "/images/about/team2.jpeg",
+    caption: "Where innovation meets teamwork",
+  },
+];
+
+
 const benefits = [
   { icon: "💰", text: "Cost Effective / Economical" },
   { icon: "⚡", text: "Decentralized Energy Generation" },
@@ -196,6 +212,37 @@ const AboutPage = () => (
         </div>
       </div>
     </section>
+
+    {/* Our Team Section */}
+    <section className="py-16 bg-white dark:bg-gray-900">
+      <div className="container mx-auto max-w-6xl px-4 text-center">
+        <h3 className="text-3xl font-bold text-primary mb-4">The People Powering Sunwize</h3>
+        <p className="mb-10 text-gray-700 dark:text-gray-300">
+          Behind every successful solar project is a dedicated, skilled, and passionate team.
+          Here's a glimpse of the incredible people who make it all happen.
+        </p>
+        <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+          {teamImages.map((team, i) => (
+            <div
+              key={i}
+              className="overflow-hidden rounded-lg shadow-lg bg-gray-100 dark:bg-gray-800"
+            >
+              <Image
+                src={team.img}
+                alt={team.caption}
+                width={600}
+                height={400}
+                className="object-cover w-full h-64"
+              />
+              <div className="p-4">
+                <p className="text-sm text-gray-600 dark:text-gray-400">{team.caption}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
 
     {/* CTA */}
     <section className="py-12 bg-primary text-white text-center">
