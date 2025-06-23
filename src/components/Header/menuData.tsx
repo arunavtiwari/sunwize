@@ -50,19 +50,19 @@ const menuData: Menu[] = [
       {
         id: 41,
         title: "Brochures",
-        path: "/about",
+        path: "/",
         newTab: false,
       },
       {
         id: 42,
         title: "Certifications",
-        path: "/contact",
+        path: "/",
         newTab: false,
       },
       {
         id: 43,
         title: "Jobs",
-        path: "/blog",
+        path: "/",
         newTab: false,
       },
     ],

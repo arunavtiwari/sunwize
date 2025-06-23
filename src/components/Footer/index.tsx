@@ -101,7 +101,7 @@ const Footer = () => {
                 <Link href="/blog" className="text-base text-white-subtle hover:text-primary hover:underline">Blogs</Link>
               </li>
               <li className="mb-4">
-                <Link href="/projects" className="text-base text-white-subtle hover:text-primary hover:underline">Projects</Link>
+                <Link href="/project" className="text-base text-white-subtle hover:text-primary hover:underline">Projects</Link>
               </li>
               <li className="mb-4">
                 <Link href="/contact" className="text-base text-white-subtle hover:text-primary hover:underline">Contact</Link>
