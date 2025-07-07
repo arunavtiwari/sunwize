@@ -42,7 +42,7 @@ const Contact = () => {
     };
 
     try {
-      const res = await fetch(process.env.NEXT_PUBLIC_SHEETDB_URL!, {
+      const res = await fetch(process.env.SHEETDB_URL!, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(sheetData),
@@ -64,7 +64,7 @@ const Contact = () => {
       
       Please get in touch with me!`;
   
-      const whatsappURL = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}?text=${encodeURIComponent(
+      const whatsappURL = `https://wa.me/${process.env.WHATSAPP_NUMBER}?text=${encodeURIComponent(
         message
       )}`;
       window.open(whatsappURL, "_blank");
