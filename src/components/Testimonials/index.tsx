@@ -38,7 +38,7 @@ const Testimonials = () => {
           {/* Left column: video embed */}
           <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-xl shadow-xl">
             <iframe
-              src="https://sunwize.co.in/assets/video/feedback-one.mp4"
+              src="https://lh3.googleusercontent.com/ggs/AF1QipPQ_yDOTPu6tIR6Iz6hhfn4U0FRM-YjJk8DF449=m18"
               title="Testimonial Video"
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
