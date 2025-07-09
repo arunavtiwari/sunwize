@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.sunwize.co.in
+
+# Sitemaps
+Sitemap: https://www.sunwize.co.in/sitemap.xml

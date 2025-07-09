@@ -1,6 +1,6 @@
 const OnGridVsOffGridSolarIndia = () => {
   return (
-    <>
+    <div>
       <p>
         Choosing between on-grid and off-grid solar systems can be confusing. Let’s explore the key differences, advantages, and applications in the Indian context.
       </p>
@@ -33,7 +33,7 @@ const OnGridVsOffGridSolarIndia = () => {
       <p>
         For most urban Indian homes and businesses, on-grid systems are cost-effective and practical. Off-grid systems suit rural areas or places with unreliable grid power.
       </p>
-    </>
+    </div>
   );
 };
 

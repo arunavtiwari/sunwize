@@ -175,3 +175,31 @@ layer(base);
   font-weight: bold;
 }
 
+
+.blogContent {
+  font-family: system-ui, sans-serif;
+  line-height: 1.7;
+  color: #1a1a1a;
+}
+
+.blogContent h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.blogContent p {
+  margin-bottom: 1em;
+}
+
+.blogContent ul {
+  list-style: disc;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.blogContent li {
+  margin-bottom: 0.5em;
+}
+

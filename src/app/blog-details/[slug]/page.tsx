@@ -58,7 +58,6 @@ export default async function BlogDetailsPage(
                 <div className="mb-5 flex items-center space-x-5 text-body-color text-base font-medium">
                   <p className="flex items-center">
                     <span className="mr-3">
-                      {/* Example icon placeholder */}
                       <svg
                         width="15"
                         height="15"
@@ -93,7 +92,7 @@ export default async function BlogDetailsPage(
               </div>
             </div>
 
-            <article className="prose max-w-none dark:prose-invert">
+            <article className="blogContent">
               {BlogContent ? <BlogContent /> : <p>Content not available.</p>}
             </article>
 
