@@ -35,31 +35,37 @@ const EndToEndService = () => {
   return (
     <section className="bg-white dark:bg-gray-900 py-16 md:py-20 lg:py-28">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-4">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
             End-to-End Solar Process
           </h2>
-          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Here&apos;s how we ensure a seamless and complete solar installation journey.
+          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-base md:text-lg">
+            Here’s how we ensure a seamless and complete solar installation journey.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-16 gap-x-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {steps.map((step) => (
-            <div key={step.number} className="relative pl-20">
-              {/* Number Box */}
-              <div className="absolute left-0 top-0 w-14 h-14 rounded-md bg-primary text-white flex items-center justify-center text-2xl font-bold shadow-md">
-                {step.number}
+            <div
+              key={step.number}
+              className="relative bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 px-6 py-8"
+            >
+              {/* Number Circle */}
+              <div className="absolute -top-6 left-6">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-primary/70 text-white flex items-center justify-center text-xl font-bold shadow-md">
+                  {step.number}
+                </div>
               </div>
 
-              {/* Extended Connector Line */}
-              <div className="absolute left-[56px] top-7 h-1 bg-primary/30 w-[50%] rounded-full" />
-
               {/* Step Content */}
-              <h4 className="text-xl font-semibold text-gray-800 dark:text-white mb-1">
-                {step.title}
-              </h4>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">{step.description}</p>
+              <div className="mt-6">
+                <h4 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">
+                  {step.title}
+                </h4>
+                <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
+                  {step.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>
