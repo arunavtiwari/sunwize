@@ -32,3 +32,8 @@ yarn-error.log*
 .vercel
 .env
 .env
+
+# Ignore generated sitemap files
+/public/sitemap.xml
+/public/sitemap-*.xml
+/public/robots.txt
