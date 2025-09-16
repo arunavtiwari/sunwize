@@ -75,7 +75,7 @@ const PrivacyPolicyPage = () => {
           <h2 className="text-2xl font-bold mb-6 text-primary">9. Contact Us</h2>
           <p className="text-base text-body-color dark:text-white">
             For any questions about this Privacy Policy, please contact us at{" "}
-            <a href="mailto:info@sunwize.com" className="text-primary underline">info@sunwize.com</a>.
+            <a href="mailto:info@sunwize.co.in" className="text-primary underline">info@sunwize.co.in</a>.
           </p>
         </div>
       </section>

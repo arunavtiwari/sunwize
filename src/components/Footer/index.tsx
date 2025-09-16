@@ -59,8 +59,8 @@ const Footer = () => {
             <ul>
               <li className="mb-4 flex items-center space-x-2">
                 {emailIcon}
-                <a href="mailto:info@sunwize.com" className="text-base text-white-subtle hover:text-primary hover:underline" target="_blank">
-                  info@sunwize.com
+                <a href="mailto:info@sunwize.co.in" className="text-base text-white-subtle hover:text-primary hover:underline" target="_blank">
+                  info@sunwize.co.in
                 </a>
               </li>
               <li className="mb-4 flex items-center space-x-2">

@@ -56,7 +56,7 @@ const TermsPage = () => {
 
           <h2 className="text-2xl font-bold mb-6 text-primary">5. Contact Us</h2>
           <p className="text-base text-body-color dark:text-white">
-            For any queries or concerns related to these Terms of Service, you may contact us at <a href="mailto:info@sunwize.com" className="text-primary underline">info@sunwize.com</a>.
+            For any queries or concerns related to these Terms of Service, you may contact us at <a href="mailto:info@sunwize.co.in" className="text-primary underline">info@sunwize.co.in</a>.
           </p>
         </div>
       </section>
