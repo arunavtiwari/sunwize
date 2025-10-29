@@ -81,9 +81,10 @@ const Footer = () => {
                   className="text-base text-white-subtle hover:text-primary hover:underline"
                   target="_blank"
                 >
-                  589, Kanpur Rd, near Tata Motors,<br />
-                  Hind Nagar, Sector C1, LDA Colony,<br />
-                  Lucknow, Uttar Pradesh 226012
+
+                  2nd floor, Railtech Square, Kanpur Rd, <br />
+                  next to Indian Oil Petrol Pump, <br />
+                  Transport Nagar, Lucknow, Uttar Pradesh 226012
                 </a>
               </li>
             </ul>
