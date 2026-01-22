@@ -60,14 +60,14 @@ const Header = () => {
               >
                 <Image
                   src="/images/logo/sunwize-logo.png"
-                  alt="logo"
+                  alt="Sunwize Energy Systems logo"
                   width={150}
                   height={40}
                   className="w-full dark:hidden"
                 />
                 <Image
                   src="/images/logo/sunwize-logo.png"
-                  alt="logo"
+                  alt="Sunwize Energy Systems logo"
                   width={150}
                   height={40}
                   className="hidden w-full dark:block"
@@ -99,13 +99,11 @@ const Header = () => {
                   />
                 </button>
                 <nav
-                  id="navbarCollapse"
-                  className={`navbar border-body-color/50 dark:border-body-color/20 dark:bg-dark absolute right-0 z-30 w-[250px] rounded border-[.5px] bg-white px-6 py-4 duration-300 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
-                    navbarOpen
-                      ? "visibility top-full opacity-100"
-                      : "invisible top-[120%] opacity-0"
-                  }`}
-                >
+                    id="navbarCollapse"
+                    aria-label="Primary Navigation"
+                    className="navbar border-body-color/50 dark:border-body-color/20 dark:bg-dark absolute right-0 z-30 w-[250px] rounded border-[.5px] bg-white px-6 py-4 duration-300 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100"
+                  >
+
                   <ul className="block lg:flex lg:space-x-12">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">

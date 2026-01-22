@@ -81,7 +81,6 @@ const Footer = () => {
                   className="text-base text-white-subtle hover:text-primary hover:underline"
                   target="_blank"
                 >
-
                   2nd floor, Railtech Square, Kanpur Rd, <br />
                   next to Indian Oil Petrol Pump, <br />
                   Transport Nagar, Lucknow, Uttar Pradesh 226012

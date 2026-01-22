@@ -11,10 +11,11 @@ import { Metadata } from "next";
 import EndToEndService from "@/components/About/EndtoEndService";
 
 export const metadata: Metadata = {
-  title: "SunWize Energy Systems",
-  description: "Pioneer and Leader in the renewable energy industry",
-
+  title: "Sunwize Energy Systems - Solar & Renewable Energy Solutions",
+  description:
+    "Sunwize Energy Systems provides end-to-end solar and renewable energy solutions for businesses, industries, and infrastructure projects in India.",
 };
+
 
 export default function Home() {
   return (
