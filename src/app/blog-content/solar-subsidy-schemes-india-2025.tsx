@@ -1,12 +1,12 @@
 import BlogKeywords from "@/components/Blog/BlogKeywords";
 
 const keywords = [
-  "solar subsidy India 2025", "solar panel subsidy India", "pm surya ghar yojana",
+  "solar subsidy India 2026", "solar panel subsidy India", "pm surya ghar yojana",
   "rooftop solar subsidy India", "solar subsidy for home", "mnre solar subsidy",
-  "solar subsidy uttar pradesh", "solar subsidy up 2025", "solar panel scheme India",
-  "government solar scheme 2025", "free solar panel scheme India", "solar subsidy application",
+  "solar subsidy uttar pradesh", "solar subsidy up 2026", "solar panel scheme India",
+  "government solar scheme 2026", "free solar panel scheme India", "solar subsidy application",
   "solar subsidy eligibility India", "solar incentives India", "solar tax benefit India",
-  "solar subsidy state wise India", "up solar subsidy 2025", "pm surya ghar muft bijli yojana",
+  "solar subsidy state wise India", "up solar subsidy 2026", "pm surya ghar muft bijli yojana",
   "solar subsidy for farmers India", "solar scheme for home India", "residential solar subsidy",
   "central government solar subsidy", "solar net metering India", "discom solar subsidy",
   "solar panel price after subsidy", "solar subsidy lucknow", "solar subsidy amount India",
@@ -17,12 +17,12 @@ const SolarSubsidySchemesIndia = () => {
   return (
     <>
       <p>
-        The Indian government offers several subsidy schemes to promote solar adoption in 2025. These schemes make solar energy affordable and accessible for households and businesses across the country.
+        The Indian government offers several subsidy schemes to promote solar adoption in 2026. These schemes make solar energy affordable and accessible for households and businesses across the country.
       </p>
 
       <h2>PM Surya Ghar Muft Bijli Yojana</h2>
       <p>
-        Launched in February 2024 and actively running through 2025, PM Surya Ghar Muft Bijli Yojana is India&apos;s largest residential rooftop solar scheme. It provides:
+        Launched in February 2024 and actively running through 2026, PM Surya Ghar Muft Bijli Yojana is India&apos;s largest residential rooftop solar scheme. It provides:
       </p>
       <ul>
         <li>₹30,000 subsidy for 1 kW systems</li>

@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solar Panel Price in Lucknow 2025 | Best Solar Dealers in Lucknow",
+  title: "Solar Panel Price in Lucknow 2026 | Best Solar Dealers in Lucknow",
   description:
-    "Get the latest solar panel prices in Lucknow 2025. 1kW system from ₹59,000 after UP subsidy. Compare prices, installers & get a free quote from Sunwize — Lucknow's leading solar panel dealer.",
+    "Get the latest solar panel prices in Lucknow 2026. 1kW system from ₹32,000 after UP subsidy. Compare prices, installers & get a free quote from Sunwize — Lucknow's leading solar panel dealer.",
   keywords: [
     "solar panel price in lucknow",
     "solar panel price lucknow",
@@ -24,47 +24,47 @@ const pricingData = [
   {
     size: "1 kW",
     use: "1–2 BHK Home",
-    gross: "₹70,000",
+    gross: "₹62,000",
     subsidy: "₹30,000",
-    net: "₹40,000",
-    units: "100–120 units/month",
-    saving: "₹800–1,000/month",
+    net: "₹32,000",
+    units: "110–130 units/month",
+    saving: "₹900–1,100/month",
   },
   {
     size: "2 kW",
     use: "2–3 BHK Home",
-    gross: "₹1,40,000",
+    gross: "₹1,22,000",
     subsidy: "₹60,000",
-    net: "₹80,000",
-    units: "200–240 units/month",
-    saving: "₹1,600–2,000/month",
+    net: "₹62,000",
+    units: "220–260 units/month",
+    saving: "₹1,800–2,200/month",
   },
   {
     size: "3 kW",
     use: "3–4 BHK / Small Shop",
-    gross: "₹2,10,000",
+    gross: "₹1,85,000",
     subsidy: "₹78,000",
-    net: "₹1,32,000",
-    units: "300–360 units/month",
-    saving: "₹2,400–3,000/month",
+    net: "₹1,07,000",
+    units: "330–390 units/month",
+    saving: "₹2,700–3,300/month",
   },
   {
     size: "5 kW",
     use: "Large Home / Office",
-    gross: "₹3,50,000",
+    gross: "₹3,10,000",
     subsidy: "₹78,000",
-    net: "₹2,72,000",
-    units: "500–600 units/month",
-    saving: "₹4,000–5,000/month",
+    net: "₹2,32,000",
+    units: "550–650 units/month",
+    saving: "₹4,500–5,500/month",
   },
   {
     size: "10 kW",
     use: "Commercial / Factory",
-    gross: "₹7,00,000",
+    gross: "₹6,20,000",
     subsidy: "₹0 (commercial)",
-    net: "₹7,00,000",
-    units: "1,000–1,200 units/month",
-    saving: "₹8,000–10,000/month",
+    net: "₹6,20,000",
+    units: "1,100–1,300 units/month",
+    saving: "₹10,000–13,000/month",
   },
 ];
 
@@ -77,7 +77,7 @@ const faqSchema = {
       name: "What is the price of a solar panel in Lucknow?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Solar panel prices in Lucknow range from ₹40,000 for a 1kW system (after UP subsidy) to ₹7,00,000+ for a 10kW commercial system. The exact price depends on system size, panel brand, and installation complexity.",
+        text: "Solar panel prices in Lucknow in 2026 range from ₹32,000 for a 1kW system (after UP subsidy) to ₹6,20,000 for a 10kW commercial system. Panel costs have come down ~10% from 2024 due to expanded domestic manufacturing. The exact price depends on system size, panel brand, and installation complexity.",
       },
     },
     {
@@ -101,7 +101,7 @@ const faqSchema = {
       name: "How many solar panels do I need for a 3 BHK house in Lucknow?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A typical 3 BHK house in Lucknow consuming 250–300 units per month would need a 2–3 kW solar system, which requires approximately 6–10 panels depending on wattage (300W–400W each).",
+        text: "A typical 3 BHK house in Lucknow consuming 250–300 units per month would need a 2–3 kW solar system, which requires approximately 5–8 panels depending on wattage (400W–500W each in 2026).",
       },
     },
     {
@@ -109,7 +109,7 @@ const faqSchema = {
       name: "Is solar worth it in Lucknow?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Lucknow receives 5–5.5 peak sun hours per day, making it ideal for solar. With UP electricity rates of ₹6–9/unit and after-subsidy system costs, most homeowners achieve payback in 3–5 years and save ₹5–15 lakhs over 25 years.",
+        text: "Yes. Lucknow receives 5–5.5 peak sun hours per day, making it ideal for solar. With UP electricity rates now at ₹7–9/unit (residential) in 2026 and after-subsidy system costs at record lows, most homeowners achieve payback in 2.5–4 years and save ₹6–18 lakhs over 25 years.",
       },
     },
   ],
@@ -126,7 +126,7 @@ export default function SolarPanelPriceLucknow() {
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-10">
             <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3">
-              Lucknow Solar Price Guide 2025
+              Lucknow Solar Price Guide 2026
             </p>
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-5">
               Solar Panel Price in Lucknow
@@ -155,7 +155,7 @@ export default function SolarPanelPriceLucknow() {
       <section className="py-12 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 text-center">
-            Solar System Price List in Lucknow (2025)
+            Solar System Price List in Lucknow (2026)
           </h2>
           <p className="text-center text-gray-500 dark:text-gray-400 mb-8 text-sm">
             Prices shown after central government subsidy under PM Surya Ghar Yojana

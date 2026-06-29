@@ -5,7 +5,7 @@ const keywords = [
   "solar water pump for agriculture", "pm kusum yojana", "solar pump subsidy India",
   "solar pump price India", "solar pump for farmers", "submersible solar pump India",
   "solar drip irrigation India", "solar powered farming India", "solar energy for agriculture",
-  "solar pump scheme India 2025", "solar water pump price list", "3hp solar pump price India",
+  "solar pump scheme India 2026", "solar water pump price list", "3hp solar pump price India",
   "5hp solar pump price India", "solar pump for bore well", "solar pump for tube well",
   "solar pump for irrigation", "solar pump subsidy up", "solar pump uttar pradesh",
   "solar pump lucknow", "solar energy farming India", "solar panel for farm India",

@@ -1,19 +1,19 @@
 import BlogKeywords from "@/components/Blog/BlogKeywords";
 
 const keywords = [
-  "pm surya ghar yojana", "pm surya ghar muft bijli yojana", "pm surya ghar yojana 2025",
+  "pm surya ghar yojana", "pm surya ghar muft bijli yojana", "pm surya ghar yojana 2026",
   "surya ghar scheme India", "free electricity solar scheme India", "pm surya ghar apply online",
   "pm surya ghar subsidy amount", "pm surya ghar eligibility", "pmsuryaghar.gov.in",
-  "300 units free electricity India", "rooftop solar scheme 2025", "solar subsidy 2025 India",
-  "pm surya ghar yojana up", "pm surya ghar lucknow", "solar scheme for home India 2025",
-  "1 crore solar home India", "solar for free electricity India", "central solar subsidy 2025",
-  "mnre solar scheme 2025", "solar panel scheme apply", "pm surya ghar registration",
+  "300 units free electricity India", "rooftop solar scheme 2026", "solar subsidy 2026 India",
+  "pm surya ghar yojana up", "pm surya ghar lucknow", "solar scheme for home India 2026",
+  "1 crore solar home India", "solar for free electricity India", "central solar subsidy 2026",
+  "mnre solar scheme 2026", "solar panel scheme apply", "pm surya ghar registration",
   "solar subsidy bank credit", "solar panel government scheme India", "free solar panel India",
-  "pm surya ghar yojana benefits", "solar scheme uttar pradesh 2025", "lesco solar subsidy",
+  "pm surya ghar yojana benefits", "solar scheme uttar pradesh 2026", "lesco solar subsidy",
   "uppcl solar scheme", "pm surya ghar vendor", "mnre empanelled solar installer",
 ];
 
-const PmSuryaGharYojana2025 = () => {
+const PmSuryaGharYojana2026 = () => {
   return (
     <>
       <p>
@@ -28,7 +28,7 @@ const PmSuryaGharYojana2025 = () => {
         Under the scheme, homes can generate solar power for free daily consumption and sell surplus electricity back to the grid through net metering — effectively receiving credit on their electricity bill.
       </p>
 
-      <h2>Subsidy Amounts Under PM Surya Ghar Yojana (2025)</h2>
+      <h2>Subsidy Amounts Under PM Surya Ghar Yojana (2026)</h2>
       <ul>
         <li><strong>1 kW system:</strong> ₹30,000 central subsidy</li>
         <li><strong>2 kW system:</strong> ₹60,000 central subsidy</li>
@@ -65,17 +65,17 @@ const PmSuryaGharYojana2025 = () => {
         In UP, the scheme is implemented through UPPCL (Uttar Pradesh Power Corporation Limited) and local DISCOMs including LESCO (Lucknow), PVVNL (Pashchimanchal), MVVNL (Madhyanchal), and others. Lucknow-based applicants apply through LESCO, which has an active team processing net metering connections.
       </p>
       <p>
-        UP also has its own UPNEDA Solar Policy which may offer additional state-level benefits over and above the central subsidy — making UP one of the best states in India to go solar in 2025.
+        UP also has its own UPNEDA Solar Policy which may offer additional state-level benefits over and above the central subsidy — making UP one of the best states in India to go solar in 2026.
       </p>
 
       <h2>How Much Can You Save?</h2>
       <p>
-        A family using 300 units per month with a 3kW system could eliminate their electricity bill entirely. With UP rates at ₹6–8/unit, that&apos;s ₹1,800–₹2,400 saved every month, or ₹21,600–₹28,800 per year. Over 25 years, total savings can exceed ₹7 lakh — from an investment that costs just ₹1,32,000 after subsidy.
+        A family using 300 units per month with a 3kW system could eliminate their electricity bill entirely. With UP residential rates now at ₹7–9/unit in 2026, that&apos;s ₹2,100–₹2,700 saved every month, or ₹25,200–₹32,400 per year. Over 25 years, total savings can exceed ₹9 lakh — from an investment that costs just ₹1,07,000 after subsidy at today&apos;s prices.
       </p>
 
       <h2>Why Act Now?</h2>
       <p>
-        The PM Surya Ghar scheme has seen overwhelming demand — over 1.5 crore registrations in its first year. Subsidy funds are allocated state-wise and can be exhausted. Applying early ensures you lock in the current subsidy rates before any policy revision.
+        The PM Surya Ghar scheme has seen overwhelming demand — over 2.8 crore registrations as of mid-2026. Subsidy funds are allocated state-wise and can be exhausted. Applying early ensures you lock in the current subsidy rates before any policy revision.
       </p>
 
       <BlogKeywords keywords={keywords} />
@@ -83,4 +83,4 @@ const PmSuryaGharYojana2025 = () => {
   );
 };
 
-export default PmSuryaGharYojana2025;
+export default PmSuryaGharYojana2026;

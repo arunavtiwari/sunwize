@@ -23,26 +23,26 @@ const SolarPowerPlantSavingsIndia = () => {
 
       <h2>Realistic Savings by System Size</h2>
       <p>
-        Your monthly savings depend on your system size and your current electricity tariff. In UP, where residential rates are ₹6–8/unit and commercial rates are ₹8–10/unit:
+        Your monthly savings depend on your system size and your current electricity tariff. In UP, where residential rates have risen to ₹7–9/unit in 2026 and commercial rates are ₹9–11/unit:
       </p>
       <ul>
-        <li><strong>1 kW system:</strong> Generates ~120 units/month → saves ₹720–960/month</li>
-        <li><strong>3 kW system:</strong> Generates ~360 units/month → saves ₹2,160–2,880/month</li>
-        <li><strong>5 kW system:</strong> Generates ~600 units/month → saves ₹3,600–4,800/month</li>
-        <li><strong>10 kW system:</strong> Generates ~1,200 units/month → saves ₹9,600–12,000/month (commercial)</li>
+        <li><strong>1 kW system:</strong> Generates ~120 units/month → saves ₹840–1,080/month</li>
+        <li><strong>3 kW system:</strong> Generates ~360 units/month → saves ₹2,520–3,240/month</li>
+        <li><strong>5 kW system:</strong> Generates ~600 units/month → saves ₹4,200–5,400/month</li>
+        <li><strong>10 kW system:</strong> Generates ~1,200 units/month → saves ₹10,800–13,200/month (commercial)</li>
       </ul>
 
       <h2>Initial Investment and Payback Period</h2>
       <p>
-        After the central government subsidy under PM Surya Ghar Yojana, a 3kW system costs around ₹1,32,000. At ₹2,500/month in savings, the payback period is approximately 4.4 years. After that, you generate electricity for free for the remaining 20+ years of the system&apos;s life.
+        After the central government subsidy under PM Surya Ghar Yojana, a 3kW system costs around ₹1,07,000 in 2026 — down from ₹1,32,000 in 2024. At ₹2,900/month in average savings, the payback period is now approximately 3 years. After that, you generate electricity for free for the remaining 22+ years of the system&apos;s life.
       </p>
 
       <h2>Long-Term Savings (25-Year Lifetime)</h2>
       <ul>
-        <li><strong>1 kW system:</strong> Lifetime savings of ₹2–3 lakhs</li>
-        <li><strong>3 kW system:</strong> Lifetime savings of ₹6–9 lakhs</li>
-        <li><strong>5 kW system:</strong> Lifetime savings of ₹10–15 lakhs</li>
-        <li><strong>10 kW system:</strong> Lifetime savings of ₹25–35 lakhs (commercial)</li>
+        <li><strong>1 kW system:</strong> Lifetime savings of ₹3–4 lakhs</li>
+        <li><strong>3 kW system:</strong> Lifetime savings of ₹8–11 lakhs</li>
+        <li><strong>5 kW system:</strong> Lifetime savings of ₹13–18 lakhs</li>
+        <li><strong>10 kW system:</strong> Lifetime savings of ₹30–42 lakhs (commercial)</li>
       </ul>
 
       <h2>Additional Financial Benefits</h2>

@@ -7,20 +7,20 @@ import SolarPowerPlantSavingsIndia from "@/app/blog-content/solar-power-plant-sa
 import SolarWaterHeatersVsElectricGeysers from "@/app/blog-content/solar-water-heaters-vs-electric-geysers-2025";
 import SolarForAgriculture from "@/app/blog-content/solar-for-agriculture-indian-farmers";
 import SolarPanelPriceLucknowGuide from "@/app/blog-content/solar-panel-price-lucknow-guide";
-import PmSuryaGharYojana2025 from "@/app/blog-content/pm-surya-ghar-yojana-2025";
-import BestSolarPanelsIndia2025 from "@/app/blog-content/best-solar-panels-india-2025";
+import PmSuryaGharYojana2026 from "@/app/blog-content/pm-surya-ghar-yojana-2025";
+import BestSolarPanelsIndia2026 from "@/app/blog-content/best-solar-panels-india-2025";
 import SolarPanelMaintenanceIndia from "@/app/blog-content/solar-panel-maintenance-india";
 import blogData from "@/components/Blog/blogData";
 
 const blogContentComponents = {
   "on-grid-vs-off-grid-solar-india": OnGridVsOffGridSolarIndia,
-  "solar-subsidy-schemes-india-2025": SolarSubsidySchemesIndia,
+  "solar-subsidy-schemes-india-2026": SolarSubsidySchemesIndia,
   "solar-power-plant-savings-india": SolarPowerPlantSavingsIndia,
-  "solar-water-heaters-vs-electric-geysers-2025": SolarWaterHeatersVsElectricGeysers,
+  "solar-water-heaters-vs-electric-geysers-2026": SolarWaterHeatersVsElectricGeysers,
   "solar-for-agriculture-indian-farmers": SolarForAgriculture,
   "solar-panel-price-lucknow-guide": SolarPanelPriceLucknowGuide,
-  "pm-surya-ghar-yojana-2025": PmSuryaGharYojana2025,
-  "best-solar-panels-india-2025": BestSolarPanelsIndia2025,
+  "pm-surya-ghar-yojana-2026": PmSuryaGharYojana2026,
+  "best-solar-panels-india-2026": BestSolarPanelsIndia2026,
   "solar-panel-maintenance-india": SolarPanelMaintenanceIndia,
 };
 

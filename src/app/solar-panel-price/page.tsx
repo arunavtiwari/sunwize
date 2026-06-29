@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solar Panel Price in India 2025 | 1kW–10kW Solar System Cost",
+  title: "Solar Panel Price in India 2026 | 1kW–10kW Solar System Cost",
   description:
-    "Complete solar panel price list for India 2025. Compare 1kW, 2kW, 3kW, 5kW & 10kW solar system costs with government subsidy. Sunwize offers the best solar prices in Lucknow & Uttar Pradesh.",
+    "Complete solar panel price list for India 2026. Compare 1kW, 2kW, 3kW, 5kW & 10kW solar system costs with government subsidy. Sunwize offers the best solar prices in Lucknow & Uttar Pradesh.",
   keywords: [
     "solar panel price",
     "solar system price",
@@ -23,63 +23,63 @@ export const metadata: Metadata = {
 const systems = [
   {
     kw: "1 kW",
-    panels: "2–4 panels",
+    panels: "2–3 panels",
     area: "60–80 sq. ft.",
-    gross: "₹70,000",
+    gross: "₹62,000",
     subsidy: "₹30,000",
-    net: "₹40,000",
-    units: "100–120 units/month",
-    saving: "₹800–1,000/month",
-    payback: "4–5 years",
+    net: "₹32,000",
+    units: "110–130 units/month",
+    saving: "₹900–1,100/month",
+    payback: "2.5–3.5 years",
     ideal: "Small homes, 1–2 BHK",
   },
   {
     kw: "2 kW",
-    panels: "4–8 panels",
+    panels: "4–6 panels",
     area: "120–150 sq. ft.",
-    gross: "₹1,40,000",
+    gross: "₹1,22,000",
     subsidy: "₹60,000",
-    net: "₹80,000",
-    units: "200–240 units/month",
-    saving: "₹1,600–2,000/month",
-    payback: "4–5 years",
+    net: "₹62,000",
+    units: "220–260 units/month",
+    saving: "₹1,800–2,200/month",
+    payback: "2.5–3.5 years",
     ideal: "2–3 BHK homes",
   },
   {
     kw: "3 kW",
-    panels: "8–10 panels",
+    panels: "6–8 panels",
     area: "180–220 sq. ft.",
-    gross: "₹2,10,000",
+    gross: "₹1,85,000",
     subsidy: "₹78,000",
-    net: "₹1,32,000",
-    units: "300–360 units/month",
-    saving: "₹2,400–3,000/month",
-    payback: "4–5 years",
+    net: "₹1,07,000",
+    units: "330–390 units/month",
+    saving: "₹2,700–3,300/month",
+    payback: "3–4 years",
     ideal: "3–4 BHK, small shops",
     popular: true,
   },
   {
     kw: "5 kW",
-    panels: "12–16 panels",
+    panels: "10–12 panels",
     area: "300–350 sq. ft.",
-    gross: "₹3,50,000",
+    gross: "₹3,10,000",
     subsidy: "₹78,000",
-    net: "₹2,72,000",
-    units: "500–600 units/month",
-    saving: "₹4,000–5,000/month",
-    payback: "4–6 years",
+    net: "₹2,32,000",
+    units: "550–650 units/month",
+    saving: "₹4,500–5,500/month",
+    payback: "3.5–5 years",
     ideal: "Large homes, offices",
   },
   {
     kw: "10 kW",
-    panels: "25–32 panels",
+    panels: "20–24 panels",
     area: "600–700 sq. ft.",
-    gross: "₹7,00,000",
+    gross: "₹6,20,000",
     subsidy: "₹0 (commercial)",
-    net: "₹7,00,000",
-    units: "1,000–1,200 units/month",
-    saving: "₹8,000–10,000/month",
-    payback: "5–7 years",
+    net: "₹6,20,000",
+    units: "1,100–1,300 units/month",
+    saving: "₹10,000–13,000/month",
+    payback: "4–6 years",
     ideal: "Factories, schools, hospitals",
   },
 ];
@@ -93,7 +93,7 @@ const faqSchema = {
       name: "What is the price of a 3kW solar panel system in India?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A 3kW solar panel system in India costs approximately ₹2,10,000 before subsidy. After the PM Surya Ghar central government subsidy of ₹78,000, the net cost is around ₹1,32,000. The exact price varies by state, brand, and installer.",
+        text: "A 3kW solar panel system in India in 2026 costs approximately ₹1,85,000 before subsidy — down ~12% from 2024 due to expanded domestic manufacturing capacity. After the PM Surya Ghar central government subsidy of ₹78,000, the net cost is around ₹1,07,000. The exact price varies by state, brand, and installer.",
       },
     },
     {
@@ -101,15 +101,15 @@ const faqSchema = {
       name: "What is the price of 1kW solar panel in India?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A 1kW solar panel system in India costs ₹70,000 gross. After the ₹30,000 central subsidy under PM Surya Ghar Yojana, the net cost is ₹40,000. This system generates 100–120 units per month.",
+        text: "A 1kW solar panel system in India costs ₹62,000 gross in 2026. After the ₹30,000 central subsidy under PM Surya Ghar Yojana, the net cost is just ₹32,000. This system generates 110–130 units per month.",
       },
     },
     {
       "@type": "Question",
-      name: "What is the solar rooftop price list in India for 2025?",
+      name: "What is the solar rooftop price list in India for 2026?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Solar rooftop prices in India for 2025 (after subsidy): 1kW — ₹40,000; 2kW — ₹80,000; 3kW — ₹1,32,000; 5kW — ₹2,72,000; 10kW — ₹7,00,000 (commercial, no subsidy). Prices include installation and net metering.",
+        text: "Solar rooftop prices in India for 2026 (after PM Surya Ghar subsidy): 1kW — ₹32,000; 2kW — ₹62,000; 3kW — ₹1,07,000; 5kW — ₹2,32,000; 10kW — ₹6,20,000 (commercial, no subsidy). Prices include panels, inverter, installation, and net metering setup.",
       },
     },
     {
@@ -117,7 +117,7 @@ const faqSchema = {
       name: "How much does a solar panel system cost per month?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "There is no monthly cost for solar panels if paid upfront. If financed via loan/EMI, a 3kW system (net cost ₹1,32,000) financed at 0% for 5 years costs about ₹2,200/month — far less than the ₹2,400–3,000 monthly electricity savings.",
+        text: "There is no monthly cost for solar panels if paid upfront. If financed via loan/EMI, a 3kW system (net cost ₹1,07,000 in 2026) financed over 5 years costs about ₹1,800/month — well below the ₹2,700–3,300 in monthly electricity savings, so you are cash-flow positive from day one.",
       },
     },
   ],
@@ -134,7 +134,7 @@ export default function SolarPanelPrice() {
       <section className="pt-24 pb-10 bg-gradient-to-br from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800">
         <div className="container mx-auto px-4 max-w-5xl text-center">
           <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3">
-            India Solar Price Guide 2025
+            India Solar Price Guide 2026
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-5">
             Solar Panel Price in India
@@ -156,7 +156,7 @@ export default function SolarPanelPrice() {
       <section className="py-12 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4 max-w-6xl">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 text-center">
-            Solar System Price List India 2025
+            Solar System Price List India 2026
           </h2>
           <p className="text-center text-gray-500 mb-8 text-sm">
             On-grid rooftop solar — prices after PM Surya Ghar central subsidy (residential)

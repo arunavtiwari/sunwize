@@ -1,7 +1,7 @@
 import BlogKeywords from "@/components/Blog/BlogKeywords";
 
 const keywords = [
-  "solar panel price in lucknow", "solar panel price lucknow 2025", "solar panel dealers in lucknow",
+  "solar panel price in lucknow", "solar panel price lucknow 2026", "solar panel dealers in lucknow",
   "best solar company in lucknow", "solar panel company in lucknow", "solar panel installation lucknow",
   "rooftop solar lucknow", "solar system price lucknow", "solar subsidy lucknow",
   "lesco solar net metering", "solar in lucknow", "solar panel lucknow",
@@ -19,7 +19,7 @@ const SolarPanelPriceLucknowGuide = () => (
       If you&apos;re searching for solar panel prices in Lucknow, you&apos;ve come to the right place. Lucknow — with its 5–5.5 peak sun hours per day — is one of the best cities in India for rooftop solar. And with the UP government&apos;s active participation in PM Surya Ghar Muft Bijli Yojana, residents can now go solar for as little as ₹40,000 after subsidy.
     </p>
 
-    <h2>Current Solar Panel Prices in Lucknow (2025)</h2>
+    <h2>Current Solar Panel Prices in Lucknow (2026)</h2>
     <p>
       Here are the latest indicative prices for on-grid rooftop solar systems in Lucknow, after applying the central government subsidy:
     </p>

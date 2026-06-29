@@ -9,7 +9,7 @@ const keywords = [
   "solar water heater lucknow", "solar water heating system India", "hot water solar panel India",
   "solar thermal system India", "rooftop solar water heater", "solar water heater subsidy India",
   "mnre solar water heater", "solar water heater vs heat pump", "best brand solar water heater India",
-  "solar water heater maintenance", "solar geyser price 2025", "save electricity with solar water heater",
+  "solar water heater maintenance", "solar geyser price 2026", "save electricity with solar water heater",
   "solar water heater for apartment", "solar hot water system price", "renewable heating India",
 ];
 
@@ -17,7 +17,7 @@ const SolarWaterHeatersVsElectricGeysers = () => {
   return (
     <>
       <p>
-        When it comes to heating water in Indian homes, solar water heaters and electric geysers are two popular options. With electricity rates climbing every year, making the right choice in 2025 can save you thousands annually.
+        When it comes to heating water in Indian homes, solar water heaters and electric geysers are two popular options. With electricity rates climbing every year, making the right choice in 2026 can save you thousands annually.
       </p>
 
       <h2>Solar Water Heaters — How They Work</h2>

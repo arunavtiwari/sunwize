@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solar Subsidy in Uttar Pradesh 2025 | UP Solar Panel Subsidy Guide",
+  title: "Solar Subsidy in Uttar Pradesh 2026 | UP Solar Panel Subsidy Guide",
   description:
-    "Complete guide to solar panel subsidy in Uttar Pradesh 2025. Get up to ₹78,000 central subsidy + UP state benefits under PM Surya Ghar Yojana. Sunwize helps you apply and install in Lucknow.",
+    "Complete guide to solar panel subsidy in Uttar Pradesh 2026. Get up to ₹78,000 central subsidy + UP state benefits under PM Surya Ghar Yojana. Sunwize helps you apply and install in Lucknow.",
   keywords: [
     "solar subsidy in uttar pradesh",
     "solar panel subsidy in up",
@@ -96,7 +96,7 @@ export default function SolarSubsidyUP() {
             PM Surya Ghar Yojana — Uttar Pradesh
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-5">
-            Solar Panel Subsidy in Uttar Pradesh 2025
+            Solar Panel Subsidy in Uttar Pradesh 2026
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
             Get up to <strong>₹78,000 central government subsidy</strong> on rooftop solar in UP. Sunwize helps Lucknow residents navigate every step — from application to installation to subsidy credit.
@@ -121,7 +121,7 @@ export default function SolarSubsidyUP() {
       <section className="py-12 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 text-center">
-            UP Solar Subsidy Slabs (2025)
+            UP Solar Subsidy Slabs (2026)
           </h2>
           <p className="text-center text-gray-500 mb-8 text-sm">Central government subsidy under PM Surya Ghar Muft Bijli Yojana</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
