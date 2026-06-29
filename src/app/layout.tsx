@@ -10,21 +10,26 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Sunwize Energy Systems | Solar Panel Company in Lucknow",
+    default: "Sunwize Energy Systems | Solar Panel Company in Lucknow & UP",
     template: "%s | Sunwize Energy Systems",
   },
   description:
-    "Sunwize Energy Systems is Lucknow's trusted solar panel company. Get affordable solar panel installation, rooftop solar systems, and UP government subsidy guidance for homes and businesses in Uttar Pradesh.",
+    "Sunwize Energy Systems  -  trusted solar panel installer serving Lucknow, Kanpur, Unnao, Barabanki, Sitapur, Raebareli & all of Uttar Pradesh. Affordable rooftop solar with UP government subsidy support.",
   keywords: [
     "solar panel company in lucknow",
     "solar panel installation lucknow",
-    "solar system price in lucknow",
     "solar panel price in lucknow",
-    "rooftop solar lucknow",
+    "solar company kanpur",
+    "solar panel installation kanpur",
+    "solar panel barabanki",
+    "solar panel unnao",
+    "solar panel sitapur",
+    "solar panel raebareli",
     "solar energy company uttar pradesh",
-    "solar subsidy up",
-    "solar panel dealers in lucknow",
-    "best solar company in lucknow",
+    "best solar company in up",
+    "solar subsidy uttar pradesh",
+    "solar panel dealer up",
+    "rooftop solar uttar pradesh",
   ],
   metadataBase: new URL("https://www.sunwize.co.in"),
   alternates: { canonical: "/" },
@@ -56,7 +61,7 @@ const localBusinessSchema = {
   "@id": "https://www.sunwize.co.in/#localbusiness",
   name: "Sunwize Energy Systems",
   description:
-    "Solar panel installation company in Lucknow offering residential, commercial, and housing society solar solutions with UP government subsidy assistance.",
+    "Solar panel installation company serving Lucknow, Kanpur, Unnao, Barabanki, Sitapur, Hardoi, Raebareli, Ayodhya and all of Uttar Pradesh. Residential, commercial, and housing society solar solutions with UP government subsidy assistance.",
   url: "https://www.sunwize.co.in",
   telephone: "+91-9696267463",
   address: {
@@ -74,6 +79,15 @@ const localBusinessSchema = {
   },
   areaServed: [
     { "@type": "City", name: "Lucknow" },
+    { "@type": "City", name: "Kanpur" },
+    { "@type": "City", name: "Unnao" },
+    { "@type": "City", name: "Barabanki" },
+    { "@type": "City", name: "Sitapur" },
+    { "@type": "City", name: "Hardoi" },
+    { "@type": "City", name: "Raebareli" },
+    { "@type": "City", name: "Sultanpur" },
+    { "@type": "City", name: "Ayodhya" },
+    { "@type": "City", name: "Lakhimpur Kheri" },
     { "@type": "State", name: "Uttar Pradesh" },
   ],
   serviceType: [

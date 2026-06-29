@@ -93,20 +93,20 @@ export default function SolarSubsidyUP() {
       <section className="pt-24 pb-10 bg-gradient-to-br from-green-50 to-white dark:from-gray-900 dark:to-gray-800">
         <div className="container mx-auto px-4 max-w-5xl text-center">
           <p className="text-sm font-semibold text-green-600 uppercase tracking-widest mb-3">
-            PM Surya Ghar Yojana — Uttar Pradesh
+            PM Surya Ghar Yojana  -  Uttar Pradesh
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-5">
             Solar Panel Subsidy in Uttar Pradesh 2026
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
-            Get up to <strong>₹78,000 central government subsidy</strong> on rooftop solar in UP. Sunwize helps Lucknow residents navigate every step — from application to installation to subsidy credit.
+            Get up to <strong>₹78,000 central government subsidy</strong> on rooftop solar in UP. Sunwize helps Lucknow residents navigate every step  -  from application to installation to subsidy credit.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
               href="/contact"
               className="bg-green-600 text-white font-semibold px-8 py-3 rounded-full hover:bg-green-700 transition"
             >
-              Apply with Our Help — Free
+              Apply with Our Help  -  Free
             </Link>
             <Link
               href="/solar-panel-price-lucknow"
@@ -145,7 +145,7 @@ export default function SolarSubsidyUP() {
       <section className="py-12 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">
-            How to Get Solar Subsidy in UP — Step by Step
+            How to Get Solar Subsidy in UP  -  Step by Step
           </h2>
           <div className="space-y-4">
             {steps.map((s, i) => (
@@ -162,13 +162,13 @@ export default function SolarSubsidyUP() {
           </div>
           <div className="mt-8 text-center">
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Sunwize handles Steps 4–6 for you — installation, DISCOM coordination, and subsidy follow-up.
+              Sunwize handles Steps 4–6 for you  -  installation, DISCOM coordination, and subsidy follow-up.
             </p>
             <Link
               href="/contact"
               className="bg-primary text-white font-semibold px-8 py-3 rounded-full hover:bg-primary/90 transition"
             >
-              Let Us Handle It — Get Started
+              Let Us Handle It  -  Get Started
             </Link>
           </div>
         </div>
@@ -205,7 +205,7 @@ export default function SolarSubsidyUP() {
             href="/contact"
             className="bg-white text-green-700 font-bold px-10 py-4 rounded-full hover:bg-white/90 transition text-lg"
           >
-            Contact Sunwize — Free Consultation
+            Contact Sunwize  -  Free Consultation
           </Link>
         </div>
       </section>

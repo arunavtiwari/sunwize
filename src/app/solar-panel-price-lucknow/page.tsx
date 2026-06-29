@@ -4,18 +4,24 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Solar Panel Price in Lucknow 2026 | Best Solar Dealers in Lucknow",
   description:
-    "Get the latest solar panel prices in Lucknow 2026. 1kW system from ₹32,000 after UP subsidy. Compare prices, installers & get a free quote from Sunwize — Lucknow's leading solar panel dealer.",
+    "Get the latest solar panel prices in Lucknow 2026. 1kW system from ₹32,000 after UP subsidy. Compare prices, installers & get a free quote from Sunwize  -  Lucknow's leading solar panel dealer.",
   keywords: [
     "solar panel price in lucknow",
     "solar panel price lucknow",
     "solar panel dealers in lucknow",
     "best solar company in lucknow",
-    "solar panel company in lucknow",
-    "solar panel installation lucknow",
-    "solar in lucknow",
-    "rooftop solar price lucknow",
-    "solar panel lucknow",
-    "solar system price lucknow",
+    "solar panel price kanpur",
+    "solar company kanpur",
+    "solar panel barabanki",
+    "solar panel unnao",
+    "solar panel sitapur",
+    "solar panel raebareli",
+    "solar panel hardoi",
+    "solar panel installation uttar pradesh",
+    "solar system price uttar pradesh",
+    "rooftop solar price up",
+    "solar panel near me lucknow",
+    "solar panel near me kanpur",
   ],
   alternates: { canonical: "https://www.sunwize.co.in/solar-panel-price-lucknow" },
 };
@@ -209,7 +215,7 @@ export default function SolarPanelPriceLucknow() {
               { icon: "⚡", title: "Net Metering Setup", desc: "We coordinate with LESCO/UPPCL for net metering so you earn credit for excess power sent to the grid." },
               { icon: "🔧", title: "AMC & 24/7 Support", desc: "Annual maintenance contracts and round-the-clock customer support keep your system running at peak efficiency." },
               { icon: "📋", title: "Certified Installers", desc: "MNRE-empanelled, ALMM-compliant panels installed by trained technicians with safety certification." },
-              { icon: "📈", title: "Free ROI Projection", desc: "We provide a detailed savings report before you commit — showing your exact payback period and 25-year savings." },
+              { icon: "📈", title: "Free ROI Projection", desc: "We provide a detailed savings report before you commit  -  showing your exact payback period and 25-year savings." },
             ].map((item, i) => (
               <div key={i} className="bg-white dark:bg-gray-900 rounded-xl p-6 shadow-sm">
                 <div className="text-4xl mb-3">{item.icon}</div>
@@ -222,6 +228,35 @@ export default function SolarPanelPriceLucknow() {
       </section>
 
       <section className="py-12 bg-white dark:bg-gray-900">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 text-center">
+            Solar Panel Installation Across Lucknow & Neighbouring UP Districts
+          </h2>
+          <p className="text-center text-gray-500 dark:text-gray-400 mb-10 max-w-2xl mx-auto">
+            Sunwize serves Lucknow and all surrounding districts in Uttar Pradesh. Same-day site visits, identical pricing, and full UP subsidy support - wherever you are.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {[
+              { city: "Kanpur", desc: "Solar panels in Kanpur for homes and factories. High industrial solar demand and strong net metering support from PVVNL.", kw: "solar panel kanpur, solar company kanpur, rooftop solar kanpur" },
+              { city: "Unnao", desc: "Solar installations in Unnao with full PM Surya Ghar subsidy support. Close proximity means fast deployment and same-day site visits.", kw: "solar panel unnao, solar installer unnao up" },
+              { city: "Barabanki", desc: "Solar energy for homes and farms in Barabanki. We cover all tehsils including Fatehpur, Ramnagar, and Nawabganj.", kw: "solar panel barabanki, solar company barabanki up" },
+              { city: "Sitapur", desc: "Rooftop solar in Sitapur with UPNEDA-compliant installations and direct subsidy credit to your bank.", kw: "solar panel sitapur, solar energy sitapur" },
+              { city: "Hardoi", desc: "Solar panel installation in Hardoi for residential and commercial customers. Full technical support included.", kw: "solar panel hardoi, solar installer hardoi up" },
+              { city: "Raebareli", desc: "Going solar in Raebareli? Sunwize handles site survey, installation, net metering, and subsidy paperwork end-to-end.", kw: "solar panel raebareli, solar company raebareli" },
+              { city: "Ayodhya", desc: "Solar installations in Ayodhya for homes, shops, and commercial buildings. Clean energy for a historic city.", kw: "solar panel ayodhya, rooftop solar ayodhya up" },
+              { city: "Sultanpur", desc: "Sunwize now serves Sultanpur with the same trusted solar installation service. Contact us for a free site assessment.", kw: "solar panel sultanpur, solar energy sultanpur" },
+            ].map((item, i) => (
+              <div key={i} className="bg-gray-50 dark:bg-gray-800 rounded-xl p-5 border border-gray-100 dark:border-gray-700">
+                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Solar in {item.city}</h3>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">{item.desc}</p>
+                <p className="text-xs text-gray-400 dark:text-gray-500 italic">{item.kw}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-4 max-w-3xl">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">
             Frequently Asked Questions

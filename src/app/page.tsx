@@ -10,16 +10,25 @@ import { Metadata } from "next";
 import EndToEndService from "@/components/About/EndtoEndService";
 
 export const metadata: Metadata = {
-  title: "Best Solar Panel Company in Lucknow | Sunwize Energy Systems",
+  title: "Solar Panel Company in Lucknow, Kanpur & UP | Sunwize Energy Systems",
   description:
-    "Sunwize Energy Systems — Lucknow's #1 solar panel installer. Affordable rooftop solar for homes, businesses & housing societies in Uttar Pradesh. Get UP government subsidy support. Free site assessment.",
+    "Sunwize Energy Systems  -  trusted solar installer across Lucknow, Kanpur, Barabanki, Unnao, Sitapur, Raebareli & Uttar Pradesh. Affordable rooftop solar for homes & businesses. UP subsidy support included.",
   keywords: [
     "solar panel company in lucknow",
     "solar panel lucknow",
     "solar panel price in lucknow",
-    "rooftop solar lucknow",
-    "solar system lucknow",
+    "solar company kanpur",
+    "solar panel kanpur",
+    "solar panel price kanpur",
+    "solar panel barabanki",
+    "solar panel unnao",
+    "solar panel sitapur",
+    "solar panel raebareli",
+    "solar panel hardoi",
+    "solar company uttar pradesh",
+    "best solar company in up",
     "solar subsidy uttar pradesh",
+    "rooftop solar up",
     "solar panel installer lucknow",
   ],
   alternates: { canonical: "https://www.sunwize.co.in/" },

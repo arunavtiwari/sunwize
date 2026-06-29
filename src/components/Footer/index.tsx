@@ -49,8 +49,9 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            <p className="text-base text-white-subtle dark:text-white">
-            Our expertise in solar photovoltaic technologies insures you green and sustainable energy harnessed through a combination of quality products and proved engineering.</p>
+            <p>
+            Two decades of solar EPC expertise, delivering clean, reliable energy through quality components and engineering that people trust.</p>
+            <p className="text-sm mt-2 text-white-subtle dark:text-white" >Proud member of BNI Lucknow North</p>
           </div>
 
           {/* Contact Info */}

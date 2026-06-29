@@ -29,6 +29,12 @@ const Hero = () => {
                   >
                     Sign Up for Free Electricity {'->'}
                   </Link>
+                  <Link
+                    href="/solar-panel-price-lucknow"
+                    className="rounded-full border border-white px-8 py-4 text-base font-semibold text-white duration-300 hover:bg-white/10"
+                  >
+                    View Solar Prices
+                  </Link>
                 </div>
               </div>
             </div>

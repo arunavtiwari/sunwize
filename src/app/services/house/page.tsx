@@ -29,7 +29,7 @@ export default function HouseServicePage() {
             </h1>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
               Take control of your energy bills with clean, affordable solar power. We provide
-              custom-designed solar solutions tailored for Indian households—easy installation,
+              custom-designed solar solutions tailored for Indian households - easy installation,
               government subsidies, and zero maintenance stress.
             </p>
 

@@ -16,7 +16,7 @@ const keywords = [
 const SolarPanelPriceLucknowGuide = () => (
   <article>
     <p>
-      If you&apos;re searching for solar panel prices in Lucknow, you&apos;ve come to the right place. Lucknow — with its 5–5.5 peak sun hours per day — is one of the best cities in India for rooftop solar. And with the UP government&apos;s active participation in PM Surya Ghar Muft Bijli Yojana, residents can now go solar for as little as ₹40,000 after subsidy.
+      If you&apos;re searching for solar panel prices in Lucknow, you&apos;ve come to the right place. Lucknow  -  with its 5–5.5 peak sun hours per day  -  is one of the best cities in India for rooftop solar. And with the UP government&apos;s active participation in PM Surya Ghar Muft Bijli Yojana, residents can now go solar for as little as ₹40,000 after subsidy.
     </p>
 
     <h2>Current Solar Panel Prices in Lucknow (2026)</h2>
@@ -28,7 +28,7 @@ const SolarPanelPriceLucknowGuide = () => (
       <li><strong>2 kW system</strong>: ₹1,40,000 gross → ₹80,000 after ₹60,000 subsidy</li>
       <li><strong>3 kW system</strong>: ₹2,10,000 gross → ₹1,32,000 after ₹78,000 subsidy</li>
       <li><strong>5 kW system</strong>: ₹3,50,000 gross → ₹2,72,000 after ₹78,000 subsidy</li>
-      <li><strong>10 kW system</strong>: ₹7,00,000 (commercial — no residential subsidy)</li>
+      <li><strong>10 kW system</strong>: ₹7,00,000 (commercial  -  no residential subsidy)</li>
     </ul>
     <p>
       All prices include solar panels, inverter, mounting structure, wiring, net metering application, and 5-year AMC. Prices may vary based on panel brand, roof type, and installation complexity.
@@ -36,7 +36,7 @@ const SolarPanelPriceLucknowGuide = () => (
 
     <h2>Why Solar Makes Sense in Lucknow</h2>
     <p>
-      Lucknow experiences high electricity bills — especially in summer when ACs run all day. The city also receives excellent solar irradiance throughout the year, making rooftop solar one of the highest-ROI investments you can make as a homeowner or business.
+      Lucknow experiences high electricity bills  -  especially in summer when ACs run all day. The city also receives excellent solar irradiance throughout the year, making rooftop solar one of the highest-ROI investments you can make as a homeowner or business.
     </p>
     <p>
       With LESCO (Lucknow Electricity Supply Company) electricity rates at ₹6–8 per unit for residential consumers, a 3kW system generating 300–360 units per month can save you ₹2,000–3,000 every single month.
@@ -52,7 +52,7 @@ const SolarPanelPriceLucknowGuide = () => (
       <li>₹78,000 for 3kW and above</li>
     </ul>
     <p>
-      The subsidy is directly credited to your bank account after LESCO inspection. Sunwize handles the entire subsidy process — from portal registration to final credit — as part of every installation in Lucknow.
+      The subsidy is directly credited to your bank account after LESCO inspection. Sunwize handles the entire subsidy process  -  from portal registration to final credit  -  as part of every installation in Lucknow.
     </p>
 
     <h2>How to Choose a Solar Company in Lucknow</h2>
@@ -60,11 +60,11 @@ const SolarPanelPriceLucknowGuide = () => (
       When selecting a solar installer in Lucknow, look for:
     </p>
     <ul>
-      <li><strong>MNRE empanelment</strong> — mandatory for subsidy eligibility</li>
-      <li><strong>ALMM-listed panels</strong> — only government-approved panel brands qualify</li>
-      <li><strong>Local presence</strong> — for fast after-sales service and AMC</li>
-      <li><strong>Net metering experience</strong> — LESCO coordination requires expertise</li>
-      <li><strong>Transparent pricing</strong> — full breakdown, no hidden charges</li>
+      <li><strong>MNRE empanelment</strong>  -  mandatory for subsidy eligibility</li>
+      <li><strong>ALMM-listed panels</strong>  -  only government-approved panel brands qualify</li>
+      <li><strong>Local presence</strong>  -  for fast after-sales service and AMC</li>
+      <li><strong>Net metering experience</strong>  -  LESCO coordination requires expertise</li>
+      <li><strong>Transparent pricing</strong>  -  full breakdown, no hidden charges</li>
     </ul>
     <p>
       Sunwize Energy Systems, based in Lucknow, meets all these criteria and has completed installations across Gomti Nagar, Hazratganj, Indira Nagar, Aliganj, Kanpur Road, and other localities.
@@ -85,7 +85,7 @@ const SolarPanelPriceLucknowGuide = () => (
 
     <h2>Ready to Go Solar in Lucknow?</h2>
     <p>
-      Contact Sunwize Energy Systems for a free site assessment. Our team will visit your home, analyse your roof, check for shading, and provide a precise quote — all at no cost to you.
+      Contact Sunwize Energy Systems for a free site assessment. Our team will visit your home, analyse your roof, check for shading, and provide a precise quote  -  all at no cost to you.
     </p>
     <BlogKeywords keywords={keywords} />
   </article>

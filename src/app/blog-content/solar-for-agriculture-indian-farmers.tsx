@@ -20,7 +20,7 @@ const SolarForAgriculture = () => {
         Solar energy is transforming Indian agriculture by powering irrigation pumps and reducing farmers&apos; reliance on costly diesel or unreliable grid electricity. With the PM KUSUM scheme offering up to 90% subsidy on solar pumps, going solar has never been more accessible for Indian farmers.
       </p>
 
-      <h2>PM KUSUM Scheme — Solar Pumps for Farmers</h2>
+      <h2>PM KUSUM Scheme  -  Solar Pumps for Farmers</h2>
       <p>
         The Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan (PM KUSUM) scheme provides farmers with:
       </p>
@@ -35,7 +35,7 @@ const SolarForAgriculture = () => {
 
       <h2>Benefits of Solar Pumps for Farmers</h2>
       <ul>
-        <li>Eliminates diesel cost — average saving of ₹40,000–₹80,000/year per pump</li>
+        <li>Eliminates diesel cost  -  average saving of ₹40,000–₹80,000/year per pump</li>
         <li>No dependence on erratic grid electricity supply</li>
         <li>Reliable water supply for crops, day and night (with battery option)</li>
         <li>Extra income by selling excess electricity to DISCOMs</li>

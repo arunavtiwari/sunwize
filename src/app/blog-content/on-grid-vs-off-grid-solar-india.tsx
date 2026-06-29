@@ -27,7 +27,7 @@ const OnGridVsOffGridSolarIndia = () => {
 
       <h2>Benefits of On-Grid Solar</h2>
       <ul>
-        <li>Lower initial cost — no batteries needed</li>
+        <li>Lower initial cost  -  no batteries needed</li>
         <li>Net metering: sell excess power back to DISCOM</li>
         <li>Eligible for PM Surya Ghar government subsidy</li>
         <li>Ideal for cities with reliable grid supply</li>
@@ -53,7 +53,7 @@ const OnGridVsOffGridSolarIndia = () => {
 
       <h2>Which One to Choose?</h2>
       <p>
-        For most urban Indian homes and businesses — especially in Lucknow and UP — on-grid systems are cost-effective and practical. Off-grid systems suit rural areas, farms, or places with unreliable grid power. A hybrid system (on-grid + battery backup) is a good middle ground if you want both net metering savings and backup power.
+        For most urban Indian homes and businesses  -  especially in Lucknow and UP  -  on-grid systems are cost-effective and practical. Off-grid systems suit rural areas, farms, or places with unreliable grid power. A hybrid system (on-grid + battery backup) is a good middle ground if you want both net metering savings and backup power.
       </p>
 
       <BlogKeywords keywords={keywords} />

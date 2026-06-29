@@ -93,7 +93,7 @@ const faqSchema = {
       name: "What is the price of a 3kW solar panel system in India?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A 3kW solar panel system in India in 2026 costs approximately ₹1,85,000 before subsidy — down ~12% from 2024 due to expanded domestic manufacturing capacity. After the PM Surya Ghar central government subsidy of ₹78,000, the net cost is around ₹1,07,000. The exact price varies by state, brand, and installer.",
+        text: "A 3kW solar panel system in India in 2026 costs approximately ₹1,85,000 before subsidy  -  down ~12% from 2024 due to expanded domestic manufacturing capacity. After the PM Surya Ghar central government subsidy of ₹78,000, the net cost is around ₹1,07,000. The exact price varies by state, brand, and installer.",
       },
     },
     {
@@ -109,7 +109,7 @@ const faqSchema = {
       name: "What is the solar rooftop price list in India for 2026?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Solar rooftop prices in India for 2026 (after PM Surya Ghar subsidy): 1kW — ₹32,000; 2kW — ₹62,000; 3kW — ₹1,07,000; 5kW — ₹2,32,000; 10kW — ₹6,20,000 (commercial, no subsidy). Prices include panels, inverter, installation, and net metering setup.",
+        text: "Solar rooftop prices in India for 2026 (after PM Surya Ghar subsidy): 1kW  -  ₹32,000; 2kW  -  ₹62,000; 3kW  -  ₹1,07,000; 5kW  -  ₹2,32,000; 10kW  -  ₹6,20,000 (commercial, no subsidy). Prices include panels, inverter, installation, and net metering setup.",
       },
     },
     {
@@ -117,7 +117,7 @@ const faqSchema = {
       name: "How much does a solar panel system cost per month?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "There is no monthly cost for solar panels if paid upfront. If financed via loan/EMI, a 3kW system (net cost ₹1,07,000 in 2026) financed over 5 years costs about ₹1,800/month — well below the ₹2,700–3,300 in monthly electricity savings, so you are cash-flow positive from day one.",
+        text: "There is no monthly cost for solar panels if paid upfront. If financed via loan/EMI, a 3kW system (net cost ₹1,07,000 in 2026) financed over 5 years costs about ₹1,800/month  -  well below the ₹2,700–3,300 in monthly electricity savings, so you are cash-flow positive from day one.",
       },
     },
   ],
@@ -159,7 +159,7 @@ export default function SolarPanelPrice() {
             Solar System Price List India 2026
           </h2>
           <p className="text-center text-gray-500 mb-8 text-sm">
-            On-grid rooftop solar — prices after PM Surya Ghar central subsidy (residential)
+            On-grid rooftop solar  -  prices after PM Surya Ghar central subsidy (residential)
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {systems.map((s, i) => (

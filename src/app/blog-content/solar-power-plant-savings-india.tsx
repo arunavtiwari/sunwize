@@ -18,7 +18,7 @@ const SolarPowerPlantSavingsIndia = () => {
   return (
     <>
       <p>
-        Investing in a solar power plant in India offers significant savings on electricity bills and contributes to a greener environment. Here&apos;s a practical breakdown of what you can realistically expect to save — for homes, businesses, and factories.
+        Investing in a solar power plant in India offers significant savings on electricity bills and contributes to a greener environment. Here&apos;s a practical breakdown of what you can realistically expect to save  -  for homes, businesses, and factories.
       </p>
 
       <h2>Realistic Savings by System Size</h2>
@@ -34,7 +34,7 @@ const SolarPowerPlantSavingsIndia = () => {
 
       <h2>Initial Investment and Payback Period</h2>
       <p>
-        After the central government subsidy under PM Surya Ghar Yojana, a 3kW system costs around ₹1,07,000 in 2026 — down from ₹1,32,000 in 2024. At ₹2,900/month in average savings, the payback period is now approximately 3 years. After that, you generate electricity for free for the remaining 22+ years of the system&apos;s life.
+        After the central government subsidy under PM Surya Ghar Yojana, a 3kW system costs around ₹1,07,000 in 2026  -  down from ₹1,32,000 in 2024. At ₹2,900/month in average savings, the payback period is now approximately 3 years. After that, you generate electricity for free for the remaining 22+ years of the system&apos;s life.
       </p>
 
       <h2>Long-Term Savings (25-Year Lifetime)</h2>
@@ -55,7 +55,7 @@ const SolarPowerPlantSavingsIndia = () => {
 
       <h2>Maintenance Costs</h2>
       <p>
-        Solar systems require very little maintenance — mainly periodic panel cleaning (2–4 times/year) and an inverter check annually. Total annual maintenance cost is typically ₹3,000–₹8,000, which is a fraction of your savings.
+        Solar systems require very little maintenance  -  mainly periodic panel cleaning (2–4 times/year) and an inverter check annually. Total annual maintenance cost is typically ₹3,000–₹8,000, which is a fraction of your savings.
       </p>
 
       <BlogKeywords keywords={keywords} />

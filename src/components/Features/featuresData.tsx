@@ -12,7 +12,7 @@ const featuresData: Feature[] = [
     id: 2,
     picture: "/images/services/solar_installation.png", 
     title: "Solar Installation & Maintenance",
-    description: "Comprehensive turnkey EPC services—from procurement to professional installation and ongoing performance maintenance.",
+    description: "Comprehensive turnkey EPC services - from procurement to professional installation and ongoing performance maintenance.",
     button_text: "Get in Touch",
   },
   {

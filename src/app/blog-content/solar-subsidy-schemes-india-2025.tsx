@@ -56,7 +56,7 @@ const SolarSubsidySchemesIndia = () => {
 
       <h2>How to Apply for Solar Subsidy in India</h2>
       <p>
-        The easiest path is to work with an MNRE-empanelled installer like Sunwize who handles the portal registration, documentation, DISCOM coordination, and subsidy follow-up on your behalf — at no extra cost.
+        The easiest path is to work with an MNRE-empanelled installer like Sunwize who handles the portal registration, documentation, DISCOM coordination, and subsidy follow-up on your behalf  -  at no extra cost.
       </p>
 
       <BlogKeywords keywords={keywords} />

@@ -20,23 +20,23 @@ const SolarWaterHeatersVsElectricGeysers = () => {
         When it comes to heating water in Indian homes, solar water heaters and electric geysers are two popular options. With electricity rates climbing every year, making the right choice in 2026 can save you thousands annually.
       </p>
 
-      <h2>Solar Water Heaters — How They Work</h2>
+      <h2>Solar Water Heaters  -  How They Work</h2>
       <p>
         Solar water heaters use sunlight to heat water through flat-plate collectors or evacuated tube collectors (ETCs) mounted on your rooftop. Hot water is stored in an insulated tank and used throughout the day and evening without any electricity.
       </p>
 
       <h2>Advantages of Solar Water Heaters</h2>
       <ul>
-        <li>Zero electricity cost once installed — saves ₹500–₹2,000/month depending on usage</li>
+        <li>Zero electricity cost once installed  -  saves ₹500–₹2,000/month depending on usage</li>
         <li>Government subsidy available under MNRE scheme (up to 30%)</li>
         <li>Lifespan of 15–20 years with minimal maintenance</li>
         <li>Reduces household carbon footprint significantly</li>
         <li>Works well in Lucknow with 5+ peak sun hours/day</li>
       </ul>
 
-      <h2>Electric Geysers — Convenience at a Cost</h2>
+      <h2>Electric Geysers  -  Convenience at a Cost</h2>
       <p>
-        Electric geysers heat water on demand using resistance heating. They are cheaper to buy (₹5,000–₹15,000) but cost significantly more to operate — a 2kW geyser running for 2 hours daily consumes ~120 units/month, adding ₹720–₹960 to your electricity bill.
+        Electric geysers heat water on demand using resistance heating. They are cheaper to buy (₹5,000–₹15,000) but cost significantly more to operate  -  a 2kW geyser running for 2 hours daily consumes ~120 units/month, adding ₹720–₹960 to your electricity bill.
       </p>
 
       <h2>Cost Comparison Over 5 Years</h2>

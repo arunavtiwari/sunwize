@@ -24,7 +24,7 @@ const BestSolarPanelsIndia2026 = () => {
       <ul>
         <li><strong>Efficiency:</strong> Higher efficiency = more power from less roof space. Look for 20%+ for monocrystalline.</li>
         <li><strong>Wattage:</strong> Modern panels in 2026 range from 400W to 650W. Higher wattage = fewer panels needed.</li>
-        <li><strong>Temperature coefficient:</strong> Lower is better — panels degrade less in India&apos;s summer heat.</li>
+        <li><strong>Temperature coefficient:</strong> Lower is better  -  panels degrade less in India&apos;s summer heat.</li>
         <li><strong>Warranty:</strong> 25-year performance warranty (80% output at year 25) is the industry standard.</li>
         <li><strong>ALMM listing:</strong> The panel must be on India&apos;s ALMM (Approved List of Models and Manufacturers) to qualify for PM Surya Ghar subsidy.</li>
       </ul>
@@ -53,7 +53,7 @@ const BestSolarPanelsIndia2026 = () => {
 
       <h3>5. Luminous Solar</h3>
       <p>
-        A household brand in India for inverters and batteries, Luminous also offers solid solar panels. Their ecosystem — panels, inverters, and batteries from a single brand — makes them popular for residential off-grid and hybrid setups.
+        A household brand in India for inverters and batteries, Luminous also offers solid solar panels. Their ecosystem  -  panels, inverters, and batteries from a single brand  -  makes them popular for residential off-grid and hybrid setups.
       </p>
 
       <h2>Best International Brands Available in India</h2>
@@ -71,7 +71,7 @@ const BestSolarPanelsIndia2026 = () => {
 
       <h2>Our Recommendation for Lucknow</h2>
       <p>
-        At Sunwize, we install ALMM-listed Tier-1 panels including Waaree, Adani, and Vikram Solar for our Lucknow customers. All panels come with a 25-year linear performance warranty. We choose the brand based on availability, current pricing, and system requirements — always prioritising long-term reliability over short-term cost savings.
+        At Sunwize, we install ALMM-listed Tier-1 panels including Waaree, Adani, and Vikram Solar for our Lucknow customers. All panels come with a 25-year linear performance warranty. We choose the brand based on availability, current pricing, and system requirements  -  always prioritising long-term reliability over short-term cost savings.
       </p>
 
       <BlogKeywords keywords={keywords} />

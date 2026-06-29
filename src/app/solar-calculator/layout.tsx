@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Solar Calculator — Estimate Your System Size & Savings | Sunwize",
+  title: "Solar Calculator  -  Estimate Your System Size & Savings | Sunwize",
   description:
     "Use Sunwize's free solar calculator to estimate the right solar system size for your home or business in Lucknow. Enter your monthly bill and get instant savings, subsidy & ROI projections.",
   keywords: [

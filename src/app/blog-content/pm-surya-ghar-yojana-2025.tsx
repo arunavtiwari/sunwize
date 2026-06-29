@@ -25,7 +25,7 @@ const PmSuryaGharYojana2026 = () => {
         PM Surya Ghar Yojana provides Indian homeowners with direct financial subsidies to install rooftop solar panels. The government has allocated ₹75,021 crore for the scheme, making it one of the largest clean energy investments in Indian history.
       </p>
       <p>
-        Under the scheme, homes can generate solar power for free daily consumption and sell surplus electricity back to the grid through net metering — effectively receiving credit on their electricity bill.
+        Under the scheme, homes can generate solar power for free daily consumption and sell surplus electricity back to the grid through net metering  -  effectively receiving credit on their electricity bill.
       </p>
 
       <h2>Subsidy Amounts Under PM Surya Ghar Yojana (2026)</h2>
@@ -35,7 +35,7 @@ const PmSuryaGharYojana2026 = () => {
         <li><strong>3 kW and above:</strong> ₹78,000 central subsidy (maximum)</li>
       </ul>
       <p>
-        The subsidy is transferred directly to your bank account (DBT — Direct Benefit Transfer) within 30 days of your DISCOM completing inspection. You do not receive it in cash at the time of purchase.
+        The subsidy is transferred directly to your bank account (DBT  -  Direct Benefit Transfer) within 30 days of your DISCOM completing inspection. You do not receive it in cash at the time of purchase.
       </p>
 
       <h2>Who is Eligible?</h2>
@@ -44,7 +44,7 @@ const PmSuryaGharYojana2026 = () => {
         <li>Valid Aadhaar card linked to your bank account</li>
         <li>Suitable rooftop (minimum 100 sq. ft. shadow-free area for 1kW)</li>
         <li>Electricity bill in your name (or registered family member)</li>
-        <li>Scheme is for residential use only — commercial consumers are not eligible</li>
+        <li>Scheme is for residential use only  -  commercial consumers are not eligible</li>
       </ul>
 
       <h2>How to Apply Online (Step by Step)</h2>
@@ -65,17 +65,17 @@ const PmSuryaGharYojana2026 = () => {
         In UP, the scheme is implemented through UPPCL (Uttar Pradesh Power Corporation Limited) and local DISCOMs including LESCO (Lucknow), PVVNL (Pashchimanchal), MVVNL (Madhyanchal), and others. Lucknow-based applicants apply through LESCO, which has an active team processing net metering connections.
       </p>
       <p>
-        UP also has its own UPNEDA Solar Policy which may offer additional state-level benefits over and above the central subsidy — making UP one of the best states in India to go solar in 2026.
+        UP also has its own UPNEDA Solar Policy which may offer additional state-level benefits over and above the central subsidy  -  making UP one of the best states in India to go solar in 2026.
       </p>
 
       <h2>How Much Can You Save?</h2>
       <p>
-        A family using 300 units per month with a 3kW system could eliminate their electricity bill entirely. With UP residential rates now at ₹7–9/unit in 2026, that&apos;s ₹2,100–₹2,700 saved every month, or ₹25,200–₹32,400 per year. Over 25 years, total savings can exceed ₹9 lakh — from an investment that costs just ₹1,07,000 after subsidy at today&apos;s prices.
+        A family using 300 units per month with a 3kW system could eliminate their electricity bill entirely. With UP residential rates now at ₹7–9/unit in 2026, that&apos;s ₹2,100–₹2,700 saved every month, or ₹25,200–₹32,400 per year. Over 25 years, total savings can exceed ₹9 lakh  -  from an investment that costs just ₹1,07,000 after subsidy at today&apos;s prices.
       </p>
 
       <h2>Why Act Now?</h2>
       <p>
-        The PM Surya Ghar scheme has seen overwhelming demand — over 2.8 crore registrations as of mid-2026. Subsidy funds are allocated state-wise and can be exhausted. Applying early ensures you lock in the current subsidy rates before any policy revision.
+        The PM Surya Ghar scheme has seen overwhelming demand  -  over 2.8 crore registrations as of mid-2026. Subsidy funds are allocated state-wise and can be exhausted. Applying early ensures you lock in the current subsidy rates before any policy revision.
       </p>
 
       <BlogKeywords keywords={keywords} />
