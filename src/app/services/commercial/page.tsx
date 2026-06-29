@@ -1,5 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Commercial Solar Solutions in Lucknow | Industrial Solar Panels",
+  description:
+    "Commercial & industrial solar panel installation in Lucknow, UP. High-capacity rooftop & ground-mounted systems for factories, offices & retail. ROI projections, energy audit, ESG reporting. Free consultation.",
+  keywords: [
+    "commercial solar lucknow",
+    "industrial solar panel lucknow",
+    "solar panel for factory lucknow",
+    "commercial solar installation uttar pradesh",
+    "best solar company lucknow commercial",
+    "solar power plant lucknow",
+  ],
+  alternates: { canonical: "https://www.sunwize.co.in/services/commercial" },
+};
 
 export default function CommercialServicePage() {
   return (

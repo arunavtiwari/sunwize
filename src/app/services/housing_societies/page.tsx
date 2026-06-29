@@ -1,5 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Solar for Housing Societies & Apartments in Lucknow | Sunwize",
+  description:
+    "Community solar solutions for housing societies, RWAs & apartment complexes in Lucknow, UP. Shared rooftop systems, individual flat-wise billing, centralized inverters & 24/7 monitoring. Book a free site survey.",
+  keywords: [
+    "solar for housing society lucknow",
+    "apartment solar panel lucknow",
+    "rwa solar installation lucknow",
+    "community solar lucknow",
+    "solar rooftop housing society uttar pradesh",
+  ],
+  alternates: { canonical: "https://www.sunwize.co.in/services/housing_societies" },
+};
 
 export default function HousingSocietiesServicePage() {
   return (

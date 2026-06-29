@@ -1,5 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Residential Solar Panel Installation in Lucknow | Home Solar Systems",
+  description:
+    "Get solar panels for your home in Lucknow. Custom rooftop solar systems starting at ₹70,000 with UP government subsidy up to ₹78,000. Net metering, 24/7 support. Free site assessment.",
+  keywords: [
+    "solar panel for home lucknow",
+    "residential solar installation lucknow",
+    "home solar system lucknow",
+    "solar panel installation lucknow",
+    "solar subsidy home lucknow",
+    "rooftop solar panel lucknow",
+  ],
+  alternates: { canonical: "https://www.sunwize.co.in/services/house" },
+};
 
 export default function HouseServicePage() {
   return (

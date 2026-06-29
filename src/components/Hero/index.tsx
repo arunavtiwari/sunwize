@@ -16,20 +16,24 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[950px] text-center py-12 px-4 sm:px-6 lg:px-8">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl md:text-5xl">
-                  Power your space⚡, not your bills🙅🏻‍♀️
+                  Lucknow&apos;s Trusted Solar Panel Company
                 </h1>
                 <p className="mb-12 text-base leading-relaxed text-white dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Sleek solar solutions for modern homes,
-                  businesses, and communities
+                  Affordable rooftop solar for homes, businesses &amp; housing societies across Lucknow &amp; Uttar Pradesh — with UP government subsidy support
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="/contact"
                     className="rounded-full bg-primary px-8 py-4 text-base font-semibold text-white duration-300 hover:bg-primary/80"
                   >
-                    Sign Up for Free Electricity {'->'}
+                    Get Free Solar Assessment
                   </Link>
-                
+                  <Link
+                    href="/solar-panel-price-lucknow"
+                    className="rounded-full border border-white px-8 py-4 text-base font-semibold text-white duration-300 hover:bg-white/10"
+                  >
+                    View Solar Prices
+                  </Link>
                 </div>
               </div>
             </div>

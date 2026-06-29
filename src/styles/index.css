@@ -178,28 +178,132 @@ layer(base);
 
 .blogContent {
   font-family: system-ui, sans-serif;
-  line-height: 1.7;
-  color: #1a1a1a;
+  line-height: 1.8;
+  color: #374151;
+  font-size: 1rem;
+}
+
+.dark .blogContent {
+  color: #d1d5db;
 }
 
 .blogContent h2 {
   font-size: 1.5rem;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  font-weight: 700;
+  color: #111827;
+  border-left: 4px solid #bccc0d;
+  padding-left: 0.75rem;
+  line-height: 1.3;
+}
+
+.dark .blogContent h2 {
+  color: #f9fafb;
+}
+
+.blogContent h3 {
+  font-size: 1.2rem;
   margin-top: 1.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.4em;
   font-weight: 600;
+  color: #1f2937;
+}
+
+.dark .blogContent h3 {
+  color: #e5e7eb;
 }
 
 .blogContent p {
-  margin-bottom: 1em;
+  margin-bottom: 1.2em;
+}
+
+.blogContent ul,
+.blogContent ol {
+  margin-left: 1.5em;
+  margin-bottom: 1.2em;
 }
 
 .blogContent ul {
   list-style: disc;
-  margin-left: 1.5em;
-  margin-bottom: 1em;
+}
+
+.blogContent ol {
+  list-style: decimal;
 }
 
 .blogContent li {
   margin-bottom: 0.5em;
+  padding-left: 0.25em;
+}
+
+.blogContent strong {
+  font-weight: 600;
+  color: #111827;
+}
+
+.dark .blogContent strong {
+  color: #f3f4f6;
+}
+
+.blogContent table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  display: block;
+}
+
+.blogContent th {
+  background-color: #bccc0d;
+  color: #fff;
+  padding: 0.6em 1em;
+  text-align: left;
+  font-weight: 600;
+}
+
+.blogContent td {
+  padding: 0.55em 1em;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+}
+
+.dark .blogContent td {
+  border-color: #374151;
+  color: #d1d5db;
+}
+
+.blogContent tr:nth-child(even) td {
+  background-color: #f9fafb;
+}
+
+.dark .blogContent tr:nth-child(even) td {
+  background-color: #1f2937;
+}
+
+.blogContent blockquote {
+  border-left: 4px solid #bccc0d;
+  background: #f9fafb;
+  padding: 1em 1.25em;
+  margin: 1.5em 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.dark .blogContent blockquote {
+  background: #1f2937;
+  color: #9ca3af;
+}
+
+.blogContent a {
+  color: #bccc0d;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.blogContent a:hover {
+  color: #a3b00b;
 }
 
