@@ -10,6 +10,7 @@ import SolarPanelPriceLucknowGuide from "@/app/blog-content/solar-panel-price-lu
 import PmSuryaGharYojana2026 from "@/app/blog-content/pm-surya-ghar-yojana-2025";
 import BestSolarPanelsIndia2026 from "@/app/blog-content/best-solar-panels-india-2025";
 import SolarPanelMaintenanceIndia from "@/app/blog-content/solar-panel-maintenance-india";
+import SolarForSmallBusinessesUp from "@/app/blog-content/solar-for-small-businesses-up";
 import blogData from "@/components/Blog/blogData";
 
 const blogContentComponents = {
@@ -22,6 +23,7 @@ const blogContentComponents = {
   "pm-surya-ghar-yojana-2026": PmSuryaGharYojana2026,
   "best-solar-panels-india-2026": BestSolarPanelsIndia2026,
   "solar-panel-maintenance-india": SolarPanelMaintenanceIndia,
+  "solar-for-small-businesses-up": SolarForSmallBusinessesUp,
 };
 
 export default async function BlogDetailsPage(

@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 10,
+    title: "Solar for Small Businesses in UP: Savings, Net Metering, and Tax Benefits Explained",
+    paragraph:
+      "Commercial electricity in UP costs Rs 7-9 per unit in 2026. Here is how small businesses in Lucknow and across Uttar Pradesh can cut bills by 70-90 percent with rooftop solar, net metering, and smart tax planning.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["small business", "UP", "commercial solar"],
+    publishDate: "July 2026",
+    slug: "solar-for-small-businesses-up",
+    readTime: "7 min read",
+  },
+  {
     id: 9,
     title: "PM Surya Ghar Muft Bijli Yojana 2026  -  Complete Guide for Indian Homeowners",
     paragraph:
