@@ -11,6 +11,7 @@ import PmSuryaGharYojana2026 from "@/app/blog-content/pm-surya-ghar-yojana-2025"
 import BestSolarPanelsIndia2026 from "@/app/blog-content/best-solar-panels-india-2025";
 import SolarPanelMaintenanceIndia from "@/app/blog-content/solar-panel-maintenance-india";
 import SolarForSmallBusinessesUp from "@/app/blog-content/solar-for-small-businesses-up";
+import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
 const blogContentComponents = {
@@ -93,12 +94,21 @@ export default async function BlogDetailsPage(
 
             <div className="mb-10 w-full overflow-hidden rounded-sm">
               <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  fill
-                  className="object-cover object-center rounded"
-                />
+                {blog.image && blog.image.trim() ? (
+                  <Image
+                    src={blog.image}
+                    alt={blog.title}
+                    fill
+                    className="object-cover object-center rounded"
+                  />
+                ) : (
+                  <BlogCover
+                    title={blog.title}
+                    tag={blog.tags?.[0]}
+                    slug={blog.slug}
+                    className="absolute inset-0 h-full w-full rounded object-cover object-center"
+                  />
+                )}
               </div>
             </div>
 

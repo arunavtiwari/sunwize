@@ -1,6 +1,7 @@
 import { Blog } from "@/types/blog";
 import Image from "next/image";
 import Link from "next/link";
+import BlogCover from "./BlogCover";
 
 const SingleBlog = ({ blog }: { blog: Blog }) => {
   const { title, image, paragraph, author, tags, publishDate, slug, readTime } = blog;
@@ -9,12 +10,21 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
     <article className="group flex flex-col h-full rounded-2xl overflow-hidden bg-white dark:bg-gray-900 shadow-sm border border-gray-100 dark:border-gray-800 hover:shadow-md hover:-translate-y-1 transition-all duration-300">
       {/* Image */}
       <Link href={`/blog-details/${slug}`} className="relative aspect-[16/9] w-full overflow-hidden block flex-shrink-0">
-        <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
-        />
+        {image && image.trim() ? (
+          <Image
+            src={image}
+            alt={title}
+            fill
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <BlogCover
+            title={title}
+            tag={tags?.[0]}
+            slug={slug}
+            className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
         {tags?.[0] && (
           <span className="absolute bottom-3 left-3 bg-primary text-white text-[11px] font-semibold px-2.5 py-1 rounded-full capitalize tracking-wide">
