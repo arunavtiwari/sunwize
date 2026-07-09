@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 11,
+    title: "Solar Battery Storage in India 2026: Do You Really Need a Battery with Your Solar System?",
+    paragraph:
+      "Battery storage adds resilience and evening energy independence to your rooftop solar setup - but it is not always the right investment. Here is how to decide for UP homes and businesses in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["battery storage", "hybrid solar", "UP"],
+    publishDate: "July 2026",
+    slug: "solar-battery-storage-india-2026",
+    readTime: "7 min read",
+  },
+  {
     id: 10,
     title: "Solar for Small Businesses in UP: Savings, Net Metering, and Tax Benefits Explained",
     paragraph:
