@@ -12,6 +12,7 @@ import BestSolarPanelsIndia2026 from "@/app/blog-content/best-solar-panels-india
 import SolarPanelMaintenanceIndia from "@/app/blog-content/solar-panel-maintenance-india";
 import SolarForSmallBusinessesUp from "@/app/blog-content/solar-for-small-businesses-up";
 import SolarBatteryStorageIndia2026 from "@/app/blog-content/solar-battery-storage-india-2026";
+import NetMeteringGuideUppcl from "@/app/blog-content/net-metering-guide-uppcl";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -27,6 +28,7 @@ const blogContentComponents = {
   "solar-panel-maintenance-india": SolarPanelMaintenanceIndia,
   "solar-for-small-businesses-up": SolarForSmallBusinessesUp,
   "solar-battery-storage-india-2026": SolarBatteryStorageIndia2026,
+  "net-metering-guide-uppcl": NetMeteringGuideUppcl,
 };
 
 export default async function BlogDetailsPage(

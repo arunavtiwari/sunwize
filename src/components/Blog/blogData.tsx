@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 12,
+    title: "Net Metering in UP 2026: How to Apply Under UPPCL and Maximise Your Solar Savings",
+    paragraph:
+      "Net metering lets rooftop solar owners in Uttar Pradesh export surplus power to the UPPCL grid and earn credits against future bills. Here is a complete step-by-step guide to applying, understanding your bill, and getting the most from your solar investment in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["net metering", "UPPCL", "Lucknow"],
+    publishDate: "July 2026",
+    slug: "net-metering-guide-uppcl",
+    readTime: "7 min read",
+  },
+  {
     id: 11,
     title: "Solar Battery Storage in India 2026: Do You Really Need a Battery with Your Solar System?",
     paragraph:
