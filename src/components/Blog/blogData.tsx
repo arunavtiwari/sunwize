@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 13,
+    title: "Solar for Apartments in India: How Flat Owners in UP Can Go Solar in 2026",
+    paragraph:
+      "Living in a flat doesn't mean you're locked out of solar. This guide explains how apartment residents in Lucknow, Kanpur, and across UP can use group net metering, housing society installations, and PM Surya Ghar subsidy to cut their electricity bills in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["apartments", "group net metering", "UP"],
+    publishDate: "July 2026",
+    slug: "solar-for-apartments-india",
+    readTime: "7 min read",
+  },
+  {
     id: 12,
     title: "Net Metering in UP 2026: How to Apply Under UPPCL and Maximise Your Solar Savings",
     paragraph:
