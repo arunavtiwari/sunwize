@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 14,
+    title: "Solar Panel Performance in North India Winters: What UP Homeowners Need to Know",
+    paragraph:
+      "Dense fog, shorter days, and cold temperatures all affect rooftop solar in Lucknow and across UP from December to February. Here is exactly what to expect from your system in winter - and why the numbers are better than most people fear.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["winter solar", "North India", "UP performance"],
+    publishDate: "July 2026",
+    slug: "solar-performance-winter-north-india",
+    readTime: "7 min read",
+  },
+  {
     id: 13,
     title: "Solar for Apartments in India: How Flat Owners in UP Can Go Solar in 2026",
     paragraph:
