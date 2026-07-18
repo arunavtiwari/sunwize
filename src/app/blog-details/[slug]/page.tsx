@@ -15,6 +15,7 @@ import SolarBatteryStorageIndia2026 from "@/app/blog-content/solar-battery-stora
 import NetMeteringGuideUppcl from "@/app/blog-content/net-metering-guide-uppcl";
 import SolarForApartmentsIndia from "@/app/blog-content/solar-for-apartments-india";
 import SolarPerformanceWinterNorthIndia from "@/app/blog-content/solar-performance-winter-north-india";
+import PmKusumSolarPumpUp from "@/app/blog-content/pm-kusum-solar-pump-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -33,6 +34,7 @@ const blogContentComponents = {
   "net-metering-guide-uppcl": NetMeteringGuideUppcl,
   "solar-for-apartments-india": SolarForApartmentsIndia,
   "solar-performance-winter-north-india": SolarPerformanceWinterNorthIndia,
+  "pm-kusum-solar-pump-up": PmKusumSolarPumpUp,
 };
 
 export default async function BlogDetailsPage(

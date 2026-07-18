@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 15,
+    title: "PM KUSUM Solar Pump Scheme in UP 2026: Subsidy, Eligibility and How to Apply",
+    paragraph:
+      "UP farmers can replace diesel irrigation pumps with solar at up to 60 percent subsidy under PM KUSUM. Here is a complete guide to eligibility, costs, UPNEDA application process, and the real savings over diesel in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["PM KUSUM", "solar pump", "UP farmers"],
+    publishDate: "July 2026",
+    slug: "pm-kusum-solar-pump-up",
+    readTime: "7 min read",
+  },
+  {
     id: 14,
     title: "Solar Panel Performance in North India Winters: What UP Homeowners Need to Know",
     paragraph:
