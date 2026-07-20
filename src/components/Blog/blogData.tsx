@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 16,
+    title: "Solar Inverter Buying Guide for India 2026: Types, Brands, and What to Look For in UP",
+    paragraph:
+      "The inverter is the brain of your solar system, yet most buyers treat it as an afterthought. This practical guide covers inverter types, key specs, top brands, price ranges, and what matters most for homes and businesses in Lucknow and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar inverter", "buying guide", "UP"],
+    publishDate: "July 2026",
+    slug: "solar-inverter-buying-guide-india",
+    readTime: "7 min read",
+  },
+  {
     id: 15,
     title: "PM KUSUM Solar Pump Scheme in UP 2026: Subsidy, Eligibility and How to Apply",
     paragraph:
