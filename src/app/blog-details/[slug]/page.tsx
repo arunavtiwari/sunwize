@@ -11,6 +11,12 @@ import PmSuryaGharYojana2026 from "@/app/blog-content/pm-surya-ghar-yojana-2025"
 import BestSolarPanelsIndia2026 from "@/app/blog-content/best-solar-panels-india-2025";
 import SolarPanelMaintenanceIndia from "@/app/blog-content/solar-panel-maintenance-india";
 import SolarForSmallBusinessesUp from "@/app/blog-content/solar-for-small-businesses-up";
+import SolarBatteryStorageIndia2026 from "@/app/blog-content/solar-battery-storage-india-2026";
+import NetMeteringGuideUppcl from "@/app/blog-content/net-metering-guide-uppcl";
+import SolarForApartmentsIndia from "@/app/blog-content/solar-for-apartments-india";
+import SolarPerformanceWinterNorthIndia from "@/app/blog-content/solar-performance-winter-north-india";
+import PmKusumSolarPumpUp from "@/app/blog-content/pm-kusum-solar-pump-up";
+import SolarInverterBuyingGuideIndia from "@/app/blog-content/solar-inverter-buying-guide-india";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -25,6 +31,12 @@ const blogContentComponents = {
   "best-solar-panels-india-2026": BestSolarPanelsIndia2026,
   "solar-panel-maintenance-india": SolarPanelMaintenanceIndia,
   "solar-for-small-businesses-up": SolarForSmallBusinessesUp,
+  "solar-battery-storage-india-2026": SolarBatteryStorageIndia2026,
+  "net-metering-guide-uppcl": NetMeteringGuideUppcl,
+  "solar-for-apartments-india": SolarForApartmentsIndia,
+  "solar-performance-winter-north-india": SolarPerformanceWinterNorthIndia,
+  "pm-kusum-solar-pump-up": PmKusumSolarPumpUp,
+  "solar-inverter-buying-guide-india": SolarInverterBuyingGuideIndia,
 };
 
 export default async function BlogDetailsPage(

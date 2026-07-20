@@ -2,6 +2,102 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 16,
+    title: "Solar Inverter Buying Guide for India 2026: Types, Brands, and What to Look For in UP",
+    paragraph:
+      "The inverter is the brain of your solar system, yet most buyers treat it as an afterthought. This practical guide covers inverter types, key specs, top brands, price ranges, and what matters most for homes and businesses in Lucknow and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar inverter", "buying guide", "UP"],
+    publishDate: "July 2026",
+    slug: "solar-inverter-buying-guide-india",
+    readTime: "7 min read",
+  },
+  {
+    id: 15,
+    title: "PM KUSUM Solar Pump Scheme in UP 2026: Subsidy, Eligibility and How to Apply",
+    paragraph:
+      "UP farmers can replace diesel irrigation pumps with solar at up to 60 percent subsidy under PM KUSUM. Here is a complete guide to eligibility, costs, UPNEDA application process, and the real savings over diesel in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["PM KUSUM", "solar pump", "UP farmers"],
+    publishDate: "July 2026",
+    slug: "pm-kusum-solar-pump-up",
+    readTime: "7 min read",
+  },
+  {
+    id: 14,
+    title: "Solar Panel Performance in North India Winters: What UP Homeowners Need to Know",
+    paragraph:
+      "Dense fog, shorter days, and cold temperatures all affect rooftop solar in Lucknow and across UP from December to February. Here is exactly what to expect from your system in winter - and why the numbers are better than most people fear.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["winter solar", "North India", "UP performance"],
+    publishDate: "July 2026",
+    slug: "solar-performance-winter-north-india",
+    readTime: "7 min read",
+  },
+  {
+    id: 13,
+    title: "Solar for Apartments in India: How Flat Owners in UP Can Go Solar in 2026",
+    paragraph:
+      "Living in a flat doesn't mean you're locked out of solar. This guide explains how apartment residents in Lucknow, Kanpur, and across UP can use group net metering, housing society installations, and PM Surya Ghar subsidy to cut their electricity bills in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["apartments", "group net metering", "UP"],
+    publishDate: "July 2026",
+    slug: "solar-for-apartments-india",
+    readTime: "7 min read",
+  },
+  {
+    id: 12,
+    title: "Net Metering in UP 2026: How to Apply Under UPPCL and Maximise Your Solar Savings",
+    paragraph:
+      "Net metering lets rooftop solar owners in Uttar Pradesh export surplus power to the UPPCL grid and earn credits against future bills. Here is a complete step-by-step guide to applying, understanding your bill, and getting the most from your solar investment in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["net metering", "UPPCL", "Lucknow"],
+    publishDate: "July 2026",
+    slug: "net-metering-guide-uppcl",
+    readTime: "7 min read",
+  },
+  {
+    id: 11,
+    title: "Solar Battery Storage in India 2026: Do You Really Need a Battery with Your Solar System?",
+    paragraph:
+      "Battery storage adds resilience and evening energy independence to your rooftop solar setup - but it is not always the right investment. Here is how to decide for UP homes and businesses in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["battery storage", "hybrid solar", "UP"],
+    publishDate: "July 2026",
+    slug: "solar-battery-storage-india-2026",
+    readTime: "7 min read",
+  },
+  {
     id: 10,
     title: "Solar for Small Businesses in UP: Savings, Net Metering, and Tax Benefits Explained",
     paragraph:
