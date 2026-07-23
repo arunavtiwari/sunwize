@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 17,
+    title: "Solar Panel EMI and Financing in India 2026: How to Go Solar Without Paying Upfront in UP",
+    paragraph:
+      "A 3 kW solar system in UP costs around Rs 1.5 lakh after PM Surya Ghar subsidy. With the right EMI plan, your monthly loan payment can be lower than your current electricity bill from day one. Here is a complete guide to solar financing options for homeowners in Lucknow and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar EMI", "financing", "UP"],
+    publishDate: "July 2026",
+    slug: "solar-emi-financing-india",
+    readTime: "7 min read",
+  },
+  {
     id: 16,
     title: "Solar Inverter Buying Guide for India 2026: Types, Brands, and What to Look For in UP",
     paragraph:
