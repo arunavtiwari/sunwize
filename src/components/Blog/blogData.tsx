@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 18,
+    title: "Commercial Solar Rooftop in UP 2026: How Businesses Cut Costs and Qualify for Subsidies",
+    paragraph:
+      "Commercial electricity in UP costs Rs 7-9 per unit in 2026. Here is how factories, offices, hotels, and retail businesses in Lucknow and across Uttar Pradesh can cut bills by 70-90 percent with rooftop solar, UPPCL net metering, and accelerated depreciation benefits.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["commercial solar", "UP", "net metering"],
+    publishDate: "July 2026",
+    slug: "commercial-solar-rooftop-up",
+    readTime: "7 min read",
+  },
+  {
     id: 17,
     title: "Solar Panel EMI and Financing in India 2026: How to Go Solar Without Paying Upfront in UP",
     paragraph:
