@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 19,
+    title: "Solar Savings in Lucknow 2026: How Much Can Your Home or Business Actually Save?",
+    paragraph:
+      "A 5 kW rooftop solar system in Lucknow generates around 600 units per month and can cut your LESCO electricity bill by Rs 4,200 to Rs 5,400 every month. Here is a practical breakdown of real savings by system size, net metering benefits, and payback periods for homes and businesses across Lucknow and UP in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar savings", "Lucknow", "UP"],
+    publishDate: "July 2026",
+    slug: "solar-savings-lucknow",
+    readTime: "7 min read",
+  },
+  {
     id: 18,
     title: "Commercial Solar Rooftop in UP 2026: How Businesses Cut Costs and Qualify for Subsidies",
     paragraph:
