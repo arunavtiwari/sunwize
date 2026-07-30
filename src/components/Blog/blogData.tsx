@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 20,
+    title: "Solar Subsidy in UP 2026: How to Apply Under UPPCL and PM Surya Ghar Step by Step",
+    paragraph:
+      "The PM Surya Ghar scheme offers up to Rs 78,000 central subsidy on rooftop solar in UP, yet many eligible homeowners in Lucknow, Kanpur, and across Uttar Pradesh have not applied because the process seems complex. This step-by-step guide covers registration, DISCOM approval, installer selection, net metering, and how the subsidy reaches your bank account in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar subsidy", "UPPCL", "PM Surya Ghar"],
+    publishDate: "July 2026",
+    slug: "solar-subsidy-apply-uppcl-2026",
+    readTime: "7 min read",
+  },
+  {
     id: 19,
     title: "Solar Savings in Lucknow 2026: How Much Can Your Home or Business Actually Save?",
     paragraph:
