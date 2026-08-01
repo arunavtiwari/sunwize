@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 21,
+    title: "Solar for Schools and Colleges in UP 2026: How Educational Institutions Can Cut Costs and Go Green",
+    paragraph:
+      "Schools and colleges in UP pay commercial electricity tariffs of Rs 7-9 per unit, and their daytime operating hours align perfectly with peak solar generation. Here is a complete guide to system sizing, net metering under UPPCL, tax benefits, and subsidies for educational institutions in Lucknow and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["schools", "colleges", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-for-schools-colleges-up",
+    readTime: "7 min read",
+  },
+  {
     id: 20,
     title: "Solar Subsidy in UP 2026: How to Apply Under UPPCL and PM Surya Ghar Step by Step",
     paragraph:
