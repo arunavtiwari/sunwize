@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 22,
+    title: "Solar Panel Lifespan in India: How Long Do Your Panels Actually Last?",
+    paragraph:
+      "Most quality solar panels installed today will produce usable electricity for 25 to 30 years, but the actual lifespan depends on brand, UP climate conditions, installation quality, and maintenance. This guide covers degradation rates, warranty types, what heatwaves and dust do to panels in Lucknow and across Uttar Pradesh, and when replacement makes financial sense in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar panel lifespan", "UP solar", "panel warranty"],
+    publishDate: "August 2026",
+    slug: "solar-panel-lifespan-india",
+    readTime: "7 min read",
+  },
+  {
     id: 21,
     title: "Solar for Schools and Colleges in UP 2026: How Educational Institutions Can Cut Costs and Go Green",
     paragraph:

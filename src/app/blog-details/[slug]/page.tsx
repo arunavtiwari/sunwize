@@ -22,6 +22,7 @@ import CommercialSolarRooftopUp from "@/app/blog-content/commercial-solar-roofto
 import SolarSavingsLucknow from "@/app/blog-content/solar-savings-lucknow";
 import SolarSubsidyApplyUppcl2026 from "@/app/blog-content/solar-subsidy-apply-uppcl-2026";
 import SolarForSchoolsCollegesUp from "@/app/blog-content/solar-for-schools-colleges-up";
+import SolarPanelLifespanIndia from "@/app/blog-content/solar-panel-lifespan-india";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -47,6 +48,7 @@ const blogContentComponents = {
   "solar-savings-lucknow": SolarSavingsLucknow,
   "solar-subsidy-apply-uppcl-2026": SolarSubsidyApplyUppcl2026,
   "solar-for-schools-colleges-up": SolarForSchoolsCollegesUp,
+  "solar-panel-lifespan-india": SolarPanelLifespanIndia,
 };
 
 export default async function BlogDetailsPage(
