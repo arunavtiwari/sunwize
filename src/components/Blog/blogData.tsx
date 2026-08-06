@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 23,
+    title: "Hybrid Solar System in India 2026: How UP Homes Can Get Backup Power and Cut Bills Together",
+    paragraph:
+      "A hybrid solar system combines solar panels, battery storage, and a smart inverter to keep your home powered during UPPCL outages while maximising bill savings through net metering. Here is a practical guide to costs, battery options, subsidy eligibility, and when hybrid makes more sense than a standard on-grid system for homes and businesses in Lucknow and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["hybrid solar", "battery backup", "UP"],
+    publishDate: "August 2026",
+    slug: "hybrid-solar-system-india",
+    readTime: "7 min read",
+  },
+  {
     id: 22,
     title: "Solar Panel Lifespan in India: How Long Do Your Panels Actually Last?",
     paragraph:
