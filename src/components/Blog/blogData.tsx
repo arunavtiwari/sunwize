@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 24,
+    title: "Solar Rooftop vs Ground Mount in UP 2026: Which Installation Type Is Right for Your Property?",
+    paragraph:
+      "Most solar installations in Lucknow and UP go on rooftops, but property owners with open land, farmhouses, or shaded roofs sometimes consider ground-mounted systems. Here is a practical comparison of costs, performance, subsidy eligibility, and UPPCL rules to help you choose the right mounting type for your home or business in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["rooftop solar", "ground mount", "UP installation"],
+    publishDate: "August 2026",
+    slug: "solar-rooftop-vs-ground-mount",
+    readTime: "7 min read",
+  },
+  {
     id: 23,
     title: "Hybrid Solar System in India 2026: How UP Homes Can Get Backup Power and Cut Bills Together",
     paragraph:
