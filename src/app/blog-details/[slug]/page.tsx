@@ -25,6 +25,7 @@ import SolarForSchoolsCollegesUp from "@/app/blog-content/solar-for-schools-coll
 import SolarPanelLifespanIndia from "@/app/blog-content/solar-panel-lifespan-india";
 import HybridSolarSystemIndia from "@/app/blog-content/hybrid-solar-system-india";
 import SolarRooftopVsGroundMount from "@/app/blog-content/solar-rooftop-vs-ground-mount";
+import SolarEvChargingUp from "@/app/blog-content/solar-ev-charging-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -53,6 +54,7 @@ const blogContentComponents = {
   "solar-panel-lifespan-india": SolarPanelLifespanIndia,
   "hybrid-solar-system-india": HybridSolarSystemIndia,
   "solar-rooftop-vs-ground-mount": SolarRooftopVsGroundMount,
+  "solar-ev-charging-up": SolarEvChargingUp,
 };
 
 export default async function BlogDetailsPage(

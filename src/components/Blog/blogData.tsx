@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 25,
+    title: "Solar EV Charging in UP 2026: How to Power Your Electric Vehicle with Rooftop Solar",
+    paragraph:
+      "Electric vehicles are multiplying on UP roads, and combining rooftop solar with home EV charging is one of the most effective ways to cut both your electricity bill and your monthly fuel cost together. Here is a practical guide to sizing, savings, costs, and setup for EV owners in Lucknow, Kanpur, and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar EV charging", "electric vehicle", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-ev-charging-up",
+    readTime: "7 min read",
+  },
+  {
     id: 24,
     title: "Solar Rooftop vs Ground Mount in UP 2026: Which Installation Type Is Right for Your Property?",
     paragraph:
