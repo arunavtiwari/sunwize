@@ -26,6 +26,7 @@ import SolarPanelLifespanIndia from "@/app/blog-content/solar-panel-lifespan-ind
 import HybridSolarSystemIndia from "@/app/blog-content/hybrid-solar-system-india";
 import SolarRooftopVsGroundMount from "@/app/blog-content/solar-rooftop-vs-ground-mount";
 import SolarEvChargingUp from "@/app/blog-content/solar-ev-charging-up";
+import SolarVsGeneratorLucknow from "@/app/blog-content/solar-vs-generator-lucknow";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -55,6 +56,7 @@ const blogContentComponents = {
   "hybrid-solar-system-india": HybridSolarSystemIndia,
   "solar-rooftop-vs-ground-mount": SolarRooftopVsGroundMount,
   "solar-ev-charging-up": SolarEvChargingUp,
+  "solar-vs-generator-lucknow": SolarVsGeneratorLucknow,
 };
 
 export default async function BlogDetailsPage(

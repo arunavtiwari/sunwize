@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 26,
+    title: "Solar vs Diesel Generator in Lucknow 2026: Which Backup Power Solution Actually Saves You Money?",
+    paragraph:
+      "Diesel generators in UP cost Rs 18-25 per unit to run once fuel and maintenance are included. A hybrid solar system with battery backup delivers the same outage protection for a fraction of that, while also cutting your regular UPPCL bill. Here is the honest cost comparison for homes and businesses in Lucknow and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar vs generator", "backup power", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-vs-generator-lucknow",
+    readTime: "7 min read",
+  },
+  {
     id: 25,
     title: "Solar EV Charging in UP 2026: How to Power Your Electric Vehicle with Rooftop Solar",
     paragraph:
