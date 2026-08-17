@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 27,
+    title: "Solar Power for Air Conditioners in Lucknow 2026: System Sizing, Costs, and Real Savings",
+    paragraph:
+      "Air conditioners are now a necessity across UP, and a single 1.5-ton AC can add Rs 1,700 to Rs 2,700 to your UPPCL bill every summer month. Here is how rooftop solar in Lucknow and neighbouring cities can cover your AC load almost unit for unit, with real savings numbers, sizing guidance, and PM Surya Ghar subsidy details for 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar AC", "summer savings", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-ac-lucknow",
+    readTime: "7 min read",
+  },
+  {
     id: 26,
     title: "Solar vs Diesel Generator in Lucknow 2026: Which Backup Power Solution Actually Saves You Money?",
     paragraph:
