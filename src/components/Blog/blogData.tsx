@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 28,
+    title: "Solar for Cold Storage in UP 2026: How to Cut Your Electricity Bill by 40-70 Percent",
+    paragraph:
+      "Cold storage operators in UP pay Rs 1 lakh to Rs 2.25 lakh per month on UPPCL electricity bills. A properly sized rooftop solar system can slash this by 40 to 70 percent while accelerated depreciation and net metering stack up further savings. Here is a practical guide to sizing, costs, financial benefits, and installation considerations for cold storage units in Lucknow, Barabanki, Sitapur, and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["cold storage", "commercial solar", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-cold-storage-up",
+    readTime: "8 min read",
+  },
+  {
     id: 27,
     title: "Solar Power for Air Conditioners in Lucknow 2026: System Sizing, Costs, and Real Savings",
     paragraph:

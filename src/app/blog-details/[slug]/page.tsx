@@ -28,6 +28,7 @@ import SolarRooftopVsGroundMount from "@/app/blog-content/solar-rooftop-vs-groun
 import SolarEvChargingUp from "@/app/blog-content/solar-ev-charging-up";
 import SolarVsGeneratorLucknow from "@/app/blog-content/solar-vs-generator-lucknow";
 import SolarAcLucknow from "@/app/blog-content/solar-ac-lucknow";
+import SolarColdStorageUp from "@/app/blog-content/solar-cold-storage-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -59,6 +60,7 @@ const blogContentComponents = {
   "solar-ev-charging-up": SolarEvChargingUp,
   "solar-vs-generator-lucknow": SolarVsGeneratorLucknow,
   "solar-ac-lucknow": SolarAcLucknow,
+  "solar-cold-storage-up": SolarColdStorageUp,
 };
 
 export default async function BlogDetailsPage(
