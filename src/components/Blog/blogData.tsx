@@ -2,6 +2,118 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 29,
+    title: "Solar for Housing Societies in UP 2026: How RWAs Can Cut Common Area Bills by 80 Percent",
+    paragraph:
+      "Housing societies in Lucknow, Kanpur, and across UP pay Rs 10,000 to Rs 1,00,000 per month on common area electricity for lifts, water pumps, and corridor lighting. A rooftop solar system on the society terrace can cut that bill by 60 to 90 percent, reduce every resident's maintenance levy, and pay back its cost in 4-5 years. Here is a complete guide for RWAs planning a solar project in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["housing society", "RWA solar", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-for-housing-societies-up",
+    readTime: "8 min read",
+  },
+  {
+    id: 28,
+    title: "Solar for Cold Storage in UP 2026: How to Cut Your Electricity Bill by 40-70 Percent",
+    paragraph:
+      "Cold storage operators in UP pay Rs 1 lakh to Rs 2.25 lakh per month on UPPCL electricity bills. A properly sized rooftop solar system can slash this by 40 to 70 percent while accelerated depreciation and net metering stack up further savings. Here is a practical guide to sizing, costs, financial benefits, and installation considerations for cold storage units in Lucknow, Barabanki, Sitapur, and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["cold storage", "commercial solar", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-cold-storage-up",
+    readTime: "8 min read",
+  },
+  {
+    id: 27,
+    title: "Solar Power for Air Conditioners in Lucknow 2026: System Sizing, Costs, and Real Savings",
+    paragraph:
+      "Air conditioners are now a necessity across UP, and a single 1.5-ton AC can add Rs 1,700 to Rs 2,700 to your UPPCL bill every summer month. Here is how rooftop solar in Lucknow and neighbouring cities can cover your AC load almost unit for unit, with real savings numbers, sizing guidance, and PM Surya Ghar subsidy details for 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar AC", "summer savings", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-ac-lucknow",
+    readTime: "7 min read",
+  },
+  {
+    id: 26,
+    title: "Solar vs Diesel Generator in Lucknow 2026: Which Backup Power Solution Actually Saves You Money?",
+    paragraph:
+      "Diesel generators in UP cost Rs 18-25 per unit to run once fuel and maintenance are included. A hybrid solar system with battery backup delivers the same outage protection for a fraction of that, while also cutting your regular UPPCL bill. Here is the honest cost comparison for homes and businesses in Lucknow and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar vs generator", "backup power", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-vs-generator-lucknow",
+    readTime: "7 min read",
+  },
+  {
+    id: 25,
+    title: "Solar EV Charging in UP 2026: How to Power Your Electric Vehicle with Rooftop Solar",
+    paragraph:
+      "Electric vehicles are multiplying on UP roads, and combining rooftop solar with home EV charging is one of the most effective ways to cut both your electricity bill and your monthly fuel cost together. Here is a practical guide to sizing, savings, costs, and setup for EV owners in Lucknow, Kanpur, and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar EV charging", "electric vehicle", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-ev-charging-up",
+    readTime: "7 min read",
+  },
+  {
+    id: 24,
+    title: "Solar Rooftop vs Ground Mount in UP 2026: Which Installation Type Is Right for Your Property?",
+    paragraph:
+      "Most solar installations in Lucknow and UP go on rooftops, but property owners with open land, farmhouses, or shaded roofs sometimes consider ground-mounted systems. Here is a practical comparison of costs, performance, subsidy eligibility, and UPPCL rules to help you choose the right mounting type for your home or business in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["rooftop solar", "ground mount", "UP installation"],
+    publishDate: "August 2026",
+    slug: "solar-rooftop-vs-ground-mount",
+    readTime: "7 min read",
+  },
+  {
+    id: 23,
+    title: "Hybrid Solar System in India 2026: How UP Homes Can Get Backup Power and Cut Bills Together",
+    paragraph:
+      "A hybrid solar system combines solar panels, battery storage, and a smart inverter to keep your home powered during UPPCL outages while maximising bill savings through net metering. Here is a practical guide to costs, battery options, subsidy eligibility, and when hybrid makes more sense than a standard on-grid system for homes and businesses in Lucknow and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["hybrid solar", "battery backup", "UP"],
+    publishDate: "August 2026",
+    slug: "hybrid-solar-system-india",
+    readTime: "7 min read",
+  },
+  {
     id: 22,
     title: "Solar Panel Lifespan in India: How Long Do Your Panels Actually Last?",
     paragraph:

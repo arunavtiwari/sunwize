@@ -25,6 +25,13 @@ import SolarSavingsLucknow from "@/app/blog-content/solar-savings-lucknow";
 import SolarSubsidyApplyUppcl2026 from "@/app/blog-content/solar-subsidy-apply-uppcl-2026";
 import SolarForSchoolsCollegesUp from "@/app/blog-content/solar-for-schools-colleges-up";
 import SolarPanelLifespanIndia from "@/app/blog-content/solar-panel-lifespan-india";
+import HybridSolarSystemIndia from "@/app/blog-content/hybrid-solar-system-india";
+import SolarRooftopVsGroundMount from "@/app/blog-content/solar-rooftop-vs-ground-mount";
+import SolarEvChargingUp from "@/app/blog-content/solar-ev-charging-up";
+import SolarVsGeneratorLucknow from "@/app/blog-content/solar-vs-generator-lucknow";
+import SolarAcLucknow from "@/app/blog-content/solar-ac-lucknow";
+import SolarColdStorageUp from "@/app/blog-content/solar-cold-storage-up";
+import SolarForHousingSocietiesUp from "@/app/blog-content/solar-for-housing-societies-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -51,6 +58,13 @@ const blogContentComponents = {
   "solar-subsidy-apply-uppcl-2026": SolarSubsidyApplyUppcl2026,
   "solar-for-schools-colleges-up": SolarForSchoolsCollegesUp,
   "solar-panel-lifespan-india": SolarPanelLifespanIndia,
+  "hybrid-solar-system-india": HybridSolarSystemIndia,
+  "solar-rooftop-vs-ground-mount": SolarRooftopVsGroundMount,
+  "solar-ev-charging-up": SolarEvChargingUp,
+  "solar-vs-generator-lucknow": SolarVsGeneratorLucknow,
+  "solar-ac-lucknow": SolarAcLucknow,
+  "solar-cold-storage-up": SolarColdStorageUp,
+  "solar-for-housing-societies-up": SolarForHousingSocietiesUp,
 };
 
 function truncate(text: string, max = 160) {
