@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 29,
+    title: "Solar for Housing Societies in UP 2026: How RWAs Can Cut Common Area Bills by 80 Percent",
+    paragraph:
+      "Housing societies in Lucknow, Kanpur, and across UP pay Rs 10,000 to Rs 1,00,000 per month on common area electricity for lifts, water pumps, and corridor lighting. A rooftop solar system on the society terrace can cut that bill by 60 to 90 percent, reduce every resident's maintenance levy, and pay back its cost in 4-5 years. Here is a complete guide for RWAs planning a solar project in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["housing society", "RWA solar", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-for-housing-societies-up",
+    readTime: "8 min read",
+  },
+  {
     id: 28,
     title: "Solar for Cold Storage in UP 2026: How to Cut Your Electricity Bill by 40-70 Percent",
     paragraph:

@@ -29,6 +29,7 @@ import SolarEvChargingUp from "@/app/blog-content/solar-ev-charging-up";
 import SolarVsGeneratorLucknow from "@/app/blog-content/solar-vs-generator-lucknow";
 import SolarAcLucknow from "@/app/blog-content/solar-ac-lucknow";
 import SolarColdStorageUp from "@/app/blog-content/solar-cold-storage-up";
+import SolarForHousingSocietiesUp from "@/app/blog-content/solar-for-housing-societies-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -61,6 +62,7 @@ const blogContentComponents = {
   "solar-vs-generator-lucknow": SolarVsGeneratorLucknow,
   "solar-ac-lucknow": SolarAcLucknow,
   "solar-cold-storage-up": SolarColdStorageUp,
+  "solar-for-housing-societies-up": SolarForHousingSocietiesUp,
 };
 
 export default async function BlogDetailsPage(
