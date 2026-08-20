@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
-import classNames from "classnames";
-import Slider from "react-slick";
 import Image from "next/image";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const SHEETDB_URL = process.env.NEXT_PUBLIC_SHEETDB_URL as string;
 
@@ -100,16 +100,6 @@ City: ${formData.city}`
   };
 
   const tabs = ["Residential", "Housing Society", "Commercial"];
-  const sliderSettings = {
-    dots: true,
-    arrows: false,
-    autoplay: true,
-    infinite: true,
-    speed: 600,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
   const images = [
     "/images/contact/form.png",
     "/images/contact/p1.jpg",
@@ -128,13 +118,21 @@ City: ${formData.city}`
             <p className="text-base text-gray-600 dark:text-gray-300">
               Fill out the form and we&apos;ll be in touch to explore your solar journey with Sunwize.
             </p>
-            <Slider {...sliderSettings} className="rounded-lg overflow-hidden">
+            <Swiper
+              modules={[Autoplay, Pagination]}
+              autoplay={{ delay: 3500, disableOnInteraction: false }}
+              pagination={{ clickable: true }}
+              loop
+              className="rounded-lg overflow-hidden"
+            >
               {images.map((src, idx) => (
-                <div key={idx} className="relative h-64 sm:h-80 lg:h-96">
-                  <Image src={src} alt={`Slide ${idx + 1}`} fill priority={idx === 0} className="object-cover rounded-xl" />
-                </div>
+                <SwiperSlide key={idx}>
+                  <div className="relative h-64 sm:h-80 lg:h-96">
+                    <Image src={src} alt={`Slide ${idx + 1}`} fill priority={idx === 0} className="object-cover rounded-xl" />
+                  </div>
+                </SwiperSlide>
               ))}
-            </Slider>
+            </Swiper>
           </div>
 
           {/* FORM */}
@@ -145,10 +143,11 @@ City: ${formData.city}`
                 <button
                   key={tab}
                   onClick={() => setPropertyType(tab)}
-                  className={classNames("flex-1 py-2 px-4 text-sm font-medium rounded-full transition", {
-                    "bg-white text-gray-700 shadow-sm": propertyType === tab,
-                    "text-gray-500 hover:text-[#1E40AF]": propertyType !== tab,
-                  })}
+                  className={`flex-1 py-2 px-4 text-sm font-medium rounded-full transition ${
+                    propertyType === tab
+                      ? "bg-white text-gray-700 shadow-sm"
+                      : "text-gray-500 hover:text-[#1E40AF]"
+                  }`}
                 >
                   {tab}
                 </button>

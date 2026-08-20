@@ -1,6 +1,14 @@
+import { Metadata } from "next";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import projectData from "@/components/Projects/projectData";
 import SingleProject from "@/components/Projects/SingleProject";
+
+export const metadata: Metadata = {
+  title: "Our Solar Projects",
+  description:
+    "Explore Sunwize's featured solar energy projects across Lucknow and Uttar Pradesh, spanning residential, commercial, and industrial installations.",
+  alternates: { canonical: "/project" },
+};
 
 const ProjectsPage = () => {
   return (

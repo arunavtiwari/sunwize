@@ -4,6 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Sunwize Energy Systems",
   description: "Learn more about Sunwize's mission, technology, and impact in solar energy.",
+  alternates: { canonical: "/about" },
 };
 
 const teamImages = [
@@ -122,7 +123,7 @@ const AboutPage = () => (
     {/* Introduction */}
     <section className="py-16 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-200">
       <div className="container mx-auto max-w-5xl px-4 space-y-6">
-        <h2 className="text-4xl font-bold text-center text-primary">About Us</h2>
+        <h1 className="text-4xl font-bold text-center text-primary">About Us</h1>
         <p>With 20+ years in solar EPC, Sunwize designs and builds systems that keep performing long after installation, pairing trusted components with engineering proven across hundreds of real projects.</p>
         <p>
           Established in 2002 by Mr. Sanjai Tiwari, Sunwize Energy Systems is a leading renewable energy company based in Lucknow. A proud BNI member and ISO 9001:14001 certified, Sunwize delivers sustainable solar solutions across India.

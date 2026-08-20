@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Image from "next/image";
 import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
@@ -51,19 +53,78 @@ const blogContentComponents = {
   "solar-panel-lifespan-india": SolarPanelLifespanIndia,
 };
 
+function truncate(text: string, max = 160) {
+  if (text.length <= max) return text;
+  return text.slice(0, max - 1).trimEnd() + "…";
+}
+
+export async function generateMetadata(
+  props: { params: Promise<{ slug: string }> }
+): Promise<Metadata> {
+  const { slug } = await props.params;
+  const blog = blogData.find((b) => b.slug === slug);
+
+  if (!blog) {
+    return { title: "Blog post not found" };
+  }
+
+  const description = truncate(blog.paragraph);
+  const canonicalPath = `/blog-details/${blog.slug}`;
+
+  return {
+    title: blog.title,
+    description,
+    alternates: { canonical: canonicalPath },
+    openGraph: {
+      type: "article",
+      url: canonicalPath,
+      title: blog.title,
+      description,
+      images: blog.image
+        ? [{ url: blog.image, alt: blog.title }]
+        : undefined,
+    },
+  };
+}
+
 export default async function BlogDetailsPage(
   props: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await props.params;
   const blog = blogData.find((b) => b.slug === slug);
 
-  if (!blog) return <p>Blog not found.</p>;
+  if (!blog) notFound();
 
   const BlogContent = blogContentComponents[slug];
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: blog.title,
+    description: truncate(blog.paragraph),
+    image: blog.image
+      ? `https://www.sunwize.co.in${blog.image}`
+      : undefined,
+    author: { "@type": "Person", name: blog.author.name },
+    publisher: {
+      "@type": "Organization",
+      name: "Sunwize Energy Systems",
+      legalName: "Sunwize Energy Systems Pvt. Ltd.",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.sunwize.co.in/favicon.ico",
+      },
+    },
+    datePublished: blog.publishDate,
+    mainEntityOfPage: `https://www.sunwize.co.in/blog-details/${blog.slug}`,
+  };
 
   return (
     <section className="pt-[150px] pb-[120px]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <div className="container">
         <div className="-mx-4 flex flex-wrap justify-center">
           <div className="w-full px-4 lg:w-8/12">

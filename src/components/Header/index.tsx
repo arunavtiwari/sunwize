@@ -76,14 +76,14 @@ const Header = () => {
             >
               <Image
                 src="/images/logo/sunwize-logo.png"
-                alt="Sunwize Energy Systems logo"
+                alt="Sunwize Energy Systems Pvt. Ltd. logo"
                 width={150}
                 height={40}
                 className="w-full dark:hidden"
               />
               <Image
                 src="/images/logo/sunwize-logo.png"
-                alt="Sunwize Energy Systems logo"
+                alt="Sunwize Energy Systems Pvt. Ltd. logo"
                 width={150}
                 height={40}
                 className="hidden w-full dark:block"

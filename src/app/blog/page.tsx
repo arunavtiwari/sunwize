@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Sunwize Blog | Insights & Innovations in Solar Energy",
   description:
     "Explore expert articles and insights on solar energy, sustainability, and Sunwize innovations.",
+  alternates: { canonical: "/blog" },
 };
 
 const BlogPage = () => {

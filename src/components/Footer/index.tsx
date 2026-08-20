@@ -40,10 +40,10 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="w-full md:w-1/2 lg:w-4/12 px-4 mb-10">
             <div className="mb-6">
-              <Link href="/" aria-label="Sunwize Energy Home">
+              <Link href="/" aria-label="Sunwize home">
               <Image
                   src="/images/logo/sunwize-logo.png"
-                  alt="Sunwize Energy System Pvt. Ltd. Logo"
+                  alt="Sunwize Energy Systems Pvt. Ltd. logo"
                   width={192} 
                   height={48} 
                 />
@@ -178,7 +178,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-center text-base text-white-subtle dark:text-white mt-8">
-          © {new Date().getFullYear()} Sunwize Energy System Pvt. Ltd. | All rights reserved
+          © {new Date().getFullYear()} Sunwize Energy Systems Pvt. Ltd. | All rights reserved
         </p>
       </div>
     </footer>

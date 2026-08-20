@@ -2,21 +2,22 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Sunwize Energy System Pvt. Ltd.",
+  title: "Privacy Policy | Sunwize Energy Systems Pvt. Ltd.",
   description:
-    "Understand how Sunwize Energy System Pvt. Ltd. collects, uses, and protects your personal information when you use our website or services.",
+    "Understand how Sunwize Energy Systems Pvt. Ltd. collects, uses, and protects your personal information when you use our website or services.",
+  alternates: { canonical: "/privacy" },
   keywords: [
     "Sunwize Privacy Policy",
     "Data Protection Solar",
     "Solar Company Privacy Terms",
-    "Sunwize Energy India",
+    "Sunwize Energy Systems India",
     "Personal Data Policy",
   ],
-  authors: [{ name: "Sunwize Energy" }],
+  authors: [{ name: "Sunwize Energy Systems Pvt. Ltd." }],
   openGraph: {
-    title: "Privacy Policy | Sunwize Energy",
+    title: "Privacy Policy | Sunwize Energy Systems Pvt. Ltd.",
     description:
-      "Learn how Sunwize Energy System Pvt. Ltd. protects your personal data and respects your privacy across our digital platforms.",
+      "Learn how Sunwize Energy Systems Pvt. Ltd. protects your personal data and respects your privacy across our digital platforms.",
     url: "https://www.sunwize.co.in/privacy",
     type: "website",
   },
@@ -27,7 +28,7 @@ const PrivacyPolicyPage = () => {
     <>
       <Breadcrumb
         pageName="Privacy Policy"
-        description="We value your privacy. Please read below to understand how your personal data is handled by Sunwize Energy System Pvt. Ltd."
+        description="We value your privacy. Please read below to understand how your personal data is handled by Sunwize Energy Systems Pvt. Ltd."
       />
 
       <section className="py-12">
@@ -44,7 +45,7 @@ const PrivacyPolicyPage = () => {
 
           <h2 className="text-2xl font-bold mb-6 text-primary">3. Consent for Communication</h2>
           <p className="mb-6 text-base text-body-color dark:text-white">
-            By providing your details, you consent to be contacted by Sunwize Energy System Pvt. Ltd. via phone, SMS, WhatsApp, or email, even if your number is registered on DND/NCPR lists. You may opt out anytime by contacting us.
+            By providing your details, you consent to be contacted by Sunwize Energy Systems Pvt. Ltd. via phone, SMS, WhatsApp, or email, even if your number is registered on DND/NCPR lists. You may opt out anytime by contacting us.
           </p>
 
           <h2 className="text-2xl font-bold mb-6 text-primary">4. Sharing of Information</h2>

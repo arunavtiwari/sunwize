@@ -61,6 +61,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   "@id": "https://www.sunwize.co.in/#localbusiness",
   name: "Sunwize Energy Systems",
+  legalName: "Sunwize Energy Systems Pvt. Ltd.",
   description:
     "Solar panel installation company serving Lucknow, Kanpur, Unnao, Barabanki, Sitapur, Hardoi, Raebareli, Ayodhya and all of Uttar Pradesh. Residential, commercial, and housing society solar solutions with UP government subsidy assistance.",
   url: "https://www.sunwize.co.in",
