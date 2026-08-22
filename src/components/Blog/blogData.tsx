@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 30,
+    title: "Solar for Hospitals and Clinics in UP 2026: Cut Bills, Reduce Diesel Dependency, and Recover Costs in 4-6 Years",
+    paragraph:
+      "Hospitals and clinics in UP pay Rs 1.5 lakh to Rs 4 lakh per month on UPPCL commercial electricity at Rs 7-9 per unit, plus heavy diesel generator costs for backup. A correctly sized rooftop solar system with optional battery backup can cut these costs by 40-70 percent, qualify for 40 percent accelerated depreciation, and pay back in four to six years. Here is a complete guide for healthcare facilities in Lucknow, Kanpur, Ayodhya, Raebareli, and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["hospitals", "clinics", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-for-hospitals-clinics-up",
+    readTime: "8 min read",
+  },
+  {
     id: 29,
     title: "Solar for Housing Societies in UP 2026: How RWAs Can Cut Common Area Bills by 80 Percent",
     paragraph:

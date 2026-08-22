@@ -32,6 +32,7 @@ import SolarVsGeneratorLucknow from "@/app/blog-content/solar-vs-generator-luckn
 import SolarAcLucknow from "@/app/blog-content/solar-ac-lucknow";
 import SolarColdStorageUp from "@/app/blog-content/solar-cold-storage-up";
 import SolarForHousingSocietiesUp from "@/app/blog-content/solar-for-housing-societies-up";
+import SolarForHospitalsClinicsUp from "@/app/blog-content/solar-for-hospitals-clinics-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -65,6 +66,7 @@ const blogContentComponents = {
   "solar-ac-lucknow": SolarAcLucknow,
   "solar-cold-storage-up": SolarColdStorageUp,
   "solar-for-housing-societies-up": SolarForHousingSocietiesUp,
+  "solar-for-hospitals-clinics-up": SolarForHospitalsClinicsUp,
 };
 
 function truncate(text: string, max = 160) {
