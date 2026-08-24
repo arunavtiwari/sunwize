@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 31,
+    title: "Solar Energy for Dairy Farms in UP 2026: Cut Electricity Bills, Protect Milk, and Pay Back in 4-5 Years",
+    paragraph:
+      "UP dairy farms pay Rs 7-9 per unit to UPPCL for chillers, pumps, and processing equipment, and many lose milk to power cuts every year. A properly sized rooftop or ground-mounted solar system can cover 70-90 percent of daytime dairy electricity consumption, eliminate two to four hours of diesel generator runtime per day, and pay back in four to five years. Here is a practical guide for dairy operators in Lucknow, Kanpur, Barabanki, Unnao, and Sitapur in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["dairy farm solar", "UP solar", "agri solar"],
+    publishDate: "August 2026",
+    slug: "solar-for-dairy-farms-up",
+    readTime: "8 min read",
+  },
+  {
     id: 30,
     title: "Solar for Hospitals and Clinics in UP 2026: Cut Bills, Reduce Diesel Dependency, and Recover Costs in 4-6 Years",
     paragraph:
