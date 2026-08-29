@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 32,
+    title: "Solar for Factories and Industrial Units in UP 2026: Cut Bills by 60-80 Percent with Rooftop Solar",
+    paragraph:
+      "Factories in Lucknow, Kanpur, Unnao, and Raebareli pay Rs 7-9 per unit to UPPCL, with monthly bills ranging from Rs 2.5 lakh to Rs 10 lakh or more. A correctly sized rooftop solar system can cut that cost by 60 to 80 percent, and 40 percent accelerated depreciation makes the investment even more attractive for industrial units in Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["factory solar", "industrial solar", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-for-factories-up",
+    readTime: "8 min read",
+  },
+  {
     id: 31,
     title: "Solar Energy for Dairy Farms in UP 2026: Cut Electricity Bills, Protect Milk, and Pay Back in 4-5 Years",
     paragraph:
