@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 33,
+    title: "Solar for Hotels and Restaurants in UP 2026: Cut Electricity Bills by 50-70 Percent and Recover Costs in 4-5 Years",
+    paragraph:
+      "Hotels and restaurants in UP pay UPPCL commercial tariffs of Rs 7-9 per unit, with monthly bills ranging from Rs 30,000 to Rs 5 lakh or more for large properties. A correctly sized rooftop solar system can cut that bill by 50 to 70 percent, and 40 percent accelerated depreciation in the first year makes the investment highly attractive for hospitality businesses in Lucknow, Kanpur, Ayodhya, and Raebareli in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["hotels", "restaurants", "UP solar"],
+    publishDate: "August 2026",
+    slug: "solar-for-hotels-restaurants-up",
+    readTime: "8 min read",
+  },
+  {
     id: 32,
     title: "Solar for Factories and Industrial Units in UP 2026: Cut Bills by 60-80 Percent with Rooftop Solar",
     paragraph:
