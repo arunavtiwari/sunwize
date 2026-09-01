@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 34,
+    title: "Solar for Petrol Pumps and Fuel Stations in UP 2026: Cut Bills, Ditch the Generator, and Pay Back in 4-5 Years",
+    paragraph:
+      "A mid-sized petrol pump in UP pays Rs 40,000 to Rs 80,000 per month on UPPCL commercial electricity plus Rs 15,000 to Rs 40,000 in diesel generator costs. A correctly sized rooftop or canopy-mounted solar system can cut total energy costs by 40 to 70 percent, qualify for 40 percent accelerated depreciation, and pay back in four to five years. Here is a complete guide for petrol pump and CNG station operators in Lucknow, Kanpur, Unnao, Barabanki, Sitapur, and across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["petrol pump solar", "fuel station", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-for-petrol-pumps-up",
+    readTime: "8 min read",
+  },
+  {
     id: 33,
     title: "Solar for Hotels and Restaurants in UP 2026: Cut Electricity Bills by 50-70 Percent and Recover Costs in 4-5 Years",
     paragraph:
