@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 35,
+    title: "Solar for Warehouses and Godowns in UP 2026: Cut Electricity Bills by 60-80 Percent with Rooftop Solar",
+    paragraph:
+      "Warehouses and godowns in Lucknow, Kanpur, Barabanki, and across UP pay UPPCL commercial tariffs of Rs 7-9 per unit, and their large flat rooftops are ideal for solar. A correctly sized system on a 100,000 sq ft warehouse can install 200-500 kW, slash electricity costs by 60-80 percent, and claim 40 percent accelerated depreciation in year one, recovering the full investment in four to six years.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["warehouse solar", "godown solar", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-for-warehouses-up-2026",
+    readTime: "8 min read",
+  },
+  {
     id: 34,
     title: "Solar for Petrol Pumps and Fuel Stations in UP 2026: Cut Bills, Ditch the Generator, and Pay Back in 4-5 Years",
     paragraph:
