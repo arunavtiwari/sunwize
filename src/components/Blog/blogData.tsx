@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 36,
+    title: "Solar for Builders and Real Estate Developers in UP 2026: How to Integrate Solar into New Residential and Commercial Projects",
+    paragraph:
+      "Real estate developers and builders in Uttar Pradesh can reduce common area electricity costs, boost unit values, and qualify for green building ratings by integrating rooftop solar at the construction stage. A 200-unit apartment project in Lucknow with a 60 kW common area solar system saves Rs 6-6.7 lakh per year, cutting each flat's maintenance levy by Rs 3,000-3,500 annually. This guide covers solar options for residential colonies, apartments, and commercial complexes in Lucknow, Kanpur, Barabanki, Ayodhya, and across UP in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["builders solar", "real estate", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-for-builders-developers-up",
+    readTime: "8 min read",
+  },
+  {
     id: 35,
     title: "Solar for Warehouses and Godowns in UP 2026: Cut Electricity Bills by 60-80 Percent with Rooftop Solar",
     paragraph:
