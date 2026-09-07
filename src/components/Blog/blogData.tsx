@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 37,
+    title: "How to Size Your Solar System Correctly for Your Home or Business in UP 2026",
+    paragraph:
+      "Getting your solar system size wrong is the most expensive mistake you can make when going solar in UP. Too small and your UPPCL bill barely moves. Too large and you overpay upfront for capacity you never use. This step-by-step sizing guide shows homeowners and businesses in Lucknow, Kanpur, Barabanki, and across Uttar Pradesh how to calculate the right kW capacity using their actual consumption, roof space, sanctioned load, and PM Surya Ghar subsidy limits in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar sizing", "system size", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-system-sizing-guide-up",
+    readTime: "8 min read",
+  },
+  {
     id: 36,
     title: "Solar for Builders and Real Estate Developers in UP 2026: How to Integrate Solar into New Residential and Commercial Projects",
     paragraph:

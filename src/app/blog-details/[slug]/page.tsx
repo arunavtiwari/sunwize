@@ -39,6 +39,7 @@ import SolarForHotelsRestaurantsUp from "@/app/blog-content/solar-for-hotels-res
 import SolarForPetrolPumpsUp from "@/app/blog-content/solar-for-petrol-pumps-up";
 import SolarForWarehousesUp2026 from "@/app/blog-content/solar-for-warehouses-up-2026";
 import SolarForBuildersDevelopersUp from "@/app/blog-content/solar-for-builders-developers-up";
+import SolarSystemSizingGuideUp from "@/app/blog-content/solar-system-sizing-guide-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -79,6 +80,7 @@ const blogContentComponents = {
   "solar-for-petrol-pumps-up": SolarForPetrolPumpsUp,
   "solar-for-warehouses-up-2026": SolarForWarehousesUp2026,
   "solar-for-builders-developers-up": SolarForBuildersDevelopersUp,
+  "solar-system-sizing-guide-up": SolarSystemSizingGuideUp,
 };
 
 function truncate(text: string, max = 160) {
