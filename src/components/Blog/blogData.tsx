@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 38,
+    title: "Solar for Coaching Institutes in UP 2026: Cut Electricity Bills by 60-80 Percent and Pay Back in 4-5 Years",
+    paragraph:
+      "Coaching centers in Lucknow, Kanpur, Raebareli, and Barabanki pay UPPCL commercial tariffs of Rs 7-9 per unit, with monthly bills reaching Rs 25,000 to Rs 80,000 for institutes running multiple AC classrooms all day. Their daytime-heavy schedules align perfectly with solar generation hours, making rooftop solar one of the most cost-effective investments a coaching institute can make in UP in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["coaching institute solar", "commercial solar", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-for-coaching-institutes-up",
+    readTime: "8 min read",
+  },
+  {
     id: 37,
     title: "How to Size Your Solar System Correctly for Your Home or Business in UP 2026",
     paragraph:
