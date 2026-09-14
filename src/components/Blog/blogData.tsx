@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 39,
+    title: "Solar for Marriage Halls and Banquet Venues in UP 2026: Cut Electricity Bills by 50-75 Percent and Pay Back in 4-5 Years",
+    paragraph:
+      "Marriage halls and banquet venues in Lucknow, Kanpur, Ayodhya, Barabanki, and Unnao are among the most electricity-intensive commercial properties in Uttar Pradesh, with monthly bills ranging from Rs 60,000 to Rs 3 lakh. Their large flat rooftops, daytime preparation loads, and generator dependency make them ideal solar candidates. A correctly sized rooftop solar system cuts UPPCL costs by 50 to 75 percent, reduces diesel runtime, and pays back in four to five years after 40 percent accelerated depreciation.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["marriage hall solar", "banquet venue", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-for-marriage-halls-up",
+    readTime: "8 min read",
+  },
+  {
     id: 38,
     title: "Solar for Coaching Institutes in UP 2026: Cut Electricity Bills by 60-80 Percent and Pay Back in 4-5 Years",
     paragraph:
