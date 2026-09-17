@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 40,
+    title: "Solar for Borewell and Water Supply in UP 2026: How to Run Your Submersible Pump on Solar and Cut Your UPPCL Bill",
+    paragraph:
+      "In most residential plots across Lucknow, Kanpur, Barabanki, Unnao, and Raebareli, the borewell submersible pump runs two to five hours every day, adding Rs 400 to Rs 1,200 to the UPPCL bill every month. A correctly sized rooftop solar system can cover the borewell pump load almost entirely during daylight hours. With PM Surya Ghar subsidy of up to Rs 78,000 and UPPCL net metering, solar is now genuinely cost-effective for UP homes where borewell running costs are a major line item.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["borewell solar", "submersible pump", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-water-pump-borewell-up",
+    readTime: "7 min read",
+  },
+  {
     id: 39,
     title: "Solar for Marriage Halls and Banquet Venues in UP 2026: Cut Electricity Bills by 50-75 Percent and Pay Back in 4-5 Years",
     paragraph:
