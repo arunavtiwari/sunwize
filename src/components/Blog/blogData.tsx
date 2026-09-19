@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 41,
+    title: "Solar for Shops and Retail Businesses in UP 2026: Cut Your UPPCL Bill by 60-90 Percent",
+    paragraph:
+      "Kirana stores, pharmacies, electronics shops, and other retail businesses in Lucknow, Kanpur, Barabanki, and Unnao pay UPPCL commercial tariffs of Rs 7-9 per unit, and a correctly sized rooftop solar system can cover 60 to 90 percent of daytime electricity consumption. With net metering and accelerated depreciation, most shop installations pay back in four to six years and deliver Rs 8-12 lakh in lifetime savings.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar for shops", "retail solar", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-for-shops-retail-up",
+    readTime: "7 min read",
+  },
+  {
     id: 40,
     title: "Solar for Borewell and Water Supply in UP 2026: How to Run Your Submersible Pump on Solar and Cut Your UPPCL Bill",
     paragraph:
