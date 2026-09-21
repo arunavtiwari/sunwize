@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 42,
+    title: "Solar for Offices and Commercial Buildings in UP 2026: Cut Your UPPCL Bill by 60-80 Percent",
+    paragraph:
+      "Offices and commercial buildings in Lucknow, Kanpur, Raebareli, and Barabanki pay UPPCL commercial tariffs between Rs 7 and Rs 9 per unit in 2026. A correctly sized rooftop solar system can cover 60 to 80 percent of office electricity load, and 40 percent accelerated depreciation means most office buildings recover their investment in four to five years without any residential subsidy.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["office solar", "commercial solar", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-for-offices-up",
+    readTime: "7 min read",
+  },
+  {
     id: 41,
     title: "Solar for Shops and Retail Businesses in UP 2026: Cut Your UPPCL Bill by 60-90 Percent",
     paragraph:
