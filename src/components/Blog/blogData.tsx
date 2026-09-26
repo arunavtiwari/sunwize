@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 43,
+    title: "Solar for Temples, Mosques, and Gurudwaras in UP 2026: Cut Electricity Bills by 60-90 Percent",
+    paragraph:
+      "Religious institutions across Lucknow, Kanpur, Ayodhya, Barabanki, and Sitapur pay UPPCL tariffs of Rs 7-9 per unit to run fans, lighting, PA systems, and kitchen equipment, with monthly bills ranging from Rs 8,000 to Rs 60,000. A correctly sized rooftop solar system can cut these costs by 60 to 90 percent, reduce generator dependency, and pay back in four to six years - with CSR funding and net metering making the case even stronger for larger institutions in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar for temples", "religious institutions", "UP solar"],
+    publishDate: "September 2026",
+    slug: "solar-for-religious-institutions-up",
+    readTime: "7 min read",
+  },
+  {
     id: 42,
     title: "Solar for Offices and Commercial Buildings in UP 2026: Cut Your UPPCL Bill by 60-80 Percent",
     paragraph:

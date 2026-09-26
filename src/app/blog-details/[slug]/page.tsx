@@ -45,6 +45,7 @@ import SolarForMarriageHallsUp from "@/app/blog-content/solar-for-marriage-halls
 import SolarWaterPumpBorewellUp from "@/app/blog-content/solar-water-pump-borewell-up";
 import SolarForShopsRetailUp from "@/app/blog-content/solar-for-shops-retail-up";
 import SolarForOfficesUp from "@/app/blog-content/solar-for-offices-up";
+import SolarForReligiousInstitutionsUp from "@/app/blog-content/solar-for-religious-institutions-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -91,6 +92,7 @@ const blogContentComponents = {
   "solar-water-pump-borewell-up": SolarWaterPumpBorewellUp,
   "solar-for-shops-retail-up": SolarForShopsRetailUp,
   "solar-for-offices-up": SolarForOfficesUp,
+  "solar-for-religious-institutions-up": SolarForReligiousInstitutionsUp,
 };
 
 function truncate(text: string, max = 160) {
