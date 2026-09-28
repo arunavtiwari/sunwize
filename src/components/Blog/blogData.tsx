@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 44,
+    title: "How to Choose a Solar Installer in UP 2026: Questions to Ask, Red Flags to Avoid, and UPPCL Rules Explained",
+    paragraph:
+      "Choosing the right solar installer in UP is the single most important decision in your solar journey. A good installer gets you a correctly sized system, handles UPPCL net metering paperwork, processes your PM Surya Ghar subsidy without delays, and stands behind the installation for years. This guide gives homeowners in Lucknow, Kanpur, Barabanki, Unnao, Raebareli, and Sitapur a clear framework for evaluating any solar company before signing a contract in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar installer", "UP solar", "how to choose"],
+    publishDate: "September 2026",
+    slug: "how-to-choose-solar-installer-up-2026",
+    readTime: "7 min read",
+  },
+  {
     id: 43,
     title: "Solar for Temples, Mosques, and Gurudwaras in UP 2026: Cut Electricity Bills by 60-90 Percent",
     paragraph:
