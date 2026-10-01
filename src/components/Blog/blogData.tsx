@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 45,
+    title: "Solar for Rented Homes and Properties in UP 2026: What Tenants and Landlords Need to Know",
+    paragraph:
+      "Millions of people in Lucknow, Kanpur, Barabanki, and across Uttar Pradesh live in rented properties and pay UPPCL bills of Rs 7-9 per unit every month. Whether you are a tenant wanting lower electricity bills or a landlord looking to add value to your property, this guide explains exactly who can install solar, how PM Surya Ghar subsidy applies, and what agreements protect both parties in a rental solar arrangement in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["rented home solar", "tenant solar UP", "landlord solar"],
+    publishDate: "October 2026",
+    slug: "solar-for-rented-homes-up",
+    readTime: "7 min read",
+  },
+  {
     id: 44,
     title: "How to Choose a Solar Installer in UP 2026: Questions to Ask, Red Flags to Avoid, and UPPCL Rules Explained",
     paragraph:
