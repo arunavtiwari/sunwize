@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 46,
+    title: "Solar Panel Cleaning and Dust Management in UP 2026: How to Maintain Peak Output in Lucknow and North India",
+    paragraph:
+      "In UP's dusty and smog-heavy climate, solar panels can lose 15 to 25 percent of their output within weeks of the last clean. This practical guide covers how often to clean rooftop solar panels in Lucknow, Kanpur, Barabanki, and across Uttar Pradesh, the safest DIY method, when to hire a professional service, and how regular cleaning directly protects your UPPCL net metering income in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar panel cleaning", "UP solar maintenance", "dust management"],
+    publishDate: "October 2026",
+    slug: "solar-panel-cleaning-up-2026",
+    readTime: "7 min read",
+  },
+  {
     id: 45,
     title: "Solar for Rented Homes and Properties in UP 2026: What Tenants and Landlords Need to Know",
     paragraph:
