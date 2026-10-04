@@ -2,6 +2,86 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 51,
+    title: "Pre-Winter Solar System Checklist for UP: 10 Steps to Protect Your System Before December",
+    paragraph:
+      "October is the most practical month to carry out a thorough solar system checkup in Uttar Pradesh. Post-monsoon skies are clear, temperatures are moderate, and you still have two months before dense fog reduces output. This 10-point checklist covers mounting hardware, earthing, battery health, and inverter settings so homeowners in Lucknow, Kanpur, Barabanki, and across UP head into winter with a system running at full capacity.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar winter prep", "UP solar checklist", "solar maintenance"],
+    publishDate: "October 2026",
+    slug: "solar-pre-winter-checklist-up",
+    readTime: "7 min read",
+  },
+  {
+    id: 50,
+    title: "How to Read Your UPPCL Net Metering Bill: A Plain English Guide for Solar Homeowners",
+    paragraph:
+      "Your first UPPCL electricity bill after going solar looks nothing like the bill you received for the previous ten years. New line items have appeared, familiar ones have changed, and the total is dramatically lower but harder to verify. This guide explains every section of a UPPCL net metering bill in plain language, so homeowners in Lucknow, Kanpur, and across UP can confirm their billing is correct and understand exactly where their savings come from.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["UPPCL net metering bill", "solar billing UP", "net metering credits"],
+    publishDate: "October 2026",
+    slug: "how-to-read-net-metering-bill-uppcl",
+    readTime: "6 min read",
+  },
+  {
+    id: 49,
+    title: "10 Solar Installation Mistakes That Cost UP Homeowners the Most in 2026",
+    paragraph:
+      "Rooftop solar in Uttar Pradesh is more accessible in 2026 than ever, but the same ease of installation also makes it easy to make costly mistakes. From skipping PM Surya Ghar pre-registration to choosing an unempanelled installer, each mistake in this list has cost real homeowners in Lucknow, Kanpur, and Barabanki real money. This guide covers the ten most expensive errors and exactly how to avoid each one.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar mistakes India", "solar buying guide UP", "PM Surya Ghar tips"],
+    publishDate: "October 2026",
+    slug: "solar-common-mistakes-india-2026",
+    readTime: "8 min read",
+  },
+  {
+    id: 48,
+    title: "Lucknow Becomes India's Top Solar District: Why Homeowners Who Haven't Installed Yet Should Act Now",
+    paragraph:
+      "By April 2026, Lucknow crossed 88,000 rooftop solar installations under PM Surya Ghar Muft Bijli Yojana, making it the first district in India to reach that milestone. With net metering policy windows narrowing and panel prices having already seen their steepest drop, the window to maximise subsidy and net metering benefit is still open but narrowing. This article addresses the three most common reasons Lucknow residents who haven't installed yet are still waiting, and why each one holds less weight in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["Lucknow solar 2026", "PM Surya Ghar Lucknow", "solar India milestone"],
+    publishDate: "October 2026",
+    slug: "lucknow-top-solar-district-india",
+    readTime: "7 min read",
+  },
+  {
+    id: 47,
+    title: "Post-Monsoon Solar System Checkup in UP: 10 Things to Inspect Before Winter Arrives",
+    paragraph:
+      "The monsoon season in Uttar Pradesh wraps up by late September or early October, and the window before winter fog arrives is the best time to give your rooftop solar system a thorough checkup. Moisture, temperature cycling, and three months of minimal maintenance during the rains leave specific vulnerabilities in every part of the system. This guide covers the ten most important areas to inspect, with specific guidance for systems in Lucknow, Barabanki, Sitapur, and other humid districts of UP.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["post-monsoon solar UP", "solar system inspection", "solar maintenance India"],
+    publishDate: "October 2026",
+    slug: "solar-post-monsoon-checkup-up",
+    readTime: "7 min read",
+  },
+  {
     id: 46,
     title: "Solar Panel Cleaning and Dust Management in UP 2026: How to Maintain Peak Output in Lucknow and North India",
     paragraph:

@@ -49,6 +49,31 @@ import SolarForReligiousInstitutionsUp from "@/app/blog-content/solar-for-religi
 import HowToChooseSolarInstallerUp2026 from "@/app/blog-content/how-to-choose-solar-installer-up-2026";
 import SolarForRentedHomesUp from "@/app/blog-content/solar-for-rented-homes-up";
 import SolarPanelCleaningUp2026 from "@/app/blog-content/solar-panel-cleaning-up-2026";
+import SolarPostMonsoonCheckupUp from "@/app/blog-content/solar-post-monsoon-checkup-up";
+import LucknowTopSolarDistrictIndia from "@/app/blog-content/lucknow-top-solar-district-india";
+import SolarCommonMistakesIndia2026 from "@/app/blog-content/solar-common-mistakes-india-2026";
+import HowToReadNetMeteringBillUppcl from "@/app/blog-content/how-to-read-net-metering-bill-uppcl";
+import SolarPreWinterChecklistUp from "@/app/blog-content/solar-pre-winter-checklist-up";
+import SolarMythsIndiaBusted from "@/app/blog-content/solar-myths-india-busted";
+import SolarMonitoringAppsIndia from "@/app/blog-content/solar-monitoring-apps-india";
+import SolarInstallationTimelineIndia from "@/app/blog-content/solar-installation-timeline-india";
+import SolarGstIndia2026 from "@/app/blog-content/solar-gst-india-2026";
+import SolarHomeResaleValueIndia from "@/app/blog-content/solar-home-resale-value-india";
+import SolarLoanBanksUp2026 from "@/app/blog-content/solar-loan-banks-up-2026";
+import Solar40PercentDepreciationIndia from "@/app/blog-content/solar-40-percent-depreciation-india";
+import BifacialSolarPanelsIndia2026 from "@/app/blog-content/bifacial-solar-panels-india-2026";
+import SolarForFlourMillsUp from "@/app/blog-content/solar-for-flour-mills-up";
+import SolarForAutoWorkshopsUp from "@/app/blog-content/solar-for-auto-workshops-up";
+import SolarForGymsFitnessUp from "@/app/blog-content/solar-for-gyms-fitness-up";
+import SolarForGuestHousesUp from "@/app/blog-content/solar-for-guest-houses-up";
+import SolarForRiceMillsUp from "@/app/blog-content/solar-for-rice-mills-up";
+import SolarScamsUp2026 from "@/app/blog-content/solar-scams-up-2026";
+import UppclDiscomAreasSolarGuide from "@/app/blog-content/uppcl-discom-areas-solar-guide";
+import SolarSecondHandPanelsIndia from "@/app/blog-content/solar-second-hand-panels-india";
+import SolarStringVsMicroinverterIndia from "@/app/blog-content/solar-string-vs-microinverter-india";
+import SolarForTextileWeavingUp from "@/app/blog-content/solar-for-textile-weaving-up";
+import SolarSummerPrepUp from "@/app/blog-content/solar-summer-prep-up";
+import SolarForHostelsPgUp from "@/app/blog-content/solar-for-hostels-pg-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -99,6 +124,31 @@ const blogContentComponents = {
   "how-to-choose-solar-installer-up-2026": HowToChooseSolarInstallerUp2026,
   "solar-for-rented-homes-up": SolarForRentedHomesUp,
   "solar-panel-cleaning-up-2026": SolarPanelCleaningUp2026,
+  "solar-post-monsoon-checkup-up": SolarPostMonsoonCheckupUp,
+  "lucknow-top-solar-district-india": LucknowTopSolarDistrictIndia,
+  "solar-common-mistakes-india-2026": SolarCommonMistakesIndia2026,
+  "how-to-read-net-metering-bill-uppcl": HowToReadNetMeteringBillUppcl,
+  "solar-pre-winter-checklist-up": SolarPreWinterChecklistUp,
+  "solar-myths-india-busted": SolarMythsIndiaBusted,
+  "solar-monitoring-apps-india": SolarMonitoringAppsIndia,
+  "solar-installation-timeline-india": SolarInstallationTimelineIndia,
+  "solar-gst-india-2026": SolarGstIndia2026,
+  "solar-home-resale-value-india": SolarHomeResaleValueIndia,
+  "solar-loan-banks-up-2026": SolarLoanBanksUp2026,
+  "solar-40-percent-depreciation-india": Solar40PercentDepreciationIndia,
+  "bifacial-solar-panels-india-2026": BifacialSolarPanelsIndia2026,
+  "solar-for-flour-mills-up": SolarForFlourMillsUp,
+  "solar-for-auto-workshops-up": SolarForAutoWorkshopsUp,
+  "solar-for-gyms-fitness-up": SolarForGymsFitnessUp,
+  "solar-for-guest-houses-up": SolarForGuestHousesUp,
+  "solar-for-rice-mills-up": SolarForRiceMillsUp,
+  "solar-scams-up-2026": SolarScamsUp2026,
+  "uppcl-discom-areas-solar-guide": UppclDiscomAreasSolarGuide,
+  "solar-second-hand-panels-india": SolarSecondHandPanelsIndia,
+  "solar-string-vs-microinverter-india": SolarStringVsMicroinverterIndia,
+  "solar-for-textile-weaving-up": SolarForTextileWeavingUp,
+  "solar-summer-prep-up": SolarSummerPrepUp,
+  "solar-for-hostels-pg-up": SolarForHostelsPgUp,
 };
 
 function truncate(text: string, max = 160) {
