@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 52,
+    title: "Solar Panel and Inverter Warranties in India 2026: What is Covered, What Voids Them, and How to Claim",
+    paragraph:
+      "A solar system is a 25-year investment, yet most buyers spend less than a minute on the warranty conversation before signing. This guide explains the difference between product and performance warranties, what voids them in UP conditions, inverter and battery warranty terms in 2026, how the PM Surya Ghar workmanship requirement protects you, and exactly what documentation you need to make a successful claim.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar warranty India", "solar panel guarantee", "UP solar 2026"],
+    publishDate: "October 2026",
+    slug: "solar-panel-warranty-india-2026",
+    readTime: "8 min read",
+  },
+  {
     id: 51,
     title: "Pre-Winter Solar System Checklist for UP: 10 Steps to Protect Your System Before December",
     paragraph:

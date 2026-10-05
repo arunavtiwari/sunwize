@@ -74,6 +74,7 @@ import SolarStringVsMicroinverterIndia from "@/app/blog-content/solar-string-vs-
 import SolarForTextileWeavingUp from "@/app/blog-content/solar-for-textile-weaving-up";
 import SolarSummerPrepUp from "@/app/blog-content/solar-summer-prep-up";
 import SolarForHostelsPgUp from "@/app/blog-content/solar-for-hostels-pg-up";
+import SolarPanelWarrantyIndia2026 from "@/app/blog-content/solar-panel-warranty-india-2026";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -149,6 +150,7 @@ const blogContentComponents = {
   "solar-for-textile-weaving-up": SolarForTextileWeavingUp,
   "solar-summer-prep-up": SolarSummerPrepUp,
   "solar-for-hostels-pg-up": SolarForHostelsPgUp,
+  "solar-panel-warranty-india-2026": SolarPanelWarrantyIndia2026,
 };
 
 function truncate(text: string, max = 160) {
