@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 53,
+    title: "Solar Payback Period in India 2026: How Long Does Rooftop Solar Take to Pay Back in UP?",
+    paragraph:
+      "In Lucknow and across UP, a 3 kW rooftop solar system after the PM Surya Ghar subsidy typically pays back in 4 to 5 years - and then generates free electricity for the next 20 years. This guide explains exactly how to calculate your payback period, what shortens or lengthens it, and what the net numbers look like for homes and small businesses in UP in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar payback period", "solar ROI India", "UP solar 2026"],
+    publishDate: "October 2026",
+    slug: "solar-payback-period-india-2026",
+    readTime: "7 min read",
+  },
+  {
     id: 52,
     title: "Solar Panel and Inverter Warranties in India 2026: What is Covered, What Voids Them, and How to Claim",
     paragraph:
