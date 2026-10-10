@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 54,
+    title: "Solar Panel Direction and Tilt Angle in UP 2026: How to Maximise Rooftop Output in Lucknow and North India",
+    paragraph:
+      "Direction and tilt angle together account for a 15 to 20 percent variation in annual solar output for identical systems on the same roof in UP. This guide explains the ideal azimuth and tilt for Lucknow and neighbouring cities, what to do when your roof is not south-facing, and how shadows from water tanks and parapets silently cost UP homeowners thousands of rupees per year in lost net metering income.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar panel direction", "tilt angle India", "rooftop solar UP"],
+    publishDate: "October 2026",
+    slug: "solar-panel-direction-tilt-up",
+    readTime: "7 min read",
+  },
+  {
     id: 53,
     title: "Solar Payback Period in India 2026: How Long Does Rooftop Solar Take to Pay Back in UP?",
     paragraph:
