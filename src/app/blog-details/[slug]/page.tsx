@@ -77,6 +77,7 @@ import SolarForHostelsPgUp from "@/app/blog-content/solar-for-hostels-pg-up";
 import SolarPanelWarrantyIndia2026 from "@/app/blog-content/solar-panel-warranty-india-2026";
 import SolarPaybackPeriodIndia2026 from "@/app/blog-content/solar-payback-period-india-2026";
 import SolarPanelDirectionTiltUp from "@/app/blog-content/solar-panel-direction-tilt-up";
+import SolarBirdProtectionUp from "@/app/blog-content/solar-bird-protection-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -155,6 +156,7 @@ const blogContentComponents = {
   "solar-panel-warranty-india-2026": SolarPanelWarrantyIndia2026,
   "solar-payback-period-india-2026": SolarPaybackPeriodIndia2026,
   "solar-panel-direction-tilt-up": SolarPanelDirectionTiltUp,
+  "solar-bird-protection-up": SolarBirdProtectionUp,
 };
 
 function truncate(text: string, max = 160) {

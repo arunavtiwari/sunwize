@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 55,
+    title: "Solar Panel Bird and Pigeon Protection in UP: How to Prevent Nesting, Damage, and Output Loss",
+    paragraph:
+      "Pigeons nesting under rooftop solar panels are one of the most underreported causes of generation loss in Lucknow, Kanpur, and across Uttar Pradesh. Bird droppings and nesting material create partial shading, hotspots, and physical damage that can cost Rs 3,600 to Rs 8,400 per year in lost UPPCL net metering income - while a full perimeter mesh installation costs Rs 5,000 to Rs 8,000 and pays back in under two years.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["bird protection solar", "pigeon solar UP", "solar maintenance"],
+    publishDate: "October 2026",
+    slug: "solar-bird-protection-up",
+    readTime: "7 min read",
+  },
+  {
     id: 54,
     title: "Solar Panel Direction and Tilt Angle in UP 2026: How to Maximise Rooftop Output in Lucknow and North India",
     paragraph:
