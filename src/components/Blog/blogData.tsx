@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 56,
+    title: "8 Solar Energy Myths Busted: What Indian Homeowners in UP Actually Need to Know in 2026",
+    paragraph:
+      "Solar energy gets more than its fair share of misinformation in India. From WhatsApp forwards to well-meaning neighbours who heard something negative, myths about cloudy day performance, high temperatures, payback periods, and roof damage deter people from making a decision that would genuinely improve their finances. This guide busts eight of the most common solar myths circulating in Lucknow, Kanpur, and across Uttar Pradesh with real data and local context.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar myths India", "solar misconceptions UP", "solar facts 2026"],
+    publishDate: "October 2026",
+    slug: "solar-myths-india-busted",
+    readTime: "7 min read",
+  },
+  {
     id: 55,
     title: "Solar Panel Bird and Pigeon Protection in UP: How to Prevent Nesting, Damage, and Output Loss",
     paragraph:
