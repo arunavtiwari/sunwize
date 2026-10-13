@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 55,
+    title: "How to Use Your Solar Monitoring App: FusionSolar, Solis Cloud, and Goodwe SEMS Explained for UP Homeowners",
+    paragraph:
+      "One of the least-discussed aspects of owning a rooftop solar system in UP is what happens after installation day. The panels go on the roof, the inverter starts working, and your installer walks you through an app in about five minutes. This guide explains what every reading in your monitoring app actually means, which alerts to act on immediately, and how to use daily generation data to maximise your UPPCL net metering income in Lucknow, Kanpur, and across Uttar Pradesh.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar monitoring app India", "FusionSolar India", "solar inverter app guide"],
+    publishDate: "October 2026",
+    slug: "solar-monitoring-apps-india",
+    readTime: "6 min read",
+  },
+  {
     id: 56,
     title: "8 Solar Energy Myths Busted: What Indian Homeowners in UP Actually Need to Know in 2026",
     paragraph:
