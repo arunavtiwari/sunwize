@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 56,
+    title: "How Long Does Solar Installation Take in UP? The Complete Timeline from Site Visit to First Bill",
+    paragraph:
+      "Most homeowners in Lucknow and across UP assume that installing solar means booking a date, having a crew come up to the roof, and that is it. The reality includes a DISCOM sanction application, PM Surya Ghar portal registration, net metering meter installation, and subsidy disbursement steps that span weeks or months. This guide maps every stage of the solar installation process in UP with realistic timelines so you know exactly what to expect in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar installation timeline India", "solar process UP 2026", "UPPCL solar approval time"],
+    publishDate: "October 2026",
+    slug: "solar-installation-timeline-india",
+    readTime: "7 min read",
+  },
+  {
     id: 55,
     title: "How to Use Your Solar Monitoring App: FusionSolar, Solis Cloud, and Goodwe SEMS Explained for UP Homeowners",
     paragraph:
