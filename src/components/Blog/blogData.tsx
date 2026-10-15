@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 57,
+    title: "How to Verify Solar Panel Quality in India 2026: ALMM List, BIS Certification, and What to Check Before Installation",
+    paragraph:
+      "A substandard 540 Wp panel that actually delivers 420 Wp costs a Lucknow homeowner Rs 8,000 to Rs 12,000 per year in lost generation and net metering income, while looking identical to a genuine panel on installation day. This guide explains how to verify panel quality using the MNRE ALMM list, BIS and IEC certifications, flash test reports, and physical label checks before your installer puts any panel on your roof in UP in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar panel quality India", "ALMM list 2026", "BIS certification solar"],
+    publishDate: "October 2026",
+    slug: "solar-panel-quality-check-india",
+    readTime: "7 min read",
+  },
+  {
     id: 56,
     title: "How Long Does Solar Installation Take in UP? The Complete Timeline from Site Visit to First Bill",
     paragraph:
