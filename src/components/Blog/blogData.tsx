@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 58,
+    title: "Does Solar Add Value When You Sell Your Home in India? A Practical Guide for UP Homeowners in 2026",
+    paragraph:
+      "Research from the US consistently shows that rooftop solar adds 3 to 4 percent to a home sale price. The Indian property market is different, solar is newer, and buyer awareness varies enormously between Gomti Nagar in Lucknow and a smaller city like Barabanki. This guide covers what the UP property market actually shows about solar homes, how to handle net metering transfer when selling, and what documentation you need to pass a working solar system to the next owner.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar home resale India", "solar property value UP", "UPPCL net metering transfer"],
+    publishDate: "October 2026",
+    slug: "solar-home-resale-value-india",
+    readTime: "6 min read",
+  },
+  {
     id: 57,
     title: "GST on Solar Panels in India 2026: The Correct Rates, What to Check on Your Invoice, and ITC for Businesses",
     paragraph:
