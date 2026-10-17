@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 59,
+    title: "How to Expand or Upgrade Your Existing Solar System in UP 2026: Adding Panels, Batteries, and Increasing Capacity",
+    paragraph:
+      "Thousands of homeowners in Lucknow, Kanpur, Barabanki, and across Uttar Pradesh installed a small 1 kW or 2 kW solar system a few years ago and have since added new loads like air conditioners, electric two-wheelers, or extra floors. This guide explains the three main ways to expand a solar system in UP, how to get UPPCL approval for a capacity increase, and what expansion actually costs in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar expansion UP 2026", "upgrade solar system India", "UPPCL capacity increase"],
+    publishDate: "October 2026",
+    slug: "solar-upgrade-expand-india",
+    readTime: "7 min read",
+  },
+  {
     id: 58,
     title: "Does Solar Add Value When You Sell Your Home in India? A Practical Guide for UP Homeowners in 2026",
     paragraph:
