@@ -3,6 +3,22 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 59,
+    title: "Solar Loans in UP 2026: SBI Surya Shakti, IREDA, and the Best EMI Options for Homeowners and Businesses",
+    paragraph:
+      "After the PM Surya Ghar subsidy, a 5 kW rooftop solar system in Lucknow costs between Rs 1.5 lakh and Rs 2 lakh out of pocket. For most households and small businesses, this is still a significant sum. Solar-specific loan schemes from SBI, Union Bank, PNB, Bank of Baroda, and IREDA make it possible to spread this cost over 3 to 7 years, often with EMIs that are fully covered by monthly electricity savings from day one. This guide compares every major solar loan option available to UP customers in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar loan UP 2026", "SBI Surya Shakti loan", "solar EMI Lucknow"],
+    publishDate: "October 2026",
+    slug: "solar-loan-banks-up-2026",
+    readTime: "7 min read",
+  },
+  {
+    id: 59,
     title: "How to Expand or Upgrade Your Existing Solar System in UP 2026: Adding Panels, Batteries, and Increasing Capacity",
     paragraph:
       "Thousands of homeowners in Lucknow, Kanpur, Barabanki, and across Uttar Pradesh installed a small 1 kW or 2 kW solar system a few years ago and have since added new loads like air conditioners, electric two-wheelers, or extra floors. This guide explains the three main ways to expand a solar system in UP, how to get UPPCL approval for a capacity increase, and what expansion actually costs in 2026.",
