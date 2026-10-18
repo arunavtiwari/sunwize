@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 60,
+    title: "The 40 Percent Solar Depreciation Benefit: How Indian Businesses Can Recover Rs 1.5 Lakh in Year One",
+    paragraph:
+      "Business owners in Lucknow, Kanpur, Unnao, and across UP who install solar routinely focus on electricity savings and the PM Surya Ghar subsidy. What they often overlook is the single largest financial incentive available to commercial solar buyers in India: the 40 percent accelerated depreciation benefit under Section 32 of the Income Tax Act. For a business in the 30 percent tax bracket, this benefit alone can return Rs 1.2 to Rs 1.8 lakh on a Rs 10 lakh solar system in the very first year.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar depreciation India", "40 percent solar depreciation", "solar tax benefit India business"],
+    publishDate: "October 2026",
+    slug: "solar-40-percent-depreciation-india",
+    readTime: "7 min read",
+  },
+  {
     id: 59,
     title: "Solar Loans in UP 2026: SBI Surya Shakti, IREDA, and the Best EMI Options for Homeowners and Businesses",
     paragraph:
