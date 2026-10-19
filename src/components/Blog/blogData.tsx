@@ -3,6 +3,22 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 61,
+    title: "Bifacial Solar Panels in India 2026: Are They Worth the Extra Cost for UP Rooftops?",
+    paragraph:
+      "Walk into any solar showroom in Lucknow or Kanpur in 2026 and you will likely be shown both monofacial and bifacial panel options. The bifacial premium is typically 10 to 15 percent over a standard panel, and installers will tell you about an additional 5 to 25 percent energy gain from reflected light on the rear surface. Whether that gain is real on your specific roof in UP depends on factors most sales pitches do not mention. This guide explains how bifacial panels work, when the premium pays back in UP conditions, and when you are better off saving the money.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["bifacial solar panels India 2026", "bifacial vs monofacial India", "bifacial solar UP rooftop"],
+    publishDate: "October 2026",
+    slug: "bifacial-solar-panels-india-2026",
+    readTime: "6 min read",
+  },
+  {
+    id: 61,
     title: "Why Solar Panels Generate Less in UP's Summer Heat and What You Can Do About It",
     paragraph:
       "Homeowners across Lucknow, Kanpur, Barabanki, and UP notice their rooftop solar generates 10-18 percent less in May-June than in February-March, even with more sun. This is the temperature coefficient at work: panel surfaces reach 55-70°C in UP summers, costing a 5 kW system 50-80 units per month. This guide explains the physics, the real financial impact, how to choose panels with better heat tolerance, and practical steps to reduce summer losses through mounting gaps, inverter placement, and cleaning schedules.",
