@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 62,
+    title: "Solar for Flour Mills in UP: How Chakki and Atta Mill Owners Can Cut Electricity Bills by 50 to 70 Percent",
+    paragraph:
+      "Uttar Pradesh has tens of thousands of flour mills, from neighbourhood chakkis processing 50 kg per day to industrial roller mills handling hundreds of metric tonnes. What these operations share is a heavy dependence on UPPCL power at commercial and industrial tariff rates of Rs 7 to Rs 11 per unit. A correctly sized solar system eliminates 60 to 80 percent of that bill during the eight to ten hours when mills operate in daylight, with a payback period of two to four years even before factoring in the 40 percent depreciation benefit.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar flour mill UP", "solar chakki UP", "solar atta mill Lucknow"],
+    publishDate: "October 2026",
+    slug: "solar-for-flour-mills-up",
+    readTime: "7 min read",
+  },
+  {
     id: 61,
     title: "Bifacial Solar Panels in India 2026: Are They Worth the Extra Cost for UP Rooftops?",
     paragraph:
