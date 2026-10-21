@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 63,
+    title: "Solar for Auto Workshops and Garages in UP: A Practical Guide for Mechanics and Vehicle Service Centres",
+    paragraph:
+      "Auto workshops in Lucknow, Kanpur, and along UP national highways run compressors, welding machines, hydraulic lifts, paint booths, and lighting for eight to ten hours every day. A mid-size workshop running a monthly UPPCL bill of Rs 30,000 to Rs 80,000 is spending Rs 3.6 to Rs 9.6 lakh every year on electricity that solar can largely eliminate. This guide covers system sizing, the specific electrical requirements of workshop loads, and the 40 percent depreciation benefit that makes the financial case even stronger for registered businesses.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar auto workshop UP", "solar garage Lucknow", "solar vehicle service centre India"],
+    publishDate: "October 2026",
+    slug: "solar-for-auto-workshops-up",
+    readTime: "6 min read",
+  },
+  {
     id: 62,
     title: "Solar for Flour Mills in UP: How Chakki and Atta Mill Owners Can Cut Electricity Bills by 50 to 70 Percent",
     paragraph:
