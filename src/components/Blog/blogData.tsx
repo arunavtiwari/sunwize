@@ -3,6 +3,22 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 64,
+    title: "Solar for Gyms and Fitness Centres in UP: Eliminate 60 to 70 Percent of Your Electricity Bill",
+    paragraph:
+      "A 1,500 sq ft air-conditioned gym in Lucknow is one of the highest electricity consumers in any commercial neighbourhood. With four 1.5-ton ACs running through the morning and evening sessions, treadmills, ellipticals, and lighting, a typical fitness centre monthly UPPCL bill runs Rs 20,000 to Rs 60,000. Solar eliminates most of that cost during the morning session, with battery backup extending the benefit into the peak 5 to 9pm slot when members are most active and the grid is most stressed.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar gym UP", "solar fitness centre Lucknow", "solar AC commercial UP"],
+    publishDate: "October 2026",
+    slug: "solar-for-gyms-fitness-up",
+    readTime: "7 min read",
+  },
+  {
+    id: 64,
     title: "Solar for Ice Factories in UP 2026: Cut Your UPPCL Bill by 40-60 Percent and Pay Back in 2-3 Years",
     paragraph:
       "Ice factories in Lucknow, Kanpur, Unnao, Sitapur, and Raebareli run large compressors for 16 to 22 hours a day in peak summer, paying UPPCL commercial bills of Rs 60,000 to Rs 1.8 lakh per month. Their daytime-heavy load profile, large industrial rooftops, and eligibility for 40 percent accelerated depreciation make rooftop solar one of the most financially compelling investments available to barf factory operators in UP in 2026.",
