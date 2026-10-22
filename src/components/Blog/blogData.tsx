@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 64,
+    title: "Solar for Ice Factories in UP 2026: Cut Your UPPCL Bill by 40-60 Percent and Pay Back in 2-3 Years",
+    paragraph:
+      "Ice factories in Lucknow, Kanpur, Unnao, Sitapur, and Raebareli run large compressors for 16 to 22 hours a day in peak summer, paying UPPCL commercial bills of Rs 60,000 to Rs 1.8 lakh per month. Their daytime-heavy load profile, large industrial rooftops, and eligibility for 40 percent accelerated depreciation make rooftop solar one of the most financially compelling investments available to barf factory operators in UP in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar ice factory UP", "barf factory solar", "commercial solar UP"],
+    publishDate: "October 2026",
+    slug: "solar-for-ice-factories-up",
+    readTime: "7 min read",
+  },
+  {
     id: 63,
     title: "Solar for Auto Workshops and Garages in UP: A Practical Guide for Mechanics and Vehicle Service Centres",
     paragraph:
