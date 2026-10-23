@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 65,
+    title: "Solar for Guest Houses and Lodges in UP: How Ayodhya and Lucknow Hospitality Properties Can Cut Bills by 70 Percent",
+    paragraph:
+      "Uttar Pradesh is in the middle of a hospitality surge. Ayodhya Ram Mandir has transformed the city into one of India highest-volume pilgrimage destinations, while Lucknow growing business and tourism sector is filling hotels and guest houses year-round. Guest house owners running 10 to 40 rooms face monthly UPPCL bills of Rs 25,000 to Rs 90,000. A rooftop solar system paired with solar water heaters can cut that figure by 60 to 80 percent, with commercial net metering and 40 percent depreciation shortening payback to under three years.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar guest house UP", "solar hotel Ayodhya", "solar lodge Lucknow"],
+    publishDate: "October 2026",
+    slug: "solar-for-guest-houses-up",
+    readTime: "7 min read",
+  },
+  {
     id: 64,
     title: "Solar for Gyms and Fitness Centres in UP: Eliminate 60 to 70 Percent of Your Electricity Bill",
     paragraph:
