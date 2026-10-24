@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 66,
+    title: "Solar for Poultry Farms in UP 2026: Cut Electricity Bills by 60-80 Percent and Pay Back in 4-6 Years",
+    paragraph:
+      "Poultry farms across Uttar Pradesh face UPPCL commercial electricity bills of Rs 25,000 to Rs 75,000 per month, plus heavy diesel generator costs during summer outages that kill birds. A correctly sized rooftop or ground-mounted solar system can cover 60 to 80 percent of a poultry farm daytime load, eliminate most generator runtime, and pay back in four to six years with 40 percent accelerated depreciation making the numbers even stronger for registered farm businesses in Lucknow, Kanpur, Unnao, Barabanki, and across Uttar Pradesh.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar poultry farm UP", "poultry solar Lucknow", "agri solar UP 2026"],
+    publishDate: "October 2026",
+    slug: "solar-for-poultry-farms-up",
+    readTime: "7 min read",
+  },
+  {
     id: 65,
     title: "Solar for Guest Houses and Lodges in UP: How Ayodhya and Lucknow Hospitality Properties Can Cut Bills by 70 Percent",
     paragraph:

@@ -82,6 +82,7 @@ import SolarPanelQualityCheckIndia from "@/app/blog-content/solar-panel-quality-
 import SolarUpgradeExpandIndia from "@/app/blog-content/solar-upgrade-expand-india";
 import SolarPanelsSummerHeatUp2026 from "@/app/blog-content/solar-panels-summer-heat-up-2026";
 import SolarForIceFactoriesUp from "@/app/blog-content/solar-for-ice-factories-up";
+import SolarForPoultryFarmsUp from "@/app/blog-content/solar-for-poultry-farms-up";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -165,6 +166,7 @@ const blogContentComponents = {
   "solar-upgrade-expand-india": SolarUpgradeExpandIndia,
   "solar-panels-summer-heat-up-2026": SolarPanelsSummerHeatUp2026,
   "solar-for-ice-factories-up": SolarForIceFactoriesUp,
+  "solar-for-poultry-farms-up": SolarForPoultryFarmsUp,
 };
 
 function truncate(text: string, max = 160) {
