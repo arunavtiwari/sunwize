@@ -3,6 +3,22 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 66,
+    title: "Solar for Rice Mills in UP: How Paddy Processors in Barabanki, Sitapur, and Hardoi Can Slash Power Costs",
+    paragraph:
+      "Uttar Pradesh is India second-largest rice producer, and the paddy processing belt running through Barabanki, Sitapur, Hardoi, Sultanpur, and Ayodhya is home to hundreds of hullers, whiteners, and polishing mills that run on UPPCL power at industrial tariff rates. With monthly electricity bills ranging from Rs 30,000 for a small huller to Rs 4 lakh for a mid-size processing unit, rice mill owners are among the most motivated commercial solar adopters in UP.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar rice mill UP", "solar paddy mill Barabanki", "solar milling UP 2026"],
+    publishDate: "October 2026",
+    slug: "solar-for-rice-mills-up",
+    readTime: "7 min read",
+  },
+  {
+    id: 66,
     title: "Solar for Poultry Farms in UP 2026: Cut Electricity Bills by 60-80 Percent and Pay Back in 4-6 Years",
     paragraph:
       "Poultry farms across Uttar Pradesh face UPPCL commercial electricity bills of Rs 25,000 to Rs 75,000 per month, plus heavy diesel generator costs during summer outages that kill birds. A correctly sized rooftop or ground-mounted solar system can cover 60 to 80 percent of a poultry farm daytime load, eliminate most generator runtime, and pay back in four to six years with 40 percent accelerated depreciation making the numbers even stronger for registered farm businesses in Lucknow, Kanpur, Unnao, Barabanki, and across Uttar Pradesh.",
