@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 67,
+    title: "Solar Scams in UP 2026: 5 Frauds Targeting Homeowners and How to Protect Yourself",
+    paragraph:
+      "India solar boom has attracted serious investment, quality manufacturers, and skilled installers. It has also attracted opportunists. In UP, consumers have lost money to panel substitution after contract signing, fake PM Surya Ghar subsidy agents, advance payment disappearances, inflated system sizing, and non-BIS certified panels sold as branded products. This guide identifies each scam type with specific detection and prevention steps so homeowners in Lucknow, Kanpur, Barabanki, and across UP can protect themselves in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar scams UP 2026", "solar fraud India", "fake solar installer UP"],
+    publishDate: "October 2026",
+    slug: "solar-scams-up-2026",
+    readTime: "6 min read",
+  },
+  {
     id: 66,
     title: "Solar for Rice Mills in UP: How Paddy Processors in Barabanki, Sitapur, and Hardoi Can Slash Power Costs",
     paragraph:
