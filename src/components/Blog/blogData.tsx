@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 68,
+    title: "Solar for Sweet Shops and Mithai Dukans in UP 2026: Cut Your UPPCL Bill by 50-70 Percent",
+    paragraph:
+      "Sweet shops in Lucknow, Kanpur, Barabanki, and Ayodhya pay UPPCL commercial bills of Rs 12,000 to Rs 45,000 per month running refrigerated display counters, walk-in cold rooms, air conditioners, and cooking equipment. A correctly sized rooftop solar system covers 50 to 70 percent of this load during peak business hours, and the 40 percent accelerated depreciation benefit makes the investment pay back in three to five years for registered businesses across Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar sweet shop UP", "mithai dukan solar Lucknow", "halwai solar UP 2026"],
+    publishDate: "October 2026",
+    slug: "solar-for-sweet-shops-up",
+    readTime: "7 min read",
+  },
+  {
     id: 67,
     title: "Solar Scams in UP 2026: 5 Frauds Targeting Homeowners and How to Protect Yourself",
     paragraph:
