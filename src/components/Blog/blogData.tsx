@@ -3,6 +3,22 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 68,
+    title: "Which UPPCL DISCOM Handles Your Solar Application? A District-by-District Guide for UP Homeowners",
+    paragraph:
+      "One of the most common reasons solar applications get stuck or rejected in Uttar Pradesh is one of the most avoidable: the application was submitted to the wrong DISCOM portal, or the consumer number format used for PM Surya Ghar registration did not match the DISCOM records. This guide maps every district in UP to its correct DISCOM, explains the specific net metering processing timelines for each, and gives practical tips for the most commonly confused boundaries and billing areas.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["UPPCL DISCOM areas UP", "MVVNL PVVNL solar", "UP DISCOM solar guide 2026"],
+    publishDate: "October 2026",
+    slug: "uppcl-discom-areas-solar-guide",
+    readTime: "7 min read",
+  },
+  {
+    id: 68,
     title: "Solar for Sweet Shops and Mithai Dukans in UP 2026: Cut Your UPPCL Bill by 50-70 Percent",
     paragraph:
       "Sweet shops in Lucknow, Kanpur, Barabanki, and Ayodhya pay UPPCL commercial bills of Rs 12,000 to Rs 45,000 per month running refrigerated display counters, walk-in cold rooms, air conditioners, and cooking equipment. A correctly sized rooftop solar system covers 50 to 70 percent of this load during peak business hours, and the 40 percent accelerated depreciation benefit makes the investment pay back in three to five years for registered businesses across Uttar Pradesh in 2026.",
