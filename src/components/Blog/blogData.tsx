@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 69,
+    title: "Should You Buy Used Solar Panels in India? A Buyer Guide for UP Homeowners in 2026",
+    paragraph:
+      "The used solar panel market in India has grown as large government and commercial projects replace aging systems and homeowners upgrade to newer technology. Prices look attractive, sometimes 40 to 50 percent below new panel costs. But used panels carry hidden costs: degraded output, voided warranties, PM Surya Ghar subsidy ineligibility, and the risk of buying non-ALMM-compliant or counterfeit products. This guide explains exactly when second-hand panels make sense in UP and when they will cost you more than you save.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["used solar panels India", "second hand solar panels UP", "refurbished solar India 2026"],
+    publishDate: "October 2026",
+    slug: "solar-second-hand-panels-india",
+    readTime: "6 min read",
+  },
+  {
     id: 68,
     title: "Which UPPCL DISCOM Handles Your Solar Application? A District-by-District Guide for UP Homeowners",
     paragraph:
