@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 70,
+    title: "String Inverters vs Microinverters for Indian Rooftops: Which Technology Is Right for Your UP Home in 2026?",
+    paragraph:
+      "String inverters dominate the Indian solar market for good reasons: they are cost-effective, widely serviced, and sufficient for most rooftops. But microinverters and power optimisers offer genuine advantages for homes with shade from trees, water tanks, or adjacent buildings. This guide compares the two technologies on cost, performance, serviceability, and suitability for UP rooftop conditions, so homeowners in Lucknow, Kanpur, and Barabanki can make an informed choice rather than defaulting to whatever the installer recommends.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["string inverter vs microinverter India", "microinverter solar India 2026", "solar inverter types UP"],
+    publishDate: "October 2026",
+    slug: "solar-string-vs-microinverter-india",
+    readTime: "7 min read",
+  },
+  {
     id: 69,
     title: "Should You Buy Used Solar Panels in India? A Buyer Guide for UP Homeowners in 2026",
     paragraph:
