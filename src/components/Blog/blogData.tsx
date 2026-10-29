@@ -3,6 +3,22 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 71,
+    title: "Solar for Power Looms and Textile Units in UP: How Varanasi, Kanpur, and Mau Weavers Can Cut Power Costs",
+    paragraph:
+      "Power loom operations in Varanasi, Mau, Kanpur, and Muradabad run predictable daytime shifts that align almost perfectly with peak solar generation hours. A weaving shed drawing 5 to 15 kW per loom bay for eight to ten hours daily generates a monthly electricity bill of Rs 50,000 to Rs 3 lakh at UPPCL industrial rates. Solar eliminates most of that cost during operating hours, with the 40 percent accelerated depreciation benefit cutting the effective payback period for registered textile units to two to three years.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar power loom UP", "solar textile industry UP", "solar Varanasi power loom"],
+    publishDate: "October 2026",
+    slug: "solar-for-textile-weaving-up",
+    readTime: "7 min read",
+  },
+  {
+    id: 71,
     title: "Solar for Pharmacies and Medical Stores in UP 2026: Cut UPPCL Bills and Protect Medicine Refrigeration",
     paragraph:
       "A standalone pharmacy in Lucknow pays Rs 2,800 to Rs 6,500 per month on UPPCL commercial electricity, while a larger medical distributor with cold rooms and multiple refrigerated units can pay Rs 50,000 or more. A correctly sized rooftop solar system covers 60 to 80 percent of daytime pharmacy load, cuts the monthly bill by Rs 2,000 to Rs 20,000, and with battery backup keeps critical medicine refrigeration running through summer power cuts without a diesel generator.",
