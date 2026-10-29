@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 71,
+    title: "Solar for Pharmacies and Medical Stores in UP 2026: Cut UPPCL Bills and Protect Medicine Refrigeration",
+    paragraph:
+      "A standalone pharmacy in Lucknow pays Rs 2,800 to Rs 6,500 per month on UPPCL commercial electricity, while a larger medical distributor with cold rooms and multiple refrigerated units can pay Rs 50,000 or more. A correctly sized rooftop solar system covers 60 to 80 percent of daytime pharmacy load, cuts the monthly bill by Rs 2,000 to Rs 20,000, and with battery backup keeps critical medicine refrigeration running through summer power cuts without a diesel generator.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar pharmacy UP", "solar medical store Lucknow", "pharmacy solar UPPCL 2026"],
+    publishDate: "October 2026",
+    slug: "solar-for-pharmacies-medical-stores-up",
+    readTime: "7 min read",
+  },
+  {
     id: 70,
     title: "String Inverters vs Microinverters for Indian Rooftops: Which Technology Is Right for Your UP Home in 2026?",
     paragraph:
