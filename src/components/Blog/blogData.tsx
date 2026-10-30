@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 72,
+    title: "Getting Your Solar System Ready for the UP Summer: How to Maximise Generation from March to June 2027",
+    paragraph:
+      "March to June is the highest-generation window of the year for rooftop solar in Uttar Pradesh. A well-maintained 5 kW system in Lucknow can produce 10 to 12 kWh per day during this period, compared to 5 to 7 kWh in winter. But the same months also bring dust storms from Rajasthan, extreme heat that reduces panel efficiency above 45 degrees Celsius, and bird nesting season. This guide covers the pre-summer preparation checklist that ensures your system captures the most generation when UPPCL net metering credits are worth the most.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar summer performance UP", "solar March June India", "solar summer prep Lucknow"],
+    publishDate: "October 2026",
+    slug: "solar-summer-prep-up",
+    readTime: "6 min read",
+  },
+  {
     id: 71,
     title: "Solar for Power Looms and Textile Units in UP: How Varanasi, Kanpur, and Mau Weavers Can Cut Power Costs",
     paragraph:
