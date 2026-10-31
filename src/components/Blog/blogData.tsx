@@ -3,6 +3,22 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 73,
+    title: "Solar for Student Hostels and PG Accommodations in UP: How Property Owners in Lucknow and Prayagraj Can Reduce Bills by 60 Percent",
+    paragraph:
+      "Student hostels and PG accommodations in Lucknow, Kanpur, Prayagraj, Varanasi, and Agra face some of the highest per-square-metre electricity consumption of any residential property type. Constant fan and AC use, water heating, and common area lighting for 30 to 100 occupants generate monthly UPPCL bills of Rs 15,000 to Rs 80,000. Solar cuts that cost by 50 to 70 percent during the academic year, while the commercial solar incentives available to registered PG owners reduce the payback period to three to four years.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar hostel UP", "solar PG accommodation India", "solar hostel Lucknow Prayagraj"],
+    publishDate: "October 2026",
+    slug: "solar-for-hostels-pg-up",
+    readTime: "7 min read",
+  },
+  {
+    id: 73,
     title: "Solar Panel Performance During UP's Monsoon Season: What Homeowners Actually Need to Know",
     paragraph:
       "The monsoon cuts peak sunshine hours in Lucknow from 6.5 to 3.5-4.5 per day, but a 5 kW rooftop system still generates 12 to 20 kWh daily on average across July to September. With UPPCL net metering credits rolling forward from the high-generation March to June window, the three monsoon months cost far less in annual savings than most buyers fear. This guide covers real generation numbers, how diffuse cloud light keeps panels working, pre-monsoon preparation steps, and why October is the best month to audit your system.",
