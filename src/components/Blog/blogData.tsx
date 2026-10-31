@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 73,
+    title: "Solar Panel Performance During UP's Monsoon Season: What Homeowners Actually Need to Know",
+    paragraph:
+      "The monsoon cuts peak sunshine hours in Lucknow from 6.5 to 3.5-4.5 per day, but a 5 kW rooftop system still generates 12 to 20 kWh daily on average across July to September. With UPPCL net metering credits rolling forward from the high-generation March to June window, the three monsoon months cost far less in annual savings than most buyers fear. This guide covers real generation numbers, how diffuse cloud light keeps panels working, pre-monsoon preparation steps, and why October is the best month to audit your system.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar monsoon performance UP", "rooftop solar rainy season India", "solar output cloudy day Lucknow"],
+    publishDate: "October 2026",
+    slug: "solar-monsoon-performance-up",
+    readTime: "7 min read",
+  },
+  {
     id: 72,
     title: "Getting Your Solar System Ready for the UP Summer: How to Maximise Generation from March to June 2027",
     paragraph:
