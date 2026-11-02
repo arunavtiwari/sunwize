@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 74,
+    title: "Solar for Printing Presses in UP 2026: Cut Your UPPCL Bill by 60-80 Percent and Pay Back in 2-4 Years",
+    paragraph:
+      "Printing presses and publishing units in Lucknow, Kanpur, Unnao, Barabanki, and Raebareli pay UPPCL commercial bills of Rs 18,000 to Rs 1.5 lakh per month running offset machines, paper cutters, lamination units, and AC throughout long daytime shifts. Their predictable operating hours, large flat rooftops, and eligibility for 40 percent accelerated depreciation make rooftop solar one of the most financially compelling investments available to press owners in Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar printing press UP", "offset press solar Lucknow", "commercial solar UP 2026"],
+    publishDate: "November 2026",
+    slug: "solar-for-printing-presses-up",
+    readTime: "7 min read",
+  },
+  {
     id: 73,
     title: "Solar for Student Hostels and PG Accommodations in UP: How Property Owners in Lucknow and Prayagraj Can Reduce Bills by 60 Percent",
     paragraph:
