@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 75,
+    title: "Solar for Brick Kilns in UP 2026: Cut Your UPPCL Bill by 60-80 Percent and Pay Back in 3-4 Years",
+    paragraph:
+      "Brick kilns across Lucknow, Kanpur, Barabanki, Unnao, and Sitapur pay UPPCL commercial bills of Rs 40,000 to Rs 1.5 lakh per month running blowers, draught fans, conveyor drives, and site lighting during the October-to-June operating season. Their predictable daytime loads, large open land areas, and eligibility for 40 percent accelerated depreciation make rooftop and ground-mounted solar one of the most financially compelling investments available to bhatta owners in Uttar Pradesh in 2026.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar brick kiln UP", "bhatta solar Lucknow", "commercial solar UP 2026"],
+    publishDate: "November 2026",
+    slug: "solar-for-brick-kilns-up",
+    readTime: "7 min read",
+  },
+  {
     id: 74,
     title: "Solar for Printing Presses in UP 2026: Cut Your UPPCL Bill by 60-80 Percent and Pay Back in 2-4 Years",
     paragraph:
