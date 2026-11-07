@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 76,
+    title: "Solar for Oil Mills in UP 2026: How Mustard and Groundnut Expeller Units Can Cut UPPCL Bills by 60-80 Percent",
+    paragraph:
+      "Mustard oil mills, groundnut expeller units, and sesame processing operations across Uttar Pradesh run heavy three-phase machinery for eight to twelve hours a day, drawing UPPCL commercial bills of Rs 18,000 to Rs 1.2 lakh per month. In 2026, solar has become a genuinely practical solution for oil mill operators in Barabanki, Sitapur, Hardoi, Kanpur, and Lucknow - with 40 percent accelerated depreciation returning nearly a quarter of the system cost through tax savings in year one and payback periods under three years for most mid-size units.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar oil mill UP", "mustard oil mill solar Lucknow", "commercial solar UP 2026"],
+    publishDate: "November 2026",
+    slug: "solar-for-oil-mills-up",
+    readTime: "7 min read",
+  },
+  {
     id: 75,
     title: "Solar for Brick Kilns in UP 2026: Cut Your UPPCL Bill by 60-80 Percent and Pay Back in 3-4 Years",
     paragraph:
