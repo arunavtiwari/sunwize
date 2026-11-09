@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 77,
+    title: "Solar for Gaushalas and Cattle Sheds in UP 2026: How Cow Shelters Can Cut UPPCL Bills by 60-80 Percent",
+    paragraph:
+      "Gaushalas across Lucknow, Ayodhya, Kanpur, Barabanki, Sitapur, and Hardoi pay UPPCL bills of Rs 12,000 to Rs 45,000 per month running fans for animal welfare, submersible water pumps, shed lighting, and fodder processing equipment. A correctly sized rooftop or ground-mounted solar system covers 60 to 80 percent of a gaushala daytime load, with CSR funding, PM Surya Ghar subsidy for eligible connections, and UPPCL net metering making the investment accessible even for charitable trusts with limited cash reserves.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar gaushala UP", "cow shelter solar Lucknow", "solar for charitable trust UP 2026"],
+    publishDate: "November 2026",
+    slug: "solar-for-gaushala-cattle-shed-up",
+    readTime: "7 min read",
+  },
+  {
     id: 76,
     title: "Solar for Oil Mills in UP 2026: How Mustard and Groundnut Expeller Units Can Cut UPPCL Bills by 60-80 Percent",
     paragraph:
