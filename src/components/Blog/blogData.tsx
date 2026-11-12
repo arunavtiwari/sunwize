@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 78,
+    title: "Solar for Beauty Salons and Parlours in UP 2026: Cut Your UPPCL Bill by 50-70 Percent",
+    paragraph:
+      "Beauty salons and parlours in Lucknow, Kanpur, Barabanki, and Raebareli pay UPPCL commercial bills of Rs 12,000 to Rs 40,000 per month running air conditioners, water geysers, hair dryers, steamers, and UV sterilizers through 10-hour operating days. Their daytime-heavy load profile aligns almost perfectly with solar generation hours, making rooftop solar one of the most cost-effective investments a registered salon business can make in Uttar Pradesh in 2026, with payback periods of three to four years after the 40 percent accelerated depreciation benefit.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar beauty salon UP", "parlour solar Lucknow", "commercial solar UP 2026"],
+    publishDate: "November 2026",
+    slug: "solar-for-beauty-salons-parlours-up",
+    readTime: "7 min read",
+  },
+  {
     id: 77,
     title: "Solar for Gaushalas and Cattle Sheds in UP 2026: How Cow Shelters Can Cut UPPCL Bills by 60-80 Percent",
     paragraph:
