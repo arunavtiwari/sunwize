@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 79,
+    title: "Solar Panels During UP's Dense Fog Season: What to Expect from November to February and How to Maximise Your Output",
+    paragraph:
+      "Dense fog in Lucknow, Kanpur, Barabanki, Raebareli, and Ayodhya cuts peak sunshine hours from 6.0 to as low as 2.8 per day between December and January, reducing a 5 kW system's daily output from 28-32 kWh to 14-19 kWh and sometimes lower. UPPCL's annual net metering credit banking means the spring and summer surplus covers the winter deficit in full for most correctly sized systems, so the foggy months cost far less in annual savings than the daily app readings suggest. This guide explains the actual generation numbers, how to protect panels from fog-season soiling, and what clear-day output benchmarks tell you whether your system is healthy through the winter months.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar fog season UP", "solar winter performance Lucknow", "UPPCL net metering winter credits"],
+    publishDate: "November 2026",
+    slug: "solar-fog-season-performance-up",
+    readTime: "7 min read",
+  },
+  {
     id: 78,
     title: "Solar for Beauty Salons and Parlours in UP 2026: Cut Your UPPCL Bill by 50-70 Percent",
     paragraph:
