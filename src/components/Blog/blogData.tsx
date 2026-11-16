@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 80,
+    title: "Building a New Home in UP? How to Integrate Solar at the Construction Stage and Save Rs 40,000 to Rs 60,000 Over Retrofitting",
+    paragraph:
+      "If you are building a new home in Lucknow, Kanpur, Barabanki, or Ayodhya, integrating rooftop solar at the construction stage saves Rs 40,000 to Rs 60,000 compared to retrofitting after possession. Pre-wiring conduits during construction costs Rs 3,000 to Rs 6,000 and eliminates the most expensive hidden cost in every retrofit job, while correct roof orientation planning at the design stage adds 10 to 15 percent more annual generation. This guide covers what to tell your civil contractor, how to size your system, and how to register for PM Surya Ghar subsidy and UPPCL net metering so your first bill after moving in is already a solar bill.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar new home construction UP", "solar construction stage Lucknow", "new house solar UPPCL 2026"],
+    publishDate: "November 2026",
+    slug: "solar-new-home-construction-up",
+    readTime: "7 min read",
+  },
+  {
     id: 79,
     title: "Solar Panels During UP's Dense Fog Season: What to Expect from November to February and How to Maximise Your Output",
     paragraph:
