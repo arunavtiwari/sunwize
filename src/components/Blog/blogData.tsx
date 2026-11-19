@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 81,
+    title: "Can Your Roof Handle Solar Panels? A Structural Guide for UP Homeowners in 2026",
+    paragraph:
+      "Most RCC flat terraces in Lucknow, Kanpur, Barabanki, and across Uttar Pradesh handle rooftop solar installations comfortably - solar panels add only 15 to 20 kilograms per square metre, well within standard design load margins. But homes built before 1995, roofs with visible spalling or rust staining, and terraces with active waterproofing concerns warrant a closer look before installation day. This guide explains panel weight, the specific warning signs to check, when a civil engineer assessment is worth Rs 7,000 to Rs 10,000, and why waterproofing at anchor penetrations is the practical issue that matters far more than structural load for most UP homeowners.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar roof structural load India", "can my roof support solar panels UP", "solar panel weight roof India 2026"],
+    publishDate: "November 2026",
+    slug: "solar-roof-structural-load-india",
+    readTime: "7 min read",
+  },
+  {
     id: 80,
     title: "Building a New Home in UP? How to Integrate Solar at the Construction Stage and Save Rs 40,000 to Rs 60,000 Over Retrofitting",
     paragraph:

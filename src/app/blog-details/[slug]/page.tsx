@@ -93,6 +93,7 @@ import SolarForGaushalaUp from "@/app/blog-content/solar-for-gaushala-cattle-she
 import SolarForBeautySaloursParloursUp from "@/app/blog-content/solar-for-beauty-salons-parlours-up";
 import SolarFogSeasonPerformanceUp from "@/app/blog-content/solar-fog-season-performance-up";
 import SolarNewHomeConstructionUp from "@/app/blog-content/solar-new-home-construction-up";
+import SolarRoofStructuralLoadIndia from "@/app/blog-content/solar-roof-structural-load-india";
 import BlogCover from "@/components/Blog/BlogCover";
 import blogData from "@/components/Blog/blogData";
 
@@ -187,6 +188,7 @@ const blogContentComponents = {
   "solar-for-beauty-salons-parlours-up": SolarForBeautySaloursParloursUp,
   "solar-fog-season-performance-up": SolarFogSeasonPerformanceUp,
   "solar-new-home-construction-up": SolarNewHomeConstructionUp,
+  "solar-roof-structural-load-india": SolarRoofStructuralLoadIndia,
 };
 
 function truncate(text: string, max = 160) {
