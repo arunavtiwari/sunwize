@@ -2,6 +2,22 @@ import { Blog } from "@/types/blog";
 
 const blogData: Blog[] = [
   {
+    id: 82,
+    title: "Solar for Highway Dhabas and Roadside Restaurants in UP 2026: Cut UPPCL Bills and Diesel Costs by 60-80 Percent",
+    paragraph:
+      "Highway dhabas along UP's expressways and national highways pay UPPCL commercial bills of Rs 8,000 to Rs 35,000 per month running refrigerators, fans, geysers, and air conditioners for 12 to 16 hours a day, plus Rs 6,000 to Rs 20,000 in diesel generator costs during summer power cuts. A correctly sized rooftop solar system covers 60 to 80 percent of a dhaba's daytime electricity load, eliminates most generator runtime, and pays back in four to five years under UPPCL commercial net metering with 40 percent accelerated depreciation reducing the effective investment for registered businesses.",
+    image: "/images/blog/solar_savings.png",
+    author: {
+      name: "Ravi Sharma",
+      image: "/images/blog/author.jpg",
+      designation: "Solar Consultant",
+    },
+    tags: ["solar for dhaba UP", "highway dhaba solar Lucknow", "solar roadside restaurant UP 2026"],
+    publishDate: "November 2026",
+    slug: "solar-for-dhabas-roadside-up",
+    readTime: "7 min read",
+  },
+  {
     id: 81,
     title: "Can Your Roof Handle Solar Panels? A Structural Guide for UP Homeowners in 2026",
     paragraph:
